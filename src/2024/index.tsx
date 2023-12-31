@@ -1,4 +1,4 @@
-import { Hero } from './hero.tsx';
+import { Hero } from "./hero.tsx";
 
 export default function MTAConf2024() {
   return (
