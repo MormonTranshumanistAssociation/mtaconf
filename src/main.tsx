@@ -2,21 +2,17 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MTAConf2022 from "./2022";
-import App from "./App.tsx";
 import "./index.css";
+import MTAConf2024 from "./2024";
 
 const router = createBrowserRouter([
-  {
-    path: "/2022/index.html",
-    element: <MTAConf2022 />,
-  },
   {
     path: "/2022",
     element: <MTAConf2022 />,
   },
   {
     path: "/",
-    element: <App />,
+    element: <MTAConf2024 />,
   },
 ]);
 
