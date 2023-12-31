@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 export function Hero() {
   return (
     <section>
-      <div className="flex flex-row items-center justify-center bg-black text-amber-500 text-xs h-8 gap-4">
-        <div>Previous years:</div>
+      <div className="m-4 h-20 grid grid-cols-8 items-center justify-center bg-black text-amber-500 text-xs gap-2 sm:h-0 sm:flex sm:flex-row">
+        <div className="col-span-8">Previous years:</div>
         <Link
           className="underline hover:no-underline text-amber-400"
           to="/2022"
@@ -67,8 +67,8 @@ export function Hero() {
         </a>
       </div>
       <header className="">
-        <div className="w-full h-[600px] bg-[url('/img/2024/mtaconf-2024-hero-01-regular.jpg')] bg-contain bg-no-repeat">
-          <div className="flex flex-row justify-between mx-10 pt-6">
+        <div className="w-full bg-[url('/img/2024/mtaconf-2024-hero-01-regular.jpg')] bg-cover bg-top bg-no-repeat">
+          <div className="flex flex-col gap-6 sm:gap-0 sm:flex-row items-center sm:items-start sm:justify-between mx-10 pt-20 sm:pt-6 sm:h-[500px] mb-10">
             <a href="https://transfigurism.org">
               <img
                 className="h-28 w-auto"
@@ -80,19 +80,19 @@ export function Hero() {
               <div className="py-6 px-6 backdrop-blur-sm bg-gray-900/60">
                 <div className="container flex-col">
                   <div className="">
-                    <h1 className="text-xl tracking-tight">
-                      <span className="block font-extrabold text-amber-600">
+                    <h1 className="text-md sm:text-xl tracking-tight">
+                      <span className="block font-extrabold text-gray-300">
                         Announcing MTAConf 2024
                       </span>
-                      <span className="py-4 text-4xl font-serif italic block bg-clip-text text-transparent bg-gradient-to-r from-white to-amber-500 sm:pb-2 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
+                      <span className="py-4 text-2xl sm:text-4xl font-serif italic block bg-clip-text text-transparent bg-gradient-to-r from-white to-amber-500 sm:pb-2 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
                         The Glory of God Is Intelligence
                       </span>
                     </h1>
-                    <p className="py-3 text-base text-amber-300 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] text-md">
+                    <p className="py-3 text-sm text-gray-300 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] sm:text-md">
                       AI and machine learning are transforming our world. Will
                       humanity rise to the challenge of this apocalyptic moment?
                     </p>
-                    <div className="mt-3 text-xl tracking-tight font-extrabold text-amber-600 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
+                    <div className="mt-3 text-md sm:text-xl tracking-tight font-extrabold text-gray-300 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
                       March 16, 2024
                     </div>
                     <div className="mt-4 sm:mt-6">
@@ -101,7 +101,7 @@ export function Hero() {
                           <a href="#">
                             <button
                               type="submit"
-                              className="py-3 w-full lg:px-28 rounded-md shadow bg-gradient-to-r from-amber-500 to-amber-700 text-black font-medium hover:from-amber-400 hover:to-amber-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 focus:ring-offset-gray-900"
+                              className="py-3 w-full lg:px-28 rounded-md shadow bg-gradient-to-r from-amber-700 to-amber-900 text-gray-300 font-medium hover:from-amber-600 hover:to-amber-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-amber-400 hover:text-white focus:ring-offset-amber-900"
                             >
                               Register now
                             </button>
