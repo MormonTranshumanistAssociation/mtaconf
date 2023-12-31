@@ -67,7 +67,7 @@ export function Hero() {
               />
             </a>
             <div
-              className="max-w-md">
+              className="max-w-sm">
               <div className="py-6 px-6 backdrop-blur-sm bg-gray-900/60">
                 <div className="container flex-col">
                   <div className="">
@@ -96,7 +96,7 @@ export function Hero() {
                             href="#">
                             <button
                               type="submit"
-                              className="py-3 px-20 lg:px-28 rounded-md shadow bg-gradient-to-r from-amber-500 to-amber-700 text-black font-medium hover:from-amber-400 hover:to-amber-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 focus:ring-offset-gray-900"
+                              className="py-3 w-full lg:px-28 rounded-md shadow bg-gradient-to-r from-amber-500 to-amber-700 text-black font-medium hover:from-amber-400 hover:to-amber-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 focus:ring-offset-gray-900"
                             >
                               Register now
                             </button>
