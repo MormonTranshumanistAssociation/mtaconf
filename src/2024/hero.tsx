@@ -1,74 +1,73 @@
 import { Link } from "react-router-dom";
 
+const pastConferences = [
+  { year: 2022, link: "/2022" },
+  {
+    year: 2020,
+    link: "https://www.youtube.com/playlist?list=PLbIPMPVrfXYBrHWT9Pp63g9-9kl39MDT3",
+  },
+  {
+    year: 2019,
+    link: "https://www.youtube.com/playlist?list=PLbIPMPVrfXYCeq7gmtAZ8Onwjo7mc_jwC",
+  },
+  {
+    year: 2018,
+    link: "https://www.youtube.com/playlist?list=PLbIPMPVrfXYD5yZT_2EhDQqs8RFzfrTej",
+  },
+  {
+    year: 2017,
+    link: "https://www.youtube.com/playlist?list=PLbIPMPVrfXYD5yZT_2EhDQqs8RFzfrTej",
+  },
+  {
+    year: 2016,
+    link: "https://www.youtube.com/playlist?list=PLbIPMPVrfXYAENAKyBT9lTZAvs_04IUpB",
+  },
+  {
+    year: 2015,
+    link: "https://www.youtube.com/playlist?list=PLbIPMPVrfXYCcswn8mi_UwgrGYOncImI0",
+  },
+  {
+    year: 2014,
+    link: "https://www.youtube.com/playlist?list=PLbIPMPVrfXYA8NwJNOxOs7eRKNmoyadP0",
+  },
+  {
+    year: 2013,
+    link: "https://www.youtube.com/playlist?list=PLbIPMPVrfXYDQjYsw9w2nl6gSdphMROV5",
+  },
+  {
+    year: 2012,
+    link: "https://www.youtube.com/playlist?list=PL3893B119820E9DC1",
+  },
+];
+
 export function Hero() {
   return (
     <section>
-      <div className="m-4 h-20 grid grid-cols-8 items-center justify-center bg-black text-amber-500 text-xs gap-2 sm:h-0 sm:flex sm:flex-row">
+      <div className="m-4 h-20 grid grid-cols-8 items-center justify-center bg-black text-amber-600 text-xs gap-2 sm:h-0 sm:flex sm:flex-row">
         <div className="col-span-8">Previous years:</div>
-        <Link
-          className="underline hover:no-underline text-amber-400"
-          to="/2022"
-        >
-          2022
-        </Link>
-        <a
-          href="https://www.youtube.com/playlist?list=PLbIPMPVrfXYBrHWT9Pp63g9-9kl39MDT3"
-          className="underline hover:no-underline text-amber-400"
-        >
-          2020
-        </a>
-        <a
-          href="https://www.youtube.com/playlist?list=PLbIPMPVrfXYCeq7gmtAZ8Onwjo7mc_jwC"
-          className="underline hover:no-underline text-amber-400"
-        >
-          2019
-        </a>
-        <a
-          href="https://www.youtube.com/playlist?list=PLbIPMPVrfXYDrmGMtg7sMxx6nif_xe-Xw"
-          className="underline hover:no-underline text-amber-400"
-        >
-          2018
-        </a>
-        <a
-          href="https://www.youtube.com/playlist?list=PLbIPMPVrfXYD5yZT_2EhDQqs8RFzfrTej"
-          className="underline hover:no-underline text-amber-400"
-        >
-          2017
-        </a>
-        <a
-          href="https://www.youtube.com/playlist?list=PLbIPMPVrfXYAENAKyBT9lTZAvs_04IUpB"
-          className="underline hover:no-underline text-amber-400"
-        >
-          2016
-        </a>
-        <a
-          href="https://www.youtube.com/playlist?list=PLbIPMPVrfXYCcswn8mi_UwgrGYOncImI0"
-          className="underline hover:no-underline text-amber-400"
-        >
-          2015
-        </a>
-        <a
-          href="https://www.youtube.com/playlist?list=PLbIPMPVrfXYA8NwJNOxOs7eRKNmoyadP0"
-          className="underline hover:no-underline text-amber-400"
-        >
-          2014
-        </a>
-        <a
-          href="https://www.youtube.com/playlist?list=PLbIPMPVrfXYDQjYsw9w2nl6gSdphMROV5"
-          className="underline hover:no-underline text-amber-400"
-        >
-          2013
-        </a>
-        <a
-          href="https://www.youtube.com/playlist?list=PL3893B119820E9DC1"
-          className="underline hover:no-underline text-amber-400"
-        >
-          2012
-        </a>
+        {pastConferences.map((conf) =>
+          conf.link.match(/^http/) ? (
+            <Link
+              key={conf.year}
+              className="underline hover:no-underline text-amber-500"
+              to={conf.link}
+            >
+              {conf.year}
+            </Link>
+          ) : (
+            <a
+              key={conf.year}
+              href={conf.link}
+              className="underline hover:no-underline text-amber-500"
+            >
+              {conf.year}
+            </a>
+          ),
+        )}
       </div>
       <header className="">
         <div className="w-full bg-[url('/img/2024/mtaconf-2024-hero-01-regular.jpg')] bg-cover bg-top bg-no-repeat">
-          <div className="flex flex-col gap-6 sm:gap-0 sm:flex-row items-center sm:items-start sm:justify-between mx-10 pt-20 sm:pt-6 sm:h-[500px] mb-10">
+          <div className="flex flex-col gap-6 sm:gap-0 sm:flex-row items-center sm:items-start sm:justify-between mx-10 pt-20 sm:pt-6 min-h-[500px]">
             <a href="https://transfigurism.org">
               <img
                 className="h-28 w-auto"
@@ -84,7 +83,7 @@ export function Hero() {
                       <span className="block font-extrabold text-gray-300">
                         Announcing MTAConf 2024
                       </span>
-                      <span className="py-4 text-2xl sm:text-4xl font-serif italic block bg-clip-text text-transparent bg-gradient-to-r from-white to-amber-500 sm:pb-2 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
+                      <span className="py-4 text-2xl sm:text-4xl font-serif italic block bg-clip-text text-transparent bg-gradient-to-t sm:bg-gradient-to-r from-white to-amber-500 sm:pb-2 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
                         The Glory of God Is Intelligence
                       </span>
                     </h1>

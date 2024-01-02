@@ -1,4 +1,5 @@
 import { Hero } from "./hero.tsx";
+import { Background } from "./background.tsx";
 
 export default function MTAConf2024() {
   return (
@@ -8,7 +9,7 @@ export default function MTAConf2024() {
           <div className="bg-black">
             <Hero />
             <section id="below-the-fold">
-              {/*<Background />*/}
+              <Background />
               {/*<Venue />*/}
               {/*<Details />*/}
               {/*<Lodging />*/}
