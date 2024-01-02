@@ -18,7 +18,7 @@ export function Background() {
               <p>
                 During the past year, innovations in machine learning and
                 artificial intelligence have enabled these fields to go beyond
-                being mere subjects of academic research and offer practical
+                being mere subjects of academic research to offer practical
                 consumer applications that extend and enhance human abilities in
                 various domains, including search, data processing, image
                 recognition, speech, visual arts, translation, and writing.
