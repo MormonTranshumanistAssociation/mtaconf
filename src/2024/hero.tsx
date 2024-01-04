@@ -97,7 +97,7 @@ export function Hero() {
                     <div className="mt-4 sm:mt-6">
                       <div className="sm:flex">
                         <div className="min-w-0 flex-1">
-                          <a href="https://lu.ma/6fpmls20">
+                          <a href="https://www.ticketsource.us/mormon-transhumanist-association">
                             <button
                               type="submit"
                               className="py-3 w-full lg:px-28 rounded-md shadow bg-gradient-to-r from-amber-700 to-amber-900 text-gray-300 font-medium hover:from-amber-600 hover:to-amber-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-amber-400 hover:text-white focus:ring-offset-amber-900"

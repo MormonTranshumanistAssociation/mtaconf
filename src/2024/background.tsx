@@ -80,8 +80,8 @@ export function Background() {
                 revelation, Mormon founder and prophet Joseph Smith declared,
                 “The glory of God is intelligence.” Not only is intelligence the
                 principle qualification of God; it is also the yardstick by
-                which human godliness may be measured, and the epitome of human
-                development as descendants of God. Several additional
+                which human godliness may be measured, and the epitome of
+                posthuman development as descendants of God. Several additional
                 theological insights related to the rise in artificial
                 intelligence were shared by MTA President Carl Youngblood in his
                 recent essay, “

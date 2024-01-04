@@ -157,7 +157,7 @@ export function Background() {
                   disenfranchised individuals.
                 </p>
                 <blockquote className="border-l-4 border-gray-200 pl-4 text-gray-700 font-semibold italic my-4">
-                  "I teach them correct principles, and they govern themselves."
+                  “I teach them correct principles, and they govern themselves.”
                   (Joseph Smith)
                 </blockquote>
                 <p>
@@ -167,18 +167,18 @@ export function Background() {
                   unconventional methods of governance, establishing numerous
                   settlements in the western frontiers of North America. The
                   restored Church of Jesus Christ of Latter-Day Saints was
-                  governed by "common consent" (D&C 26:2), and the Book of
+                  governed by “common consent” (D&C 26:2), and the Book of
                   Mormon speaks of the necessity of individual agency and
-                  responsibility, exhorting believers to avoid monarchy and "do
-                  [their] business by the voice of the people" (Mosiah 29:26).
+                  responsibility, exhorting believers to avoid monarchy and “do
+                  [their] business by the voice of the people” (Mosiah 29:26).
                   When asked how he was able to govern so many people
-                  effectively, Joseph Smith replied, "I teach them correct
-                  principles, and they govern themselves" (John Taylor, “The
+                  effectively, Joseph Smith replied, “I teach them correct
+                  principles, and they govern themselves” (John Taylor, “The
                   Organization of the Church,” <em>Millennial Star</em>, Nov.
                   15, 1851, p. 339). Beyond its admonitions on earthly
                   governance, Mormon theology teaches that the destiny of every
-                  follower of Christ is to be made "equal in power, and in
-                  might, and in dominion" to God (D&C 76:95), thus prescribing
+                  follower of Christ is to be made “equal in power, and in
+                  might, and in dominion” to God (D&C 76:95), thus prescribing
                   an optimal degree of power sharing and decentralization in the
                   governance of heaven.
                 </p>

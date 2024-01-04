@@ -39,7 +39,7 @@ export function Speakers() {
                         of the First Big Cryptocurrency Craze.
                       </em>
                     </p>
-                    <div>
+                    <div className="py-4">
                       <a
                         href="https://bit.ly/cryptopians"
                         className="flex flex-row justify-center items-center"
@@ -93,41 +93,42 @@ export function Speakers() {
                       Our Mormon keynote speaker will be Tomicah Tillemann.
                       Tomicah is a partner and Global Chief Policy Officer at{" "}
                       <a href="https://www.haun.co/">Haun Ventures</a>, a new
-                      crypto venture fund led by former
-                      <a href="https://a16z.com/">a16z</a> General Partner
+                      crypto venture fund led by former{" "}
+                      <a href="https://a16z.com/">a16z</a> General Partner{" "}
                       <a href="https://twitter.com/katie_haun">Katie Haun</a>,
                       where he builds public policy architecture to support the
                       next generation of the Internet.
                     </p>
-                    <p>
+                    <p className="pt-2">
                       Previously, Tomicah served as Senior Advisor to two
                       secretaries of state, leading a team of experts that built
                       20 major initiatives in 55 countries. He joined the{" "}
                       <a href="https://www.state.gov/">State Department</a>
-                      in 2009 as Hillary Clinton's speechwriter and spent four
-                      years on the staff of the
+                      &nbsp;in 2009 as Hillary Clinton's speechwriter and spent
+                      four years on the staff of the{" "}
                       <a href="https://www.foreign.senate.gov/">
                         Senate Foreign Relations Committee
                       </a>{" "}
                       working with Joe Biden, Barack Obama, and John Kerry.
                     </p>
-                    <p>
+                    <p className="pt-2">
                       Tomicah has led programs to address social impact,
                       finance, and governance challenges worldwide, including
-                      service as Executive Director of the
+                      service as Executive Director of the{" "}
                       <a href="https://www.newamerica.org/digital-impact-governance-initiative/">
                         Digital Impact and Governance Initiative
-                      </a>
-                      at <a href="https://www.newamerica.org/">New America</a>;
-                      a member of the World Economic Forum’s{" "}
+                      </a>{" "}
+                      at&nbsp;
+                      <a href="https://www.newamerica.org/">New America</a>; a
+                      member of the World Economic Forum’s{" "}
                       <a href="https://www.weforum.org/centre-for-the-fourth-industrial-revolution">
                         Centre for the Fourth Industrial Revolution
                       </a>
-                      ; the United Nations World Food Program
+                      ; the United Nations World Food Program{" "}
                       <a href="https://innovation.wfp.org/">
                         Innovation Advisory Council
                       </a>
-                      , the
+                      , the{" "}
                       <a href="https://www.lantosfoundation.org/about-leadership">
                         Lantos Foundation Board of Trustees
                       </a>
@@ -137,15 +138,15 @@ export function Speakers() {
                       </a>
                       .
                     </p>
-                    <p>
+                    <p className="pt-2">
                       He received his B.A. magna cum laude from{" "}
                       <a href="https://www.yale.edu/">Yale University</a> and
                       holds a Ph.D. with distinction from the{" "}
                       <a href="https://sais.jhu.edu/">
                         School for Advanced International Studies
                       </a>{" "}
-                      at
-                      <a href="https://jhu.edu/">Johns Hopkins University</a>.
+                      at <a href="https://jhu.edu/">Johns Hopkins University</a>
+                      .
                     </p>
                   </div>
                 </div>
@@ -183,7 +184,7 @@ export function Speakers() {
                     <p>
                       Prof. Tom W. Bell is a legal expert on special
                       jurisdictions and decentralized communities. He earned his
-                      J.D. from the
+                      J.D. from the{" "}
                       <a href="https://www.uchicago.edu/">
                         University of Chicago
                       </a>
@@ -203,7 +204,7 @@ export function Speakers() {
                         Nations
                       </em>
                       . Bell's clients have included the{" "}
-                      <a href="https://prospera.hn/">Próspera ZEDE</a> and the
+                      <a href="https://prospera.hn/">Próspera ZEDE</a> and the{" "}
                       <a href="https://www.freesociety.com/">
                         Free Society Project
                       </a>
@@ -239,7 +240,7 @@ export function Speakers() {
                       higher education accessible to anyone on earth. Newlane is
                       designed to facilitate and leverage decentralized
                       curriculum development with distributed attribution. Ben
-                      holds a PhD in Philosophy and Education from
+                      holds a PhD in Philosophy and Education from{" "}
                       <a href="https://www.columbia.edu/">
                         Columbia University
                       </a>
@@ -275,7 +276,7 @@ export function Speakers() {
                       <a href="https://transfigurism.org">
                         Mormon Transhumanist Association
                       </a>{" "}
-                      and the
+                      and the{" "}
                       <a href="https://www.christiantranshumanism.org/">
                         Christian Transhumanist Association
                       </a>
@@ -349,7 +350,7 @@ export function Speakers() {
                   </h3>
                   <div className="mt-5 text-base text-gray-500 text-left text-base max-w-prose prose prose-indigo">
                     <p>
-                      Vinay is Founder and CEO of
+                      Vinay is Founder and CEO of{" "}
                       <a href="https://mattereum.com/">Mattereum</a>, a
                       blockchain technology company bridging the virtual and
                       physical economies with buyer and seller protection for
@@ -363,47 +364,6 @@ export function Speakers() {
                       shelter which has gone on to become iconic in the Burning
                       Man counter-culture.
                     </p>
-                    <div className="hidden">
-                      <p>
-                        Our other technology keynote speaker will be Vinay
-                        Gupta. Vinay is Founder and CEO of
-                        <a href="https://mattereum.com/">Mattereum</a>, a
-                        blockchain technology company bridging the virtual and
-                        physical economies with buyer and seller protection for
-                        physical asset NFTs. He is a leading figure in the
-                        blockchain space, contributing to the release of the
-                        blockchain platform{" "}
-                        <a href="https://ethereum.org">Ethereum</a>
-                        in July 2015, and was a strategic architect for{" "}
-                        <a href="https://consensys.net/">ConsenSys Systems</a> a
-                        leading blockchain consulting firm.
-                      </p>
-                      <p>
-                        He helped architect the National Blockchain Strategy for
-                        Dubai, and has contributed to
-                        <a href="https://www.defense.gov/">
-                          US Department of Defense
-                        </a>{" "}
-                        research, advised Arup on urban resilience and was
-                        associate fellow at the UCL Institute for Security and
-                        Resilience. He was on the editorial team of{" "}
-                        <em>Small is Profitable</em>, the winner of the 2003{" "}
-                        <em>Economist</em> Book of the Year.
-                      </p>
-                      <p>
-                        He has long had a humanitarian concern with the
-                        condition of the poorest in society and disaster relief.
-                        He invented the cheap, simple, non-patented and
-                        open-source hexayurt refugee shelter which has gone on
-                        to become iconic in the Burning Man counter-culture.
-                      </p>
-                      <p>
-                        In his techno-realist view, technology and engineering,
-                        including blockchain, can contribute to positive social
-                        and commercial transformation and help deal with
-                        resource scarcity.
-                      </p>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -427,9 +387,9 @@ export function Speakers() {
                       Dr. Suzanne Harrison, MD, has served in the{" "}
                       <a href="https://house.utah.gov/">
                         Utah House of Representatives
-                      </a>
+                      </a>{" "}
                       since being elected to represent the Sandy and Draper area
-                      in 2018. She recently filed to run for the
+                      in 2018. She recently filed to run for the{" "}
                       <a href="https://www.slco.org/council/">
                         Salt Lake County Council
                       </a>{" "}
@@ -444,8 +404,8 @@ export function Speakers() {
                       . She completed her residency at{" "}
                       <a href="https://hms.harvard.edu/">
                         Harvard Medical School
-                      </a>
-                      and works as a physician anesthesiologist at
+                      </a>{" "}
+                      and works as a physician anesthesiologist at{" "}
                       <a href="https://intermountainhealthcare.org/locations/riverton-hospital/">
                         Riverton Hospital
                       </a>
@@ -477,13 +437,13 @@ export function Speakers() {
                       Republican candidate in Utah for the United States Senate.
                       She held various posts in state government, including
                       deputy chief of staff and spokesperson for Governor Gary
-                      Herbert; worked at
+                      Herbert; worked at{" "}
                       <a href="https://www.churchofjesuschrist.org/">
                         The Church of Jesus Christ of Latter-day Saints
-                      </a>
+                      </a>{" "}
                       in public affairs, communication and branding; then moved
                       to the private sector as Chief Strategy and Marketing
-                      Officer, and eventually acting Executive Officer, for
+                      Officer, and eventually acting Executive Officer, for{" "}
                       <a href="https://evoqnano.com/">EVŌQ Nano</a>. Ally and
                       her husband, Eric, have four children and five
                       grandchildren. Ally enjoys writing, hiking, cooking, and
@@ -519,13 +479,12 @@ export function Speakers() {
                       he worked in healthcare services, and prior to that in
                       finance at{" "}
                       <a href="https://www.goldmansachs.com/">Goldman Sachs</a>{" "}
-                      and
-                      <a href="https://www.dodgeandcox.com/">Dodge & Cox</a> in
-                      San Francisco. He grew up in Phoenix, Arizona, where he
+                      and <a href="https://www.dodgeandcox.com/">Dodge & Cox</a>{" "}
+                      in San Francisco. He grew up in Phoenix, Arizona, where he
                       learned the value of air conditioning while moving rocks
                       and trimming oleanders in his grandparents' backyard. He
                       holds a bachelor's degree in economics from{" "}
-                      <a href="https://www.byu.edu">BYU</a> and an MBA from
+                      <a href="https://www.byu.edu">BYU</a> and an MBA from{" "}
                       <a href="https://www.hbs.edu/Pages/default.aspx">
                         Harvard Business School
                       </a>
@@ -571,9 +530,9 @@ export function Speakers() {
                       <a href="https://www.theigc.org/">
                         International Growth Centre
                       </a>{" "}
-                      (IGC), for
+                      (IGC), for{" "}
                       <a href="https://www.warcgroup.com/">Warc Africa</a> (both
-                      in Sierra Leone), and for the
+                      in Sierra Leone), and for the{" "}
                       <a href="https://elimu.lab.mcgill.ca/">
                         ELIMU Impact Evaluation Center
                       </a>{" "}
@@ -587,7 +546,7 @@ export function Speakers() {
                       </a>
                       , and a BA in Economics and Development Studies from{" "}
                       <a href="https://www.mcgill.ca/">McGill University</a>.
-                      Find him on Twitter
+                      Find him on Twitter{" "}
                       <a href="https://twitter.com/kurtislockhart">
                         @kurtislockhart
                       </a>
@@ -617,13 +576,13 @@ export function Speakers() {
                       Congress, and currently a candidate for the U.S. Senate.
                       After serving a mission in Brazil and graduating from{" "}
                       <a href="https://www.byu.edu/">BYU</a>, he started his
-                      career with the
+                      career with the{" "}
                       <a href="https://www.cia.gov/">
                         Central Intelligence Agency
                       </a>{" "}
                       (CIA) spending much of his service overseas running
                       counter-terrorism and traditional intelligence operations.
-                      Following his service, McMullin received his MBA from the
+                      Following his service, McMullin received his MBA from the{" "}
                       <a href="https://www.wharton.upenn.edu/">
                         Wharton School
                       </a>{" "}
@@ -632,11 +591,11 @@ export function Speakers() {
                         University of Pennsylvania
                       </a>
                       . In 2013, McMullin returned to government service as a
-                      senior advisor to the
+                      senior advisor to the{" "}
                       <a href="https://foreignaffairs.house.gov/">
                         Foreign Affairs Committee
                       </a>{" "}
-                      and chief policy director in Congress. In 2017, he founded
+                      and chief policy director in Congress. In 2017, he founded{" "}
                       <a href="https://standuprepublic.com/">
                         Stand Up Republic
                       </a>
@@ -675,7 +634,7 @@ export function Speakers() {
                       salt reactor providing 12 MWe of inherently safe nuclear
                       energy, along with valuable medical isotopes as a
                       byproduct of its operation. Currently a professor in the
-                      chemical engineering department at
+                      chemical engineering department at{" "}
                       <a href="https://byu.edu">Brigham Young University</a>,
                       Dr. Memmott received a bachelor's in chemical engineering
                       from BYU in 2005, and a master's and PhD in Nuclear
@@ -707,15 +666,15 @@ export function Speakers() {
                       Jon is a cofounder at{" "}
                       <a href="https://upliftkids.org/">UpliftKids</a>, a lesson
                       library and curriculum that helps families nurture
-                      spiritual health. He is also the author of the book
+                      spiritual health. He is also the author of the book{" "}
                       <a href="https://www.goodreads.com/book/show/31206987-when-mormons-doubt">
                         <em>
                           When Mormons Doubt: A Way to Strengthen Relationships
                           and Live a Quality Life
                         </em>
-                      </a>
+                      </a>{" "}
                       and has a bachelor's degree in English literature and a
-                      master's in Writing and Rhetoric from
+                      master's in Writing and Rhetoric from{" "}
                       <a href="https://www.byu.edu">Brigham Young University</a>
                       . He writes at{" "}
                       <a href="https://jonogden.medium.com/">JonOgden.com</a>{" "}
@@ -756,14 +715,14 @@ export function Speakers() {
                       , a blockchain and AI-focused venture capital firm, and
                       serves on various boards. He also consults for governments
                       on blockchain policy, is a frequent lecturer at
-                      universities, and serves as a fellow at the
+                      universities, and serves as a fellow at the{" "}
                       <a href="https://creativedestructionlab.com/">
                         Creative Destruction Lab
                       </a>{" "}
                       associated with the{" "}
                       <a href="https://www.rotman.utoronto.ca/">
                         Rotman School of Management
-                      </a>
+                      </a>{" "}
                       at the{" "}
                       <a href="https://www.utoronto.ca/">
                         University of Toronto
@@ -800,17 +759,17 @@ export function Speakers() {
                   <div className="mt-5 text-base text-gray-500 text-left text-base max-w-prose prose prose-indigo">
                     <p>
                       Bernardo Vicente is a Business Administration & Accounting
-                      graduate from
+                      graduate from{" "}
                       <a href="https://www.ipl.pt/en">
                         Lisbon Polytechnic Institute
-                      </a>
+                      </a>{" "}
                       and holds a specialization in Business Analytics.
                       Galvanized by his interest in economics, technology, and
                       culture, Bernardo has recently developed an economic
-                      theory called
+                      theory called{" "}
                       <a href="https://mirror.xyz/0x24EB84F2C45eB0BDe32183662B417cbc8896E34f/scS-E-toB-A4cNKP-YwNv9rbcQC2hbMtiGn87vnQeKo">
                         Harbergeorgism
-                      </a>
+                      </a>{" "}
                       that leverages prior contributions in economics in novel
                       ways to offer solutions (with Web3 as intermediary) on how
                       to sustainably develop the new digital era and,
@@ -841,13 +800,13 @@ export function Speakers() {
                   <div className="mt-5 text-base text-gray-500 text-left text-base max-w-prose prose prose-indigo">
                     <p>
                       Joseph West lives in Tucson, Arizona with his three
-                      children and his partner
+                      children and his partner{" "}
                       <a href="https://katekincaid.com/">Katherine Kincaid</a>.
                       Together, they own and operate private group psychotherapy
                       practices in both{" "}
                       <a href="https://www.tucsoncounselingassociates.com/">
                         Tucson
-                      </a>
+                      </a>{" "}
                       and{" "}
                       <a href="https://somapsychotherapyslc.com/">
                         Salt Lake City
@@ -859,7 +818,7 @@ export function Speakers() {
                       synthetic. In past years, Joseph spent time working as a
                       real estate professional, an accountant, a stay-at-home
                       parent, and a sociologist. His social-scientific research
-                      on early Mormon history was published in the
+                      on early Mormon history was published in the{" "}
                       <a href="https://onlinelibrary.wiley.com/journal/14685906">
                         Journal for the Scientific Study of Religion
                       </a>
@@ -943,7 +902,7 @@ export function Speakers() {
                       <a href="https://www.sullcrom.com/">
                         Sullivan & Cromwell LLP
                       </a>{" "}
-                      and the
+                      and the{" "}
                       <a href="https://www.cit.uscourts.gov/">
                         United States Court of International Trade
                       </a>
@@ -955,7 +914,7 @@ export function Speakers() {
                       <a href="https://www.cam.ac.uk/">
                         University of Cambridge
                       </a>{" "}
-                      in 2011; and a JD from
+                      in 2011; and a JD from{" "}
                       <a href="https://law.stanford.edu/">
                         Stanford Law School
                       </a>{" "}
@@ -998,7 +957,7 @@ export function Speakers() {
                       <a href="https://www.utahdao.com/">UtahDAO</a>, a
                       decentralized autonomous organization that is helping to
                       build the blockchain ecosystem in the State of Utah, and
-                      leads the
+                      leads the{" "}
                       <a href="https://www.meetup.com/Blockchain-Utah/">
                         Blockchain Dev Utah
                       </a>{" "}

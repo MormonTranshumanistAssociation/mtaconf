@@ -16,8 +16,8 @@ export function Footer() {
             </a>
           </div>
           <p className="text-gray-500 text-base">
-            Dedicated to radical human flourishing through the compassionate use
-            of science and technology
+            Dedicated to abundant human flourishing through the compassionate
+            use of science and technology
           </p>
           <div className="flex space-x-6">
             <a
