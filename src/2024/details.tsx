@@ -33,9 +33,10 @@ export function Details() {
                     explainability; accountability and responsibility; privacy
                     and surveillance; human-robot interaction; employment and
                     economic impact; value alignment; autonomous agent systems;
-                    global and cultural impacts; impacts on democracy and
-                    elections; environmental impact; existential risks;
-                    regulation; accelerationism; future shock.
+                    global and cultural impacts; impacts on education; impacts
+                    on democracy and elections; environmental impact;
+                    existential risks; regulation; accelerationism; future
+                    shock.
                   </li>
                   <li className="pl-2">
                     Consciousness and sentience; agency and autonomy; embodiment
