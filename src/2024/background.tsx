@@ -98,8 +98,7 @@ export function Background() {
                 We look forward to gathering to discuss these issues and develop
                 the unique insights that Mormon and other religious
                 transhumanists may contribute to human progress at this pivotal
-                moment in history. Please register and save the date for MTAConf
-                2024.
+                moment in history.
               </p>
             </div>
           </div>
