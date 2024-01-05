@@ -1,5 +1,7 @@
 import { Hero } from "./hero.tsx";
 import { Background } from "./background.tsx";
+import { Venue } from "./venue.tsx";
+import { Details } from "./details.tsx";
 
 export default function MTAConf2024() {
   return (
@@ -10,8 +12,8 @@ export default function MTAConf2024() {
             <Hero />
             <section id="below-the-fold">
               <Background />
-              {/*<Venue />*/}
-              {/*<Details />*/}
+              <Venue />
+              <Details />
               {/*<Lodging />*/}
               {/*<Schedule />*/}
               {/*<Speakers />*/}
