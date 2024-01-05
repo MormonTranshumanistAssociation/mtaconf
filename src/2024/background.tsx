@@ -75,11 +75,11 @@ export function Background() {
                 revelation, Mormon founder and prophet Joseph Smith declared,
                 “The glory of God is intelligence.” Not only is intelligence a
                 principal qualification of God; it is also a yardstick by which
-                human godliness may be measured, and godlike superintelligence
-                is the apex of humanity's development as the descendants of God.
-                Several additional theological insights related to the rise in
-                artificial intelligence were shared by MTA President Carl
-                Youngblood in his recent essay, “
+                human godliness may be measured. As the descendants of God, the
+                apex of human development is the achievement of godlike
+                superintelligence. Several additional theological insights
+                related to the rise in artificial intelligence were shared by
+                MTA President Carl Youngblood in his recent essay, “
                 <a
                   href="https://www.wayfaremagazine.org/p/algorithmic-advent"
                   className="underline hover:no-underline"
@@ -90,9 +90,9 @@ export function Background() {
               </p>
               <blockquote className="border-l-4 border-stone-700 pl-4 text-xl text-stone-300 font-semibold italic my-4">
                 Not only is intelligence a principal qualification of God; it is
-                also a yardstick by which human godliness may be measured, and
-                godlike superintelligence is the apex of humanity's development
-                as the descendants of God.
+                also a yardstick by which human godliness may be measured. As
+                the descendants of God, the apex of human development is the
+                achievement of godlike superintelligence.
               </blockquote>
               <p>
                 We look forward to gathering to discuss these issues and develop
