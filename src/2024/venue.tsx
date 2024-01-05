@@ -41,7 +41,7 @@ export function Venue() {
                   Get{" "}
                   <a
                     className="underline"
-                    href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1651512405661&key=GRP&app=resvlink"
+                    href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1682362899953&key=GRP&app=resvlink"
                   >
                     group discount room rate
                   </a>
