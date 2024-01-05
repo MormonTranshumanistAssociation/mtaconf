@@ -20,8 +20,11 @@ export function Venue() {
                 <p className="pb-6 text-4xl font-bold text-yellow-100">
                   Conference Date and Location
                 </p>
-                <p className="text-2xl font-medium text-stone-300">
+                <p className="text-2xl font-medium text-stone-300 pb-0 mb-0">
                   Saturday, 13 April 2024 • 9am - 6pm
+                </p>
+                <p className="mt-0 pt-0 font-sm text-stone-300">
+                  Optional social dinner immediately following
                 </p>
                 <p className="mt-8 text-2xl font-medium text-stone-300">
                   Marriott Hotel and Convention Center
@@ -37,7 +40,7 @@ export function Venue() {
                 <div className="text-base font-medium text-stone-300">
                   801-377-4700
                 </div>
-                <p className="pt-6 text-base font-medium text-stone-500">
+                <p className="pt-6 text-base font-sm text-stone-300">
                   Get{" "}
                   <a
                     className="underline"
