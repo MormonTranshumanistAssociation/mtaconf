@@ -46,7 +46,7 @@ export function Venue() {
                     group discount room rate
                   </a>
                   <br />
-                  (must reserve before February 14th)
+                  (must reserve by March 13th for discount rate)
                 </p>
               </div>
             </blockquote>
