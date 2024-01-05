@@ -69,18 +69,12 @@ export function Background() {
                 against autocratic powers that are less concerned about ensuring
                 AI research is conducted ethically.
               </p>
-              <blockquote className="border-l-4 border-stone-700 pl-4 text-xl text-stone-300 font-semibold italic my-4">
-                Not only is intelligence a principle qualification of God; it is
-                also a yardstick by which human godliness may be measured, and
-                godlike superintelligence is the apex of humanity's development
-                as the descendants of God.
-              </blockquote>
               <p>
                 As religious transhumanists, we notice compelling theological
                 insights that may be drawn from these trends. In an 1833
                 revelation, Mormon founder and prophet Joseph Smith declared,
                 “The glory of God is intelligence.” Not only is intelligence a
-                principle qualification of God; it is also a yardstick by which
+                principal qualification of God; it is also a yardstick by which
                 human godliness may be measured, and godlike superintelligence
                 is the apex of humanity's development as the descendants of God.
                 Several additional theological insights related to the rise in
@@ -94,6 +88,12 @@ export function Background() {
                 </a>
                 .”
               </p>
+              <blockquote className="border-l-4 border-stone-700 pl-4 text-xl text-stone-300 font-semibold italic my-4">
+                Not only is intelligence a principal qualification of God; it is
+                also a yardstick by which human godliness may be measured, and
+                godlike superintelligence is the apex of humanity's development
+                as the descendants of God.
+              </blockquote>
               <p>
                 We look forward to gathering to discuss these issues and develop
                 the unique insights that Mormon and other religious
