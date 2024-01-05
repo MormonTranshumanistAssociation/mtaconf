@@ -64,7 +64,7 @@ export function Details() {
               </div>
               <div className="mt-6 prose prose-indigo text-gray-300 lg:mt-0 leading-7 flex flex-col gap-4">
                 <p>
-                  The conference will take place on Saturday 13 April 2024 at
+                  The conference will take place on Saturday, 13 April 2024 at
                   the Provo Marriot Hotel and Convention Center from 9am to 6pm,
                   followed by a catered dinner. We invite members and interested
                   guests to submit papers for presentation at the conference.
