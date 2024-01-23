@@ -94,19 +94,12 @@ export function Hero() {
                     <div className="mt-3 text-md sm:text-xl tracking-tight font-extrabold text-gray-300 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
                       April 13, 2024
                     </div>
-                    <div className="mt-4 sm:mt-6">
-                      <div className="sm:flex">
-                        <div className="min-w-0 flex-1">
-                          <a href="https://www.ticketsource.us/mormon-transhumanist-association">
-                            <button
-                              type="submit"
-                              className="py-3 w-full lg:px-28 rounded-md shadow bg-gradient-to-r from-amber-700 to-amber-900 text-gray-300 font-medium hover:from-amber-600 hover:to-amber-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-amber-400 hover:text-white focus:ring-offset-amber-900"
-                            >
-                              Register now
-                            </button>
-                          </a>
-                        </div>
-                      </div>
+                    <div className="mt-4 sm:mt-6 flex flex-col">
+                      <img
+                        src="/img/2024/qrcode.png"
+                        className="w-40 h-40 self-center"
+                        alt="QR Code that links to the conference website"
+                      />
                     </div>
                   </div>
                 </div>
