@@ -94,12 +94,14 @@ export function Hero() {
                     <div className="mt-3 text-md sm:text-xl tracking-tight font-extrabold text-gray-300 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
                       April 13, 2024
                     </div>
-                    <div className="mt-4 sm:mt-6 flex flex-col">
+                    <div className="mt-4 sm:mt-6 flex flex-col text-white text-center gap-4">
                       <img
                         src="/img/2024/qrcode.png"
                         className="w-40 h-40 self-center"
                         alt="QR Code that links to the conference website"
                       />
+                      Get 20% off with
+                      <br /> discount code MTAFRIEND
                     </div>
                   </div>
                 </div>

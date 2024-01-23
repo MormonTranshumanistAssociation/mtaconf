@@ -20,28 +20,27 @@ export function Teaser() {
             </div>
 
             <div className="flex flex-col gap-4">
-              <img src="/img/2024/venkatesh-rao.jpg" className="w-48 h-48" />
+              <img src="/img/2024/sarah-constantin.jpg" className="w-48 h-48" />
               <div className="flex flex-col">
                 <div className="text-white self-center text-xl font-bold">
-                  Venkatesh Rao
+                  Sarah Constantin
                 </div>
-                <div className="text-white self-center">
-                  Writer & Tech Consultant
-                </div>
-                <div className="text-white self-center">
+                <div className="text-white self-center w-48 text-center">
+                  AI Alignment Expert
+                  <br />
                   Tech Keynote Speaker
                 </div>
               </div>
             </div>
 
             <div className="flex flex-col gap-4">
-              <img src="/img/2024/sarah-constantin.jpg" className="w-48 h-48" />
+              <img src="/img/2024/wolf-tivy.jpg" className="w-48 h-48" />
               <div className="flex flex-col">
                 <div className="text-white self-center text-xl font-bold">
-                  Sarah Constantin
+                  Wolf Tivy
                 </div>
                 <div className="text-white self-center w-40 text-center">
-                  Rationalist & AI Alignment Expert
+                  Founder, Palladium Magazine
                 </div>
               </div>
             </div>
