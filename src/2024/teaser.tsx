@@ -20,27 +20,32 @@ export function Teaser() {
             </div>
 
             <div className="flex flex-col gap-4">
-              <img src="/img/2024/sarah-constantin.jpg" className="w-48 h-48" />
+              <img src="/img/2024/carl-youngblood.jpg" className="w-48 h-48" />
               <div className="flex flex-col">
                 <div className="text-white self-center text-xl font-bold">
-                  Sarah Constantin
+                  Carl Youngblood
                 </div>
-                <div className="text-white self-center w-48 text-center">
-                  AI Alignment Expert
+                <div className="text-white self-center w-40 text-center">
+                  CTO, Crescendo
                   <br />
-                  Tech Keynote Speaker
+                  President, MTA
                 </div>
               </div>
             </div>
 
             <div className="flex flex-col gap-4">
-              <img src="/img/2024/wolf-tivy.jpg" className="w-48 h-48" />
+              <img
+                src="/img/2024/connie-packer-square.jpg"
+                className="w-48 h-48"
+              />
               <div className="flex flex-col">
                 <div className="text-white self-center text-xl font-bold">
-                  Wolf Tivy
+                  Connie Packer
                 </div>
                 <div className="text-white self-center w-40 text-center">
-                  Founder, Palladium Magazine
+                  Vice President
+                  <br />
+                  MTA
                 </div>
               </div>
             </div>
@@ -52,7 +57,26 @@ export function Teaser() {
                   Conor Sullivan
                 </div>
                 <div className="text-white self-center w-40 text-center">
-                  Founder, Roam Research
+                  Founder
+                  <br />
+                  Roam Research
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col gap-4">
+              <img
+                src="/img/2024/dallin-bradford-square.jpg"
+                className="w-48 h-48"
+              />
+              <div className="flex flex-col">
+                <div className="text-white self-center text-xl font-bold">
+                  Dallin Bradford
+                </div>
+                <div className="text-white self-center w-40 text-center">
+                  Director
+                  <br />
+                  MTA
                 </div>
               </div>
             </div>
@@ -72,15 +96,70 @@ export function Teaser() {
             </div>
 
             <div className="flex flex-col gap-4">
-              <img src="/img/2024/carl-youngblood.jpg" className="w-48 h-48" />
+              <img src="/img/2024/matt-gardner.jpg" className="w-48 h-48" />
               <div className="flex flex-col">
                 <div className="text-white self-center text-xl font-bold">
-                  Carl Youngblood
+                  Matt Gardner
                 </div>
                 <div className="text-white self-center w-40 text-center">
-                  CTO, Crescendo
+                  CES Educator
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col gap-4">
+              <img src="/img/2024/randall-paul.jpg" className="w-48 h-48" />
+              <div className="flex flex-col">
+                <div className="text-white self-center text-xl font-bold">
+                  Randall Paul
+                </div>
+                <div className="text-white self-center w-40 text-center">
+                  Foundation for Religious Diplomacy
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col gap-4">
+              <img
+                src="/img/2024/spencer-cannon-square.jpg"
+                className="w-48 h-48"
+              />
+              <div className="flex flex-col">
+                <div className="text-white self-center text-xl font-bold">
+                  Spencer Cannon
+                </div>
+                <div className="text-white self-center w-40 text-center">
+                  Director
                   <br />
-                  President, MTA
+                  MTA
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col gap-4">
+              <img src="/img/2024/teresa-pratt.jpg" className="w-48 h-48" />
+              <div className="flex flex-col">
+                <div className="text-white self-center text-xl font-bold">
+                  Teresa Pratt
+                </div>
+                <div className="text-white self-center w-40 text-center">
+                  Director
+                  <br />
+                  MTA
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col gap-4">
+              <img src="/img/2024/wolf-tivy.jpg" className="w-48 h-48" />
+              <div className="flex flex-col">
+                <div className="text-white self-center text-xl font-bold">
+                  Wolf Tivy
+                </div>
+                <div className="text-white self-center w-40 text-center">
+                  Founding Editor
+                  <br />
+                  Palladium Magazine
                 </div>
               </div>
             </div>
