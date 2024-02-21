@@ -125,15 +125,17 @@ export function Teaser() {
               </div>
             </div>
 
-            {/*<div className="flex flex-col gap-4">*/}
-            {/*  <img src="/img/2024/dan-moore.jpg" className="w-48 h-48" />*/}
-            {/*  <div className="flex flex-col">*/}
-            {/*    <div className="text-white self-center text-xl font-bold">*/}
-            {/*      Dan Moore*/}
-            {/*    </div>*/}
-            {/*    <div className="text-white self-center w-40 text-center"></div>*/}
-            {/*  </div>*/}
-            {/*</div>*/}
+            <div className="flex flex-col gap-4">
+              <img src="/img/2024/dan-moore.jpg" className="w-48 h-48" />
+              <div className="flex flex-col">
+                <div className="text-white self-center text-xl font-bold">
+                  Dan Moore
+                </div>
+                <div className="text-white self-center w-40 text-center">
+                  Geoscientist
+                </div>
+              </div>
+            </div>
 
             <div className="flex flex-col gap-4">
               <img src="/img/2024/dorothee-cannon.jpg" className="w-48 h-48" />
@@ -145,6 +147,21 @@ export function Teaser() {
                   Interpreter
                   <br />
                   MTA
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col gap-4">
+              <img src="/img/2024/irina-rish.jpg" className="w-48 h-48" />
+              <div className="flex flex-col">
+                <div className="text-white self-center text-xl font-bold">
+                  Irina Rish
+                </div>
+                <div className="text-white self-center">
+                  Canada CIFAR AI Chair
+                </div>
+                <div className="text-white text-xs self-center">
+                  Transhumanist Keynote Speaker
                 </div>
               </div>
             </div>
@@ -192,6 +209,18 @@ export function Teaser() {
             </div>
 
             <div className="flex flex-col gap-4">
+              <img src="/img/2024/luke-hutchison.jpg" className="w-48 h-48" />
+              <div className="flex flex-col">
+                <div className="text-white self-center text-xl font-bold">
+                  Luke Hutchison
+                </div>
+                <div className="text-white self-center w-40 text-center">
+                  Computer Scientist
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col gap-4">
               <img src="/img/2024/matt-gardner.jpg" className="w-48 h-48" />
               <div className="flex flex-col">
                 <div className="text-white self-center text-xl font-bold">
@@ -203,15 +232,17 @@ export function Teaser() {
               </div>
             </div>
 
-            {/*<div className="flex flex-col gap-4">*/}
-            {/*  <img src="/img/2024/mckay-moore.jpg" className="w-48 h-48" />*/}
-            {/*  <div className="flex flex-col">*/}
-            {/*    <div className="text-white self-center text-xl font-bold">*/}
-            {/*      McKay Moore*/}
-            {/*    </div>*/}
-            {/*    <div className="text-white self-center w-40 text-center"></div>*/}
-            {/*  </div>*/}
-            {/*</div>*/}
+            <div className="flex flex-col gap-4">
+              <img src="/img/2024/mckay-moore.jpg" className="w-48 h-48" />
+              <div className="flex flex-col">
+                <div className="text-white self-center text-xl font-bold">
+                  McKay Moore
+                </div>
+                <div className="text-white self-center w-40 text-center">
+                  Software Engineer
+                </div>
+              </div>
+            </div>
 
             <div className="flex flex-col gap-4">
               <img src="/img/2024/micah-redding.jpg" className="w-48 h-48" />
