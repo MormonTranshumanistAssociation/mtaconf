@@ -138,7 +138,7 @@ export function Teaser() {
             </div>
 
             <div className="flex flex-col gap-4">
-              <img src="/img/2024/dorothee-cannon.jpg" className="w-48 h-48" />
+              <img src="/img/2024/dorothee.jpg" className="w-48 h-48" />
               <div className="flex flex-col">
                 <div className="text-white self-center text-xl font-bold">
                   Dorothée Cannon
