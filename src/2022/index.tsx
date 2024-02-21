@@ -9,7 +9,7 @@ import { Footer } from "./footer.tsx";
 
 export default function App() {
   return (
-    <div>
+    <div id="mtaconf2022">
       <div className="bg-white">
         <div className="relative overflow-hidden">
           <div className="bg-gray-900">

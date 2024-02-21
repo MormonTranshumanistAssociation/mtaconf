@@ -2,8 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MTAConf2022 from "./2022";
-import "./index.css";
 import MTAConf2024 from "./2024";
+import "./index.css";
 
 const router = createBrowserRouter([
   {

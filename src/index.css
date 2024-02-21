@@ -3,22 +3,29 @@
 @tailwind utilities;
 
 @layer base {
-  body {
-    background: black;
-    margin: 0;
-    padding: 0;
+  #mtaconf2024 * {
+    p + p {
+      margin-top: 12px;
+    }
+
+    a {
+      text-decoration: underline;
+      color: lightgoldenrodyellow;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
   }
 
-  p + p {
-    margin-top: 12px;
-  }
+  #mtaconf2022 * {
+    a {
+      text-decoration: underline;
+      color: cornflowerblue;
+    }
 
-  a {
-    text-decoration: underline;
-    color: lightgoldenrodyellow;
-  }
-
-  a:hover {
-    text-decoration: none;
+    a:hover {
+      text-decoration: none;
+    }
   }
 }

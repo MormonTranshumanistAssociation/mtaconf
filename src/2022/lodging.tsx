@@ -39,7 +39,7 @@ export function Lodging() {
               <p className="pt-6 text-base font-medium text-cyan-300">
                 Get{" "}
                 <a
-                  className="underline"
+                  className="!text-cyan-100 !visited:text-cyan-100"
                   href="https://www.marriott.com/events/start.mi?id=1642027497522&key=GRP"
                 >
                   group discount rate

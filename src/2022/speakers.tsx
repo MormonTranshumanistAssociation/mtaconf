@@ -192,7 +192,8 @@ export function Speakers() {
                       and served as a policy director at the{" "}
                       <a href="https://www.cato.org/">Cato Institute</a> before
                       joining the faculty of{" "}
-                      <a href="https://www.chapman.edu/">Chapman University</a>,
+                      <a href="https://www.chapman.edu/">Chapman University</a>
+                      ,&nbsp;
                       <a href="https://www.chapman.edu/law/index.aspx">
                         Fowler School of Law
                       </a>
