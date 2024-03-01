@@ -12,13 +12,20 @@ function Portrait(props: PortraitProps) {
         <div className="text-white self-center text-xl font-bold">
           {props.name}
         </div>
-        <div className="text-white self-center">{props.title1}</div>
-        <div className="text-white self-center">{props.title2}</div>
+        {props.title1 && props.title1.length > 20 ? (
+          <div className="text-white self-center text-xs">{props.title1}</div>
+        ) : (
+          <div className="text-white self-center">{props.title1}</div>
+        )}
+        {props.title2 && props.title2.length > 20 ? (
+          <div className="text-white self-center text-xs">{props.title2}</div>
+        ) : (
+          <div className="text-white self-center">{props.title2}</div>
+        )}
       </div>
     </div>
   );
 }
-
 export function Teaser() {
   return (
     <div className="py-8 xl:py-16 px-4 sm:px-6 lg:px-8 bg-black overflow-hidden">
@@ -33,348 +40,174 @@ export function Teaser() {
 
         <div className="relative z-10 mb-4 md:mb-2 md:px-6 pt-8">
           <div className="flex flex-row flex-wrap gap-6">
-            <div className="flex flex-col gap-4">
-              <img src="/img/2024/ben-peters.jpg" className="w-48 h-48" />
-              <div className="flex flex-col">
-                <div className="text-white self-center text-xl font-bold">
-                  Ben Peters
-                </div>
-                <div className="text-white self-center">
-                  Author & Media Scholar
-                </div>
-                <div className="text-white self-center">
-                  Mormon Keynote Speaker
-                </div>
-              </div>
-            </div>
+            <Portrait
+              image="/img/2024/ben-peters.jpg"
+              name="Benjamin Peters"
+              title1="Author & Media Scholar"
+              title2="Mormon Keynote Speaker"
+            />
 
-            <div className="flex flex-col gap-4">
-              <img src="/img/2024/brent-allsop.jpg" className="w-48 h-48" />
-              <div className="flex flex-col">
-                <div className="text-white self-center text-xl font-bold">
-                  Brent Allsop
-                </div>
-                <div className="text-white self-center">Founder</div>
-                <div className="text-white self-center">Canonizer</div>
-              </div>
-            </div>
+            <Portrait
+              image="/img/2024/brent-allsop.jpg"
+              name="Brent Allsop"
+              title1="Founder"
+              title2="Canonizer"
+            />
 
-            <div className="flex flex-col gap-4">
-              <img src="/img/2024/bryant-smith.jpg" className="w-48 h-48" />
-              <div className="flex flex-col">
-                <div className="text-white self-center text-xl font-bold">
-                  Bryant Smith
-                </div>
-                <div className="text-white self-center">Secretary</div>
-                <div className="text-white self-center">MTA</div>
-              </div>
-            </div>
+            <Portrait
+              image="/img/2024/bryant-smith.jpg"
+              name="Bryant Smith"
+              title1="Secretary"
+              title2="MTA"
+            />
 
-            <div className="flex flex-col gap-4">
-              <img src="/img/2024/caleb-jones.jpg" className="w-48 h-48" />
-              <div className="flex flex-col">
-                <div className="text-white self-center text-xl font-bold">
-                  Caleb Jones
-                </div>
-                <div className="text-white self-center w-40 text-center">
-                  Software Architect
-                  <br />
-                  Disney
-                </div>
-              </div>
-            </div>
+            <Portrait
+              image="/img/2024/caleb-jones.jpg"
+              name="Caleb Jones"
+              title1="Software Architect"
+              title2="Disney"
+            />
 
-            <div className="flex flex-col gap-4">
-              <img src="/img/2024/carl-youngblood.jpg" className="w-48 h-48" />
-              <div className="flex flex-col">
-                <div className="text-white self-center text-xl font-bold">
-                  Carl Youngblood
-                </div>
-                <div className="text-white self-center w-40 text-center">
-                  CTO, Crescendo
-                  <br />
-                  President, MTA
-                </div>
-              </div>
-            </div>
+            <Portrait
+              image="/img/2024/carl-youngblood.jpg"
+              name="Carl Youngblood"
+              title1="President"
+              title2="MTA"
+            />
 
-            <div className="flex flex-col gap-4">
-              <img
-                src="/img/2024/connie-packer-square.jpg"
-                className="w-48 h-48"
-              />
-              <div className="flex flex-col">
-                <div className="text-white self-center text-xl font-bold">
-                  Connie Packer
-                </div>
-                <div className="text-white self-center w-40 text-center">
-                  Vice President
-                  <br />
-                  MTA
-                </div>
-              </div>
-            </div>
+            <Portrait
+              image="/img/2024/connie-packer-square.jpg"
+              name="Connie Packer"
+              title1="Vice President"
+              title2="MTA"
+            />
 
-            <div className="flex flex-col gap-4">
-              <img src="/img/2024/conor-sullivan.jpg" className="w-48 h-48" />
-              <div className="flex flex-col">
-                <div className="text-white self-center text-xl font-bold">
-                  Conor Sullivan
-                </div>
-                <div className="text-white self-center w-40 text-center">
-                  Founder
-                  <br />
-                  Roam Research
-                </div>
-              </div>
-            </div>
+            <Portrait
+              image="/img/2024/conor-sullivan.jpg"
+              name="Conor Sullivan"
+              title1="Founder"
+              title2="Roam Research"
+            />
 
-            <div className="flex flex-col gap-4">
-              <img
-                src="/img/2024/dallin-bradford-square.jpg"
-                className="w-48 h-48"
-              />
-              <div className="flex flex-col">
-                <div className="text-white self-center text-xl font-bold">
-                  Dallin Bradford
-                </div>
-                <div className="text-white self-center w-40 text-center">
-                  Director
-                  <br />
-                  MTA
-                </div>
-              </div>
-            </div>
+            <Portrait
+              image="/img/2024/dallin-bradford-square.jpg"
+              name="Dallin Bradford"
+              title1="Director"
+              title2="MTA"
+            />
 
-            <div className="flex flex-col gap-4">
-              <img src="/img/2024/dan-moore.jpg" className="w-48 h-48" />
-              <div className="flex flex-col">
-                <div className="text-white self-center text-xl font-bold">
-                  Dan Moore
-                </div>
-                <div className="text-white self-center w-40 text-center">
-                  Geoscientist
-                </div>
-              </div>
-            </div>
+            <Portrait
+              image="/img/2024/dan-moore.jpg"
+              name="Dan Moore"
+              title1="Geoscientist"
+            />
 
-            <div className="flex flex-col gap-4">
-              <img src="/img/2024/dorothee.jpg" className="w-48 h-48" />
-              <div className="flex flex-col">
-                <div className="text-white self-center text-xl font-bold">
-                  Dorothée Cannon
-                </div>
-                <div className="text-white self-center w-40 text-center">
-                  Interpreter
-                  <br />
-                  MTA
-                </div>
-              </div>
-            </div>
+            <Portrait
+              image="/img/2024/dorothee.jpg"
+              name="Dorothée Cannon"
+              title1="Interpreter"
+              title2="MTA"
+            />
 
-            <div className="flex flex-col gap-4">
-              <img src="/img/2024/irina-rish.jpg" className="w-48 h-48" />
-              <div className="flex flex-col">
-                <div className="text-white self-center text-xl font-bold">
-                  Irina Rish
-                </div>
-                <div className="text-white self-center">
-                  Canada CIFAR AI Chair
-                </div>
-                <div className="text-white text-xs self-center">
-                  Transhumanist Keynote Speaker
-                </div>
-              </div>
-            </div>
+            <Portrait
+              image="/img/2024/irina-rish.jpg"
+              name="Irina Rish"
+              title1="Canada CIFAR AI Chair"
+              title2="Transhumanist Keynote Speaker"
+            />
 
-            <div className="flex flex-col gap-4">
-              <img src="/img/2022/joseph.jpg" className="w-48 h-48" />
-              <div className="flex flex-col">
-                <div className="text-white self-center text-xl font-bold">
-                  Joseph West
-                </div>
-                <div className="text-white self-center w-40 text-center">
-                  Co-Founder
-                  <br />
-                  MTA
-                </div>
-              </div>
-            </div>
+            <Portrait
+              image="/img/2022/joseph.jpg"
+              name="Joseph West"
+              title1="Co-Founder"
+              title2="MTA"
+            />
 
-            <div className="flex flex-col gap-4">
-              <img src="/img/2024/kouassi-nguessan.jpg" className="w-48 h-48" />
-              <div className="flex flex-col">
-                <div className="text-white self-center text-xl font-bold">
-                  Kouassi Nguessan
-                </div>
-                <div className="text-white self-center w-40 text-center">
-                  Area Leader
-                  <br />
-                  MTA Africa
-                </div>
-              </div>
-            </div>
+            <Portrait
+              image="/img/2024/kouassi-nguessan.jpg"
+              name="Kouassi Nguessan"
+              title1="Area Leader"
+              title2="MTA Africa"
+            />
 
-            <div className="flex flex-col gap-4">
-              <img src="/img/2024/lincoln-cannon.jpg" className="w-48 h-48" />
-              <div className="flex flex-col">
-                <div className="text-white self-center text-xl font-bold">
-                  Lincoln Cannon
-                </div>
-                <div className="text-white self-center w-40 text-center">
-                  CEO, Thrivous
-                  <br />
-                  Co-Founder, MTA
-                </div>
-              </div>
-            </div>
+            <Portrait
+              image="/img/2024/lincoln-cannon.jpg"
+              name="Lincoln Cannon"
+              title1="CEO, Thrivous"
+              title2="Co-Founder, MTA"
+            />
 
-            <div className="flex flex-col gap-4">
-              <img src="/img/2024/luke-hutchison.jpg" className="w-48 h-48" />
-              <div className="flex flex-col">
-                <div className="text-white self-center text-xl font-bold">
-                  Luke Hutchison
-                </div>
-                <div className="text-white self-center w-40 text-center">
-                  Computer Scientist
-                </div>
-              </div>
-            </div>
+            <Portrait
+              image="/img/2024/luke-hutchison.jpg"
+              name="Luke Hutchison"
+              title1="Computer Scientist"
+            />
 
-            <div className="flex flex-col gap-4">
-              <img src="/img/2024/matt-gardner.jpg" className="w-48 h-48" />
-              <div className="flex flex-col">
-                <div className="text-white self-center text-xl font-bold">
-                  Matt Gardner
-                </div>
-                <div className="text-white self-center w-40 text-center">
-                  CES Educator
-                </div>
-              </div>
-            </div>
+            <Portrait
+              image="/img/2024/matt-gardner.jpg"
+              name="Matt Gardner"
+              title1="CES Educator"
+            />
 
-            <div className="flex flex-col gap-4">
-              <img src="/img/2024/mckay-moore.jpg" className="w-48 h-48" />
-              <div className="flex flex-col">
-                <div className="text-white self-center text-xl font-bold">
-                  McKay Moore
-                </div>
-                <div className="text-white self-center w-40 text-center">
-                  Software Engineer
-                </div>
-              </div>
-            </div>
+            <Portrait
+              image="/img/2024/mckay-moore.jpg"
+              name="McKay Moore"
+              title1="Software Engineer"
+            />
 
-            <div className="flex flex-col gap-4">
-              <img src="/img/2024/micah-redding.jpg" className="w-48 h-48" />
-              <div className="flex flex-col">
-                <div className="text-white self-center text-xl font-bold">
-                  Micah Redding
-                </div>
-                <div className="text-white self-center w-40 text-center text-xs">
-                  Executive Director
-                  <br />
-                  Christian Transhumanist Association
-                </div>
-              </div>
-            </div>
+            <Portrait
+              image="/img/2024/micah-redding.jpg"
+              name="Micah Redding"
+              title1="Executive Director"
+              title2="Christian Transhumanist Association"
+            />
 
-            <div className="flex flex-col gap-4">
-              <img src="/img/2024/nancy-fulda.jpg" className="w-48 h-48" />
-              <div className="flex flex-col">
-                <div className="text-white self-center text-xl font-bold">
-                  Nancy Fulda
-                </div>
-                <div className="text-white self-center w-40 text-center">
-                  AI Researcher
-                </div>
-              </div>
-            </div>
+            <Portrait
+              image="/img/2024/nancy-fulda.jpg"
+              name="Nancy Fulda"
+              title1="AI Researcher"
+            />
 
-            <div className="flex flex-col gap-4">
-              <img src="/img/2024/randall-paul.jpg" className="w-48 h-48" />
-              <div className="flex flex-col">
-                <div className="text-white self-center text-xl font-bold">
-                  Randall Paul
-                </div>
-                <div className="text-white self-center w-40 text-center">
-                  Foundation for Religious Diplomacy
-                </div>
-              </div>
-            </div>
+            <Portrait
+              image="/img/2024/randall-paul.jpg"
+              name="Randall Paul"
+              title1="Foundation for Religious Diplomacy"
+            />
 
-            <div className="flex flex-col gap-4">
-              <img src="/img/2024/rachael-johnson.jpg" className="w-48 h-48" />
-              <div className="flex flex-col">
-                <div className="text-white self-center text-xl font-bold">
-                  Rachael Johnson
-                </div>
-                <div className="text-white self-center w-40 text-center">
-                  Postdoctoral Fellow
-                  <br />
-                  Maxwell Institute
-                </div>
-              </div>
-            </div>
+            <Portrait
+              image="/img/2024/rachael-johnson.jpg"
+              name="Rachael Johnson"
+              title1="Postdoctoral Fellow"
+              title2="Maxwell Institute"
+            />
 
-            <div className="flex flex-col gap-4">
-              <img
-                src="/img/2024/spencer-cannon-square.jpg"
-                className="w-48 h-48"
-              />
-              <div className="flex flex-col">
-                <div className="text-white self-center text-xl font-bold">
-                  Spencer Cannon
-                </div>
-                <div className="text-white self-center w-40 text-center">
-                  Director
-                  <br />
-                  MTA
-                </div>
-              </div>
-            </div>
+            <Portrait
+              image="/img/2024/spencer-cannon-square.jpg"
+              name="Spencer Cannon"
+              title1="Director"
+              title2="MTA"
+            />
 
-            <div className="flex flex-col gap-4">
-              <img src="/img/2024/tamara-kneese.jpg" className="w-48 h-48" />
-              <div className="flex flex-col">
-                <div className="text-white self-center text-xl font-bold">
-                  Tamara Kneese
-                </div>
-                <div className="text-white self-center w-40 text-center">
-                  Project Director
-                  <br />
-                  AIMLab
-                </div>
-              </div>
-            </div>
+            <Portrait
+              image="/img/2024/tamara-kneese.jpg"
+              name="Tamara Kneese"
+              title1="Project Director"
+              title2="AIMLab"
+            />
 
-            <div className="flex flex-col gap-4">
-              <img src="/img/2024/teresa-pratt.jpg" className="w-48 h-48" />
-              <div className="flex flex-col">
-                <div className="text-white self-center text-xl font-bold">
-                  Teresa Pratt
-                </div>
-                <div className="text-white self-center w-40 text-center">
-                  Director
-                  <br />
-                  MTA
-                </div>
-              </div>
-            </div>
+            <Portrait
+              image="/img/2024/teresa-pratt.jpg"
+              name="Teresa Pratt"
+              title1="Director"
+              title2="MTA"
+            />
 
-            <div className="flex flex-col gap-4">
-              <img src="/img/2024/wolf-tivy.jpg" className="w-48 h-48" />
-              <div className="flex flex-col">
-                <div className="text-white self-center text-xl font-bold">
-                  Wolf Tivy
-                </div>
-                <div className="text-white self-center w-40 text-center">
-                  Founding Editor
-                  <br />
-                  Palladium Magazine
-                </div>
-              </div>
-            </div>
+            <Portrait
+              image="/img/2024/wolf-tivy.jpg"
+              name="Wolf Tivy"
+              title1="Founding Editor"
+              title2="Palladium Magazine"
+            />
           </div>
         </div>
       </div>
