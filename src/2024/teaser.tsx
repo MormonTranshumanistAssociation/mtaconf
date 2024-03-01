@@ -29,16 +29,16 @@ function Portrait(props: PortraitProps) {
 export function Teaser() {
   return (
     <div className="py-8 xl:py-16 px-4 sm:px-6 lg:px-8 bg-black overflow-hidden">
-      <div className="max-w-max lg:max-w-8xl mx-auto text-white">
-        <div className="relative z-10 mb-4 md:mb-2 md:px-6">
-          <div className="text-base max-w-prose lg:max-w-none">
-            <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-yellow-100 bg-black sm:text-4xl">
-              Speakers
-            </p>
-          </div>
+      <div className="mb-4 md:mb-2 md:px-6">
+        <div className="text-base max-w-prose lg:max-w-none">
+          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-yellow-100 bg-black sm:text-4xl">
+            Speakers
+          </p>
         </div>
+      </div>
 
-        <div className="relative z-10 mb-4 md:mb-2 md:px-6 pt-8">
+      <div className="flex justify-center max-w-max lg:max-w-8xl text-white">
+        <div className="mb-4 md:mb-2 md:px-6 pt-8">
           <div className="flex flex-row flex-wrap gap-6">
             <Portrait
               image="/img/2024/ben-peters.jpg"
@@ -103,17 +103,17 @@ export function Teaser() {
             />
 
             <Portrait
-              image="/img/2024/dorothee.jpg"
-              name="Dorothée Cannon"
-              title1="Interpreter"
-              title2="MTA"
-            />
-
-            <Portrait
               image="/img/2024/irina-rish.jpg"
               name="Irina Rish"
               title1="Canada CIFAR AI Chair"
               title2="Transhumanist Keynote Speaker"
+            />
+
+            <Portrait
+              image="/img/2022/jon.jpg"
+              name="Jon Ogden"
+              title1="Founder"
+              title2="Uplift Kids"
             />
 
             <Portrait
@@ -124,17 +124,10 @@ export function Teaser() {
             />
 
             <Portrait
-              image="/img/2024/kouassi-nguessan.jpg"
-              name="Kouassi Nguessan"
-              title1="Area Leader"
-              title2="MTA Africa"
-            />
-
-            <Portrait
               image="/img/2024/lincoln-cannon.jpg"
               name="Lincoln Cannon"
-              title1="CEO, Thrivous"
-              title2="Co-Founder, MTA"
+              title1="Co-Founder"
+              title2="MTA"
             />
 
             <Portrait
@@ -158,8 +151,8 @@ export function Teaser() {
             <Portrait
               image="/img/2024/micah-redding.jpg"
               name="Micah Redding"
-              title1="Executive Director"
-              title2="Christian Transhumanist Association"
+              title1="Executive Director, Christian"
+              title2="Transhumanist Association"
             />
 
             <Portrait
@@ -171,7 +164,8 @@ export function Teaser() {
             <Portrait
               image="/img/2024/randall-paul.jpg"
               name="Randall Paul"
-              title1="Foundation for Religious Diplomacy"
+              title1="Foundation for"
+              title2="Religious Diplomacy"
             />
 
             <Portrait
