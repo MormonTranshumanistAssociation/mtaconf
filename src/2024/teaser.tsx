@@ -1,3 +1,24 @@
+interface PortraitProps {
+  image: string;
+  name: string;
+  title1: string;
+  title2?: string;
+}
+function Portrait(props: PortraitProps) {
+  return (
+    <div className="flex flex-col gap-4">
+      <img src={props.image} className="w-48 h-48" />
+      <div className="flex flex-col">
+        <div className="text-white self-center text-xl font-bold">
+          {props.name}
+        </div>
+        <div className="text-white self-center">{props.title1}</div>
+        <div className="text-white self-center">{props.title2}</div>
+      </div>
+    </div>
+  );
+}
+
 export function Teaser() {
   return (
     <div className="py-8 xl:py-16 px-4 sm:px-6 lg:px-8 bg-black overflow-hidden">

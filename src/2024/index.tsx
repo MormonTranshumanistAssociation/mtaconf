@@ -3,6 +3,7 @@ import { Background } from "./background.tsx";
 import { Venue } from "./venue.tsx";
 import { Details } from "./details.tsx";
 import { Teaser } from "./teaser.tsx";
+import { Schedule } from "./schedule.tsx";
 
 export default function MTAConf2024() {
   return (
@@ -15,8 +16,7 @@ export default function MTAConf2024() {
             <Background />
             <Venue />
             <Details />
-            {/*<Lodging />*/}
-            {/*<Schedule />*/}
+            <Schedule />
             {/*<Speakers />*/}
             {/*<Footer />*/}
           </section>
