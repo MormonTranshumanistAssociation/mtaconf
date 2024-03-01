@@ -339,7 +339,7 @@ export function Schedule() {
                         4:10 pm
                       </td>
                       <td className="border-b border-stone-600 p-2 text-stone-300">
-                        Collective vs. Artificial Intelligence
+                        Collective Intelligence vs. Artificial Intelligence
                       </td>
                       <td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
                         Evan Hadfield
