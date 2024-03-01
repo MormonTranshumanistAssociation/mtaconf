@@ -103,6 +103,13 @@ export function Teaser() {
             />
 
             <Portrait
+              image="/img/2024/evan-hadfield.jpg"
+              name="Evan Hadfield"
+              title1="Head of Operations"
+              title2="Collective Intelligence Project"
+            />
+
+            <Portrait
               image="/img/2024/irina-rish.jpg"
               name="Irina Rish"
               title1="Canada CIFAR AI Chair"
