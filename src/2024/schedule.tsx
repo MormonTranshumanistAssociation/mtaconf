@@ -409,7 +409,7 @@ export function Schedule() {
                         5:05 pm
                       </td>
                       <td className="border-b border-stone-600 p-2 text-stone-300">
-                        Panel Discussion: Ben, Irina, Nancy, Wolf
+                        Panel Discussion: Ben, Irina, Nancy, Rachael, Wolf
                       </td>
                       <td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
                         Lincoln Cannon
