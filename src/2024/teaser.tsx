@@ -7,7 +7,7 @@ interface PortraitProps {
 function Portrait(props: PortraitProps) {
   return (
     <div className="flex flex-col gap-4">
-      <img src={props.image} className="w-48 h-48" />
+      <img src={props.image} className="w-48 h-48 rounded-lg" />
       <div className="flex flex-col">
         <div className="text-white self-center text-xl font-bold">
           {props.name}
