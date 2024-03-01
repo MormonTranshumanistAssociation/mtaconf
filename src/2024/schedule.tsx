@@ -224,7 +224,7 @@ export function Schedule() {
                         1:15 pm
                       </td>
                       <td className="border-b border-stone-600 p-2 text-stone-300">
-                        TBD
+                        Incarnation: Some Theological-Historical Notes
                       </td>
                       <td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
                         Rachael Givens Johnson
