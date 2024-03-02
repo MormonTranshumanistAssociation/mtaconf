@@ -3,6 +3,14 @@
 @tailwind utilities;
 
 @layer base {
+  html:has(#mtaconf2022) {
+    background-color: #111827;
+  }
+
+  html:has(#mtaconf2024) {
+    background-color: black;
+  }
+
   #mtaconf2024 * {
     p + p {
       margin-top: 12px;
