@@ -55,13 +55,6 @@ export function Teaser() {
             />
 
             <Portrait
-              image="/img/2024/bryant-smith.jpg"
-              name="Bryant Smith"
-              title1="Secretary"
-              title2="MTA"
-            />
-
-            <Portrait
               image="/img/2024/caleb-jones.jpg"
               name="Caleb Jones"
               title1="Software Architect"

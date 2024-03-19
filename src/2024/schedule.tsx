@@ -114,8 +114,6 @@ export function Schedule() {
                         Brief Remarks from MTA Officers
                       </td>
                       <td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
-                        Bryant Smith
-                        <br />
                         Connie Packer
                         <br />
                         Dallin Bradford
