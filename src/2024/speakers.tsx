@@ -595,8 +595,8 @@ export function Speakers() {
                   <a href="https://www.uchicago.edu">University of Chicago</a>,
                   Committee on Social Thought. He has served as a bishop in the
                   Church of Jesus Christ of Latter-day Saints. He is a director
-                  on several business and philanthropic boards, including Luke
-                  10. He has five children and sixteen grandchildren.
+                  on several business and philanthropic boards. He has five
+                  children and sixteen grandchildren.
                 </p>
               }
             />
