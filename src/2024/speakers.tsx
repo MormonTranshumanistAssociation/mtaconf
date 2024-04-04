@@ -316,9 +316,12 @@ export function Speakers() {
                   knowledge curation processes. First introduced to details of
                   Mormon theology by{" "}
                   <a href="https://transfigurism.org/">MTA</a> co-founder Carl
-                  Youngblood, Conor recently converted to the LDS Church and was
-                  later elected to the leadership of the Association as a
-                  Director.
+                  Youngblood, Conor recently converted to the{" "}
+                  <a href="https://www.churchofjesuschrist.org/">
+                    Church of Jesus Christ of Latter-day Saints
+                  </a>{" "}
+                  and was later elected to the leadership of the Association as
+                  a Director.
                 </p>
               }
             />
