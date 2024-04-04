@@ -605,7 +605,9 @@ export function Speakers() {
                 <p>
                   Spencer Cannon is a second-generation Mormon Transhumanist who
                   has grown up with the values of the Association as a way of
-                  life. He works at Qualtrics and serves as a Director in the{" "}
+                  life. He works at{" "}
+                  <a href="https://www.qualtrics.com/">Qualtrics</a> and serves
+                  as a Director in the{" "}
                   <a href="https://www.transfigurism.org">
                     Mormon Transhumanist Association
                   </a>
