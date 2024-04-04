@@ -4,23 +4,31 @@ interface PortraitProps {
   title1: string;
   title2?: string;
 }
-function Portrait(props: PortraitProps) {
+export function Portrait(props: PortraitProps) {
   return (
     <div className="flex flex-col gap-4">
       <img src={props.image} className="w-48 h-48 rounded-lg" />
       <div className="flex flex-col">
-        <div className="text-white self-center text-xl font-bold">
+        <div className="text-white self-center text-xl font-bold drop-shadow-md">
           {props.name}
         </div>
         {props.title1 && props.title1.length > 20 ? (
-          <div className="text-white self-center text-xs">{props.title1}</div>
+          <div className="text-white self-center text-xs drop-shadow-md">
+            {props.title1}
+          </div>
         ) : (
-          <div className="text-white self-center">{props.title1}</div>
+          <div className="text-white self-center drop-shadow-md">
+            {props.title1}
+          </div>
         )}
         {props.title2 && props.title2.length > 20 ? (
-          <div className="text-white self-center text-xs">{props.title2}</div>
+          <div className="text-white self-center text-xs drop-shadow-md">
+            {props.title2}
+          </div>
         ) : (
-          <div className="text-white self-center">{props.title2}</div>
+          <div className="text-white self-center drop-shadow-md">
+            {props.title2}
+          </div>
         )}
       </div>
     </div>
@@ -90,12 +98,6 @@ export function Teaser() {
             />
 
             <Portrait
-              image="/img/2024/dan-moore.jpg"
-              name="Dan Moore"
-              title1="Geoscientist"
-            />
-
-            <Portrait
               image="/img/2024/evan-hadfield.jpg"
               name="Evan Hadfield"
               title1="Head of Operations"
@@ -110,7 +112,7 @@ export function Teaser() {
             />
 
             <Portrait
-              image="/img/2022/jon.jpg"
+              image="/img/2024/jon-ogden.jpg"
               name="Jon Ogden"
               title1="Founder"
               title2="Uplift Kids"

@@ -237,8 +237,6 @@ export function Schedule() {
                         Intelligence Control Problem
                       </td>
                       <td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
-                        Dan Moore
-                        <br />
                         McKay Moore
                       </td>
                     </tr>
