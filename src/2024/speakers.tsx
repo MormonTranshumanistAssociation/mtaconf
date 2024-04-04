@@ -317,9 +317,7 @@ export function Speakers() {
                   Mormon theology by{" "}
                   <a href="https://transfigurism.org/">MTA</a> co-founder Carl
                   Youngblood, Conor recently converted to the{" "}
-                  <a href="https://www.churchofjesuschrist.org/">
-                    Church of Jesus Christ of Latter-day Saints
-                  </a>{" "}
+                  <a href="https://www.churchofjesuschrist.org/">LDS Church</a>{" "}
                   and was later elected to the leadership of the Association as
                   a Director.
                 </p>
