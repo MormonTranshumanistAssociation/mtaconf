@@ -273,7 +273,8 @@ export function Speakers() {
                   previously served as Vice-President and Director. Chris and
                   his wife, Lucy, have eight children. Chris spent most of his
                   youth overseas in the Middle East and Europe, returning to the
-                  U.S. to graduate with a degree in Linguistics from BYU.
+                  U.S. to graduate with a degree in Linguistics from{" "}
+                  <a href="https://www.byu.edu">Brigham Young University</a>.
                   Professionally, Chris has made a career in software
                   engineering. He also enjoys performing, especially musical
                   theater and choral music, reading, and philosophy.
