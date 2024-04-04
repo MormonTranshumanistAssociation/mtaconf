@@ -250,9 +250,9 @@ export function Speakers() {
                   </a>{" "}
                   for Wayfare Magazine. Carl has made a career in software
                   engineering, and currently works as co-founder and CTO of{" "}
-                  <a href="">Crescendo</a>, which is building a talent search
-                  and payroll platform that will be used by{" "}
-                  <a href="https://www.byupathway.edu/">BYU Pathway</a>{" "}
+                  <a href="https://www.joincrescendo.com">Crescendo</a>, which
+                  is building a talent search and payroll platform that will be
+                  used by <a href="https://www.byupathway.edu/">BYU Pathway</a>{" "}
                   graduates. Carl received a BA in Portuguese from{" "}
                   <a href="https://www.byu.edu">Brigham Young University</a> and
                   an MS in Computer Science from the{" "}
@@ -550,9 +550,12 @@ export function Speakers() {
               portrait="/img/2024/randall-paul.jpg"
               content={
                 <p>
-                  Charles Randall Paul, Ph.D. is the president of the Foundation
-                  for Religious Diplomacy (USA) that works to build trust
-                  between religious and ideological rivals. He authored{" "}
+                  Charles Randall Paul, PhD, is the president of the{" "}
+                  <a href="https://relidip.org/">
+                    Foundation for Religious Diplomacy
+                  </a>{" "}
+                  that works to build trust between religious and ideological
+                  rivals. He authored{" "}
                   <a href="https://www.amazon.com/Converting-Saints-Religious-Rivalry-America/dp/1589587561">
                     <em>
                       Converting the Saints: A Study of Religious Rivalry in
