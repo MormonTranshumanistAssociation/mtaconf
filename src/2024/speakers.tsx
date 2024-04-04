@@ -554,7 +554,7 @@ export function Speakers() {
                   <a href="https://relidip.org/">
                     Foundation for Religious Diplomacy
                   </a>{" "}
-                  that works to build trust between religious and ideological
+                  , which works to build trust between religious and ideological
                   rivals. He authored{" "}
                   <a href="https://www.amazon.com/Converting-Saints-Religious-Rivalry-America/dp/1589587561">
                     <em>
