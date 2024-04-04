@@ -185,6 +185,25 @@ export function Speakers() {
                 </p>
               }
             />
+
+            <OtherSpeaker
+              name="Bryce Haymond"
+              portrait="/img/2024/bryce-haymond.jpg"
+              content={
+                <p>
+                  Bryce Haymond is an artist, designer, philosopher, writer, and
+                  a mystic. He received his BFA in Industrial Design from{" "}
+                  <a href="https://www.byu.edu">Brigham Young University</a>,
+                  and has worked in product design, marketing, IT, and as an
+                  entrepreneur. He currently enjoys being a stay-at-home dad,
+                  writing about contemplative life, and making art, including
+                  commissions. He shares his work at{" "}
+                  <a href="https://www.thymindoman.com/">ThyMindOMan.com</a>,
+                  and lives with his wife and four children in Lehi, Utah.
+                </p>
+              }
+            />
+
             <OtherSpeaker
               name="Caleb Jones"
               portrait="/img/2024/caleb-jones.jpg"
