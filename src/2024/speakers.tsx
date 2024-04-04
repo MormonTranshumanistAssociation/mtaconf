@@ -588,8 +588,8 @@ export function Speakers() {
                   <em>Us and Them: Religious Rivalry in America</em>. He has
                   lectured and organized dialogues in Asia, Europe, and the
                   Middle East. He received a BS from{" "}
-                  <a href="https://www.byu.edu">Brigham Young University</a>
-                  in social psychology, an MBA from{" "}
+                  <a href="https://www.byu.edu">Brigham Young University</a> in
+                  social psychology, an MBA from{" "}
                   <a href="https://www.harvard.edu">Harvard University</a>, and
                   after a career in commercial real estate, a PhD at the{" "}
                   <a href="https://www.uchicago.edu">University of Chicago</a>,
