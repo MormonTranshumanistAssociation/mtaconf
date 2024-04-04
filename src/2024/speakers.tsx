@@ -264,6 +264,23 @@ export function Speakers() {
               }
             />
             <OtherSpeaker
+              name="Chris Bradford"
+              portrait="/img/2024/chris-bradford.jpg"
+              content={
+                <p>
+                  Chris is a founding member of the{" "}
+                  <a href="https://www.transfigurism.org">MTA</a> and has
+                  previously served as Vice-President and Director. Chris and
+                  his wife, Lucy, have eight children. Chris spent most of his
+                  youth overseas in the Middle East and Europe, returning to the
+                  U.S. to graduate with a degree in Linguistics from BYU.
+                  Professionally, Chris has made a career in software
+                  engineering. He also enjoys performing, especially musical
+                  theater and choral music, reading, and philosophy.
+                </p>
+              }
+            />
+            <OtherSpeaker
               name="Connie Packer"
               portrait="/img/2024/connie-packer-square.jpg"
               content={
@@ -279,7 +296,7 @@ export function Speakers() {
                   <a href="https://transfigurism.org/">
                     Mormon Transhumanist Association
                   </a>
-                  . Connie Packer is a Registered Dietitian who has worked in
+                  .
                 </p>
               }
             />
