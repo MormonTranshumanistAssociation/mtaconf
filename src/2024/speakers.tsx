@@ -277,7 +277,7 @@ export function Speakers() {
                   <a href="https://www.byu.edu">Brigham Young University</a>.
                   Professionally, Chris has made a career in software
                   engineering. He also enjoys performing, especially musical
-                  theater and choral music, reading, and philosophy.
+                  theater and choral music, as well as reading and philosophy.
                 </p>
               }
             />
