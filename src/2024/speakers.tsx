@@ -625,14 +625,18 @@ export function Speakers() {
               content={
                 <p>
                   Spencer Cannon is a second-generation Mormon Transhumanist who
-                  has grown up with the values of the Association as a way of
-                  life. He works at{" "}
-                  <a href="https://www.qualtrics.com/">Qualtrics</a> and serves
-                  as a Director in the{" "}
+                  has grown up with the association supplementing his faith, and
+                  currently serves as a Director in the{" "}
                   <a href="https://www.transfigurism.org">
                     Mormon Transhumanist Association
                   </a>
-                  .
+                  . He received a bachelor’s degree in Political Science from
+                  <a href="https://www.byu.edu">Brigham Young University</a> and
+                  is trilingual (English, French, and Mandarin Chinese). Spencer
+                  currently works in government contracting as a Financial
+                  Analyst for <a href="https://hive-grp.com/">Hive Group LLC</a>
+                  , and he serves as a member of his local congregation’s Elders
+                  Quorum Presidency.
                 </p>
               }
             />
