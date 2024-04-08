@@ -76,6 +76,18 @@ export function Schedule() {
                         9:20 am
                       </td>
                       <td className="border-b border-stone-600 p-2 text-stone-300">
+                        Fact, Fiction, and Fantasy: Demystifying AI Hype in the
+                        Information Age
+                      </td>
+                      <td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
+                        Nancy Fulda
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
+                        9:40 am
+                      </td>
+                      <td className="border-b border-stone-600 p-2 text-stone-300">
                         The Second War in Heaven
                       </td>
                       <td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
@@ -84,7 +96,7 @@ export function Schedule() {
                     </tr>
                     <tr>
                       <td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
-                        9:40 am
+                        10:00 am
                       </td>
                       <td className="border-b border-stone-600 p-2 text-stone-300">
                         Who You Callin’ Artificial? The Collapse of the
@@ -92,18 +104,6 @@ export function Schedule() {
                       </td>
                       <td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
                         Chris Bradford
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
-                        9:50 am
-                      </td>
-                      <td className="border-b border-stone-600 p-2 text-stone-300">
-                        Playing God: The Implications of Christian Theology for
-                        AGI
-                      </td>
-                      <td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
-                        Micah Redding
                       </td>
                     </tr>
                     <tr>
@@ -290,11 +290,11 @@ export function Schedule() {
                         2:40 pm
                       </td>
                       <td className="border-b border-stone-600 p-2 text-stone-300">
-                        Fact, Fiction, and Fantasy: Demystifying AI Hype in the
-                        Information Age
+                        Playing God: The Implications of Christian Theology for
+                        AGI
                       </td>
                       <td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
-                        Nancy Fulda
+                        Micah Redding
                       </td>
                     </tr>
                     <tr>
