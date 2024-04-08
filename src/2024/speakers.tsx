@@ -209,28 +209,17 @@ export function Speakers() {
               portrait="/img/2024/caleb-jones.jpg"
               content={
                 <p>
-                  Caleb Jones lives in the Pacific Northwest is a husband,
-                  father, engineer, and a practicing member of the LDS Church.
-                  He has a Computer Science degree from BYU and works as a
-                  Systems Architect at{" "}
-                  <a href="https://www.disney.com/">Disney</a> focusing on
-                  large-scale data. He is passionate about science and religion
-                  particularly in areas such as astronomy, network science,
-                  emergentism, religious cosmology, and transhumanism. His
-                  introduction to transhumanism came from the writings of
-                  Freeman Dyson and have developed through associations with the{" "}
-                  <a href="https://transfigurism.org/">MTA</a>. In addition to
-                  blogging on the{" "}
-                  <a href="https://blog.transfigurism.org">MTA blog</a>, Caleb
-                  also blogs about network science analysis and visualization on{" "}
-                  <a href="https://allthingsgraphed.com/">
-                    allthingsgraphed.com
+                  Caleb is a husband, father of 4 children, lives in the Pacific
+                  Northwest, and has been an active participant in the{" "}
+                  <a href="https://www.transfigurism.org">
+                    Mormon Transhumanist Association
                   </a>{" "}
-                  and co-authors the blog{" "}
-                  <a href="https://navigatingdiscipleship.com/">
-                    navigatingdiscipleship.com
-                  </a>{" "}
-                  with his wife.
+                  for nearly a decade. Professionally, he leads data
+                  architecture teams at{" "}
+                  <a href="https://www.disney.com/">Disney</a> supporting
+                  complex data analysis. Mormonism holds a fond place in his
+                  heart and he personally finds Mormon Transhumanism to be the
+                  most radiant form of Mormon thought today.
                 </p>
               }
             />
