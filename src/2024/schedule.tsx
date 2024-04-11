@@ -332,7 +332,7 @@ export function Schedule() {
                     </tr>
                     <tr>
                       <td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
-                        4:10 pm
+                        4:20 pm
                       </td>
                       <td className="border-b border-stone-600 p-2 text-stone-300">
                         Collective Intelligence vs. Artificial Intelligence
@@ -341,18 +341,18 @@ export function Schedule() {
                         Evan Hadfield
                       </td>
                     </tr>
-                    <tr>
-                      <td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
-                        4:20 pm
-                      </td>
-                      <td className="border-b border-stone-600 p-2 text-stone-300">
-                        Where Gods Began to Be: <em>Interstellar</em> as a
-                        Portrayal of Mormon Cosmology
-                      </td>
-                      <td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
-                        Conor White-Sullivan
-                      </td>
-                    </tr>
+                    {/*<tr>*/}
+                    {/*  <td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">*/}
+                    {/*    4:20 pm*/}
+                    {/*  </td>*/}
+                    {/*  <td className="border-b border-stone-600 p-2 text-stone-300">*/}
+                    {/*    Where Gods Began to Be: <em>Interstellar</em> as a*/}
+                    {/*    Portrayal of Mormon Cosmology*/}
+                    {/*  </td>*/}
+                    {/*  <td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">*/}
+                    {/*    Conor White-Sullivan*/}
+                    {/*  </td>*/}
+                    {/*</tr>*/}
                     <tr>
                       <td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
                         4:30 pm

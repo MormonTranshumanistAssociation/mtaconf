@@ -290,30 +290,30 @@ export function Speakers() {
                 </p>
               }
             />
-            <OtherSpeaker
-              name="Conor White-Sullivan"
-              portrait="/img/2024/conor-sullivan.jpg"
-              content={
-                <p>
-                  Conor White-Sullivan is the founder of{" "}
-                  <a href="https://roamresearch.com/">Roam Research</a>, a
-                  note-taking application that utilizes an outlining approach
-                  and linked references to facilitate knowledge management.
-                  White-Sullivan‘s work on Roam Research reflects his commitment
-                  to developing tools that augment human intelligence and
-                  cognition, enabling more efficient research, writing, and
-                  knowledge curation processes. First introduced to details of
-                  Mormon theology by{" "}
-                  <a href="https://transfigurism.org/">MTA</a> co-founder Carl
-                  Youngblood, Conor recently converted to the{" "}
-                  <a href="https://www.churchofjesuschrist.org/">
-                    Church of Jesus Christ of Latter-day Saints
-                  </a>{" "}
-                  and was later elected to the leadership of the Association as
-                  a Director.
-                </p>
-              }
-            />
+            {/*<OtherSpeaker*/}
+            {/*  name="Conor White-Sullivan"*/}
+            {/*  portrait="/img/2024/conor-sullivan.jpg"*/}
+            {/*  content={*/}
+            {/*    <p>*/}
+            {/*      Conor White-Sullivan is the founder of{" "}*/}
+            {/*      <a href="https://roamresearch.com/">Roam Research</a>, a*/}
+            {/*      note-taking application that utilizes an outlining approach*/}
+            {/*      and linked references to facilitate knowledge management.*/}
+            {/*      White-Sullivan‘s work on Roam Research reflects his commitment*/}
+            {/*      to developing tools that augment human intelligence and*/}
+            {/*      cognition, enabling more efficient research, writing, and*/}
+            {/*      knowledge curation processes. First introduced to details of*/}
+            {/*      Mormon theology by{" "}*/}
+            {/*      <a href="https://transfigurism.org/">MTA</a> co-founder Carl*/}
+            {/*      Youngblood, Conor recently converted to the{" "}*/}
+            {/*      <a href="https://www.churchofjesuschrist.org/">*/}
+            {/*        Church of Jesus Christ of Latter-day Saints*/}
+            {/*      </a>{" "}*/}
+            {/*      and was later elected to the leadership of the Association as*/}
+            {/*      a Director.*/}
+            {/*    </p>*/}
+            {/*  }*/}
+            {/*/>*/}
             <OtherSpeaker
               name="Dallin Bradford"
               portrait="/img/2024/dallin-bradford-square.jpg"
