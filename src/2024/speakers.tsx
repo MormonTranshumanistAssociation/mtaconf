@@ -320,16 +320,18 @@ export function Speakers() {
               content={
                 <p>
                   Dallin Bradford is an accomplished voice actor whose passion
-                  for storytelling was kindled by his parents‘ love of reading.
-                  With a background in theater and narration training,
-                  Bradford‘s foray into audiobook narration began humbly,
-                  recording projects during family holidays. His talent soon
-                  propelled him into professional work with local publishers,
-                  earning recognition within the audiobook community. Bradford‘s
-                  narration career has provided him and his wife, Kennedy, with
-                  a flexible lifestyle to pursue artistic endeavors, travel, and
-                  give back to their community. Dallin serves as a director in
-                  the Association.
+                  for storytelling was kindled by his parents‘ love of reading
+                  and theater. He studied acting under David Scott in Dublin,
+                  Ireland, and has since built a career in audiobook narration,
+                  theater, voice over, and film. Dallin also teaches acting and
+                  voice over through the{" "}
+                  <a href="https://academy.haletheater.org/home">
+                    Hale Academy
+                  </a>
+                  . He and his wife, Kennedy, enjoy a flexible lifestyle,
+                  pursuing artistic endeavors, traveling, and giving back to
+                  their community. Dallin serves as a director in the
+                  Association.
                 </p>
               }
             />
