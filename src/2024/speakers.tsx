@@ -457,7 +457,7 @@ export function Speakers() {
                   intelligence. Luke completed his PhD in computer science and
                   computational biology at the{" "}
                   <a href="https://mit.edu">
-                    Massechusetts Institute of Technology
+                    Massachusetts Institute of Technology
                   </a>
                   , and later co-founded an AI research team at{" "}
                   <a href="https://research.google/research-areas/machine-intelligence/">
