@@ -60,7 +60,7 @@ export function Schedule() {
                     </tr>
                     <tr>
                       <td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
-                        9:15 am
+                        9:18 am
                       </td>
                       <td className="border-b border-stone-600 p-2 text-stone-300 italic">
                         The Morning Breaks
