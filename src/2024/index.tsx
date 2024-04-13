@@ -1,4 +1,4 @@
-import { Hero } from "./hero.tsx";
+import { Hero } from "./hero-live.tsx";
 import { Background } from "./background.tsx";
 import { Venue } from "./venue.tsx";
 import { Details } from "./details.tsx";
