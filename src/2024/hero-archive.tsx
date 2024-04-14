@@ -120,7 +120,7 @@ export function Hero() {
                     </div>
                     <div className="mt-4 sm:mt-6">
                       <div className="sm:flex">
-                        <div className="min-w-12 flex-1">
+                        <div className="w-40 flex-1">
                           <a href="https://www.youtube.com/@Transfigurism/streams">
                             <button
                               type="submit"
