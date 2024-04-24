@@ -13,7 +13,7 @@ const pastConferences = [
   },
   {
     year: 2018,
-    link: "https://www.youtube.com/playlist?list=PLbIPMPVrfXYD5yZT_2EhDQqs8RFzfrTej",
+    link: "https://www.youtube.com/playlist?list=PLbIPMPVrfXYDrmGMtg7sMxx6nif_xe-Xw",
   },
   {
     year: 2017,
