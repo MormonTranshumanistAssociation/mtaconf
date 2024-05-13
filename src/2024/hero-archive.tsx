@@ -13,7 +13,7 @@ const pastConferences = [
   },
   {
     year: 2018,
-    link: "https://www.youtube.com/playlist?list=PLbIPMPVrfXYD5yZT_2EhDQqs8RFzfrTej",
+    link: "https://www.youtube.com/playlist?list=PLbIPMPVrfXYDrmGMtg7sMxx6nif_xe-Xw",
   },
   {
     year: 2017,
@@ -121,7 +121,7 @@ export function Hero() {
                     <div className="mt-4 sm:mt-6">
                       <div className="sm:flex">
                         <div className="w-48 flex-1">
-                          <a href="https://www.youtube.com/@Transfigurism/streams">
+                          <a href="https://www.youtube.com/playlist?list=PLbIPMPVrfXYApjxzBi0xwdsNI1remN4HN">
                             <button
                               type="submit"
                               className="py-3 w-full lg:px-28 rounded-md shadow bg-gradient-to-r from-amber-700 to-amber-900 text-gray-300 font-medium hover:from-amber-600 hover:to-amber-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-amber-400 hover:text-white focus:ring-offset-amber-900"
