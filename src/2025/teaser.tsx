@@ -13,26 +13,22 @@ export function Portrait(props: PortraitProps) {
 				alt={props.name}
 			/>
 			<div className="flex flex-col">
-				<div className="text-white self-center text-xl font-bold drop-shadow-md">
+				<div className="text-green-900 self-center text-xl font-bold">
 					{props.name}
 				</div>
 				{props.title1 && props.title1.length > 20 ? (
-					<div className="text-white self-center text-xs drop-shadow-md">
+					<div className="text-green-900 self-center text-xs">
 						{props.title1}
 					</div>
 				) : (
-					<div className="text-white self-center drop-shadow-md">
-						{props.title1}
-					</div>
+					<div className="text-green-900 self-center">{props.title1}</div>
 				)}
 				{props.title2 && props.title2.length > 20 ? (
-					<div className="text-white self-center text-xs drop-shadow-md">
+					<div className="text-green-900 self-center text-xs">
 						{props.title2}
 					</div>
 				) : (
-					<div className="text-white self-center drop-shadow-md">
-						{props.title2}
-					</div>
+					<div className="text-green-900 self-center">{props.title2}</div>
 				)}
 			</div>
 		</div>

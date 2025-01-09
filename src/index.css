@@ -3,37 +3,37 @@
 @tailwind utilities;
 
 @layer base {
-  html:has(#mtaconf2022) {
-    background-color: #111827;
-  }
+	html:has(#mtaconf2022) {
+		background-color: #111827;
+	}
 
-  html:has(#mtaconf2024) {
-    background-color: black;
-  }
+	html:has(#mtaconf2024) {
+		background-color: black;
+	}
 
-  #mtaconf2024 * {
-    p + p {
-      margin-top: 12px;
-    }
+	#mtaconf2024 * {
+		p + p {
+			margin-top: 12px;
+		}
 
-    a {
-      text-decoration: underline;
-      color: lightgoldenrodyellow;
-    }
+		a {
+			text-decoration: underline;
+			color: lightgoldenrodyellow;
+		}
 
-    a:hover {
-      text-decoration: none;
-    }
-  }
+		a:hover {
+			text-decoration: none;
+		}
+	}
 
-  #mtaconf2022 * {
-    a {
-      text-decoration: underline;
-      color: cornflowerblue;
-    }
+	#mtaconf2022 * {
+		a {
+			text-decoration: underline;
+			color: cornflowerblue;
+		}
 
-    a:hover {
-      text-decoration: none;
-    }
-  }
+		a:hover {
+			text-decoration: none;
+		}
+	}
 }
