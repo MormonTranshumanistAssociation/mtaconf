@@ -31,17 +31,24 @@ export function Hero() {
 				<div className="w-full bg-[url('/img/2025/hero.jpg')] bg-cover bg-top bg-no-repeat">
 					<div className="flex flex-col gap-6 sm:gap-0 sm:flex-row items-center sm:items-start sm:justify-between mx-10 pt-20 sm:pt-6 min-h-[500px]">
 						<div className="flex flex-col gap-20">
-							<a
-								href="https://transfigurism.org"
-								className="self-center sm:self-start"
-							>
-								<img
-									className="h-28 w-auto"
-									src="/img/2025/mta-logo.svg"
-									alt="Mormon Transhumanist Association"
-								/>
-							</a>
-							<div className="flex flex-col sm:flex-row gap-6">
+							<div className="flex flex-col gap-6 bg-black bg-opacity-50 p-6 rounded-xl sm:rounded-none sm:bg-transparent">
+								<a
+									href="https://transfigurism.org"
+									className="self-center sm:self-start"
+								>
+									<img
+										className="h-28 w-auto hidden sm:block"
+										src="/img/2025/mta-logo.svg"
+										alt="Mormon Transhumanist Association"
+									/>
+									<img
+										className="h-28 w-auto block sm:hidden"
+										src="/img/2025/mta-logo-yellow.svg"
+										alt="Mormon Transhumanist Association"
+									/>
+								</a>
+							</div>
+							<div className="flex flex-col sm:flex-row gap-6 pb-8">
 								<div className="self-center min-w-48">
 									<Portrait
 										image="/img/2025/thomas-mcconkie.jpg"
@@ -63,7 +70,7 @@ export function Hero() {
 							</div>
 						</div>
 						<div className="max-w-sm">
-							<div className="py-6 px-6 backdrop-blur-sm rounded-xl">
+							<div className="py-6 px-6 backdrop-blur-sm rounded-xl bg-black bg-opacity-50 sm:bg-opacity-0 sm:bg-transparent mb-8 sm:mb-0">
 								<div className="container flex-col">
 									<div className="">
 										<h1 className="text-md sm:text-xl tracking-tight">

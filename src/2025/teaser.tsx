@@ -6,29 +6,33 @@ interface PortraitProps {
 }
 export function Portrait(props: PortraitProps) {
 	return (
-		<div className="flex flex-col gap-4">
+		<div className="flex flex-col gap-4 items-center">
 			<img
 				src={props.image}
 				className="w-48 h-48 rounded-lg"
 				alt={props.name}
 			/>
-			<div className="flex flex-col">
-				<div className="text-green-900 self-center text-xl font-bold">
+			<div className="flex flex-col rounded-lg bg-black bg-opacity-50 sm:bg-opacity-0 sm:bg-transparent p-4 sm:p-0">
+				<div className="text-yellow-100 text-shadow-sm sm:text-green-900 self-center text-xl font-bold">
 					{props.name}
 				</div>
 				{props.title1 && props.title1.length > 20 ? (
-					<div className="text-green-900 self-center text-xs">
+					<div className="text-yellow-100 text-shadow-sm sm:text-green-900 self-center text-xs">
 						{props.title1}
 					</div>
 				) : (
-					<div className="text-green-900 self-center">{props.title1}</div>
+					<div className="text-yellow-100 text-shadow-sm sm:text-green-900 self-center">
+						{props.title1}
+					</div>
 				)}
 				{props.title2 && props.title2.length > 20 ? (
-					<div className="text-green-900 self-center text-xs">
+					<div className="text-yellow-100 text-shadow-sm sm:text-green-900 self-center text-xs">
 						{props.title2}
 					</div>
 				) : (
-					<div className="text-green-900 self-center">{props.title2}</div>
+					<div className="text-yellow-100 text-shadow-sm sm:text-green-900 self-center">
+						{props.title2}
+					</div>
 				)}
 			</div>
 		</div>
