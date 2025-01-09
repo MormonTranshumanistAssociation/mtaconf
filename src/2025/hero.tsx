@@ -85,14 +85,14 @@ export function Hero() {
 										<div className="mt-4 sm:mt-6">
 											<div className="sm:flex">
 												<div className="min-w-0 flex-1">
-													<a href="https://www.ticketsource.us/mormon-transhumanist-association">
-														<button
-															type="submit"
-															className="py-3 w-full lg:px-28 rounded-md shadow bg-gradient-to-r from-amber-200 to-orange-400 text-orange-800 font-medium hover:from-amber-100 hover:to-orange-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-amber-400 focus:ring-offset-amber-900"
-														>
-															Register now
-														</button>
-													</a>
+													{/* <a href="https://www.ticketsource.us/mormon-transhumanist-association"> */}
+													<button
+														type="submit"
+														className="py-3 w-full rounded-md shadow bg-gradient-to-r from-amber-200 to-orange-400 text-orange-800 font-medium hover:from-amber-100 hover:to-orange-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-amber-400 focus:ring-offset-amber-900"
+													>
+														Registration coming soon
+													</button>
+													{/* </a> */}
 												</div>
 											</div>
 										</div>
