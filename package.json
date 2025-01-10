@@ -6,7 +6,7 @@
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc && vite build",
-		"deploy": "aws s3 cp ./dist s3://www.mtaconf.org/ --profile mta --recursive && aws cloudfront create-invalidation --profile mta --distribution-id E1B691YPW33N78 --paths '/'",
+		"deploy": "aws s3 cp ./dist s3://www.mtaconf.org/ --profile mta --recursive && aws cloudfront create-invalidation --profile mta --distribution-id E1B691YPW33N78 --paths \"/\"",
 		"format": "pnpm biome format . --write",
 		"lint": "pnpm biome lint . --write",
 		"preview": "vite preview"
