@@ -37,12 +37,12 @@ export function Hero() {
 									className="self-center sm:self-start"
 								>
 									<img
-										className="h-28 w-auto hidden sm:block"
+										className="h-36 w-auto hidden sm:block"
 										src="/img/2025/mta-logo.svg"
 										alt="Mormon Transhumanist Association"
 									/>
 									<img
-										className="h-28 w-auto block sm:hidden"
+										className="h-36 w-auto block sm:hidden"
 										src="/img/2025/mta-logo-yellow.svg"
 										alt="Mormon Transhumanist Association"
 									/>
