@@ -13,12 +13,12 @@ pnpm install
 ## Develop
 
 ```
-pnpm run dev
+pnpm dev
 ```
 
 ## Deploy
 
 ```
-pnpm run build
+pnpm build
 pnpm run deploy
 ```
