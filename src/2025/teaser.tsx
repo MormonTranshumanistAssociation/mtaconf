@@ -12,7 +12,7 @@ export function Portrait(props: PortraitProps) {
 				className="w-48 h-48 rounded-lg"
 				alt={props.name}
 			/>
-			<div className="flex flex-col rounded-lg bg-black bg-opacity-50 sm:bg-opacity-0 sm:bg-transparent p-4 sm:p-0">
+			<div className="flex flex-col rounded-lg bg-black/50 sm:bg-opacity-0 sm:bg-transparent p-4 sm:p-0">
 				<div className="text-yellow-100 text-shadow-sm sm:text-green-900 self-center text-xl font-bold">
 					{props.name}
 				</div>
