@@ -31,7 +31,7 @@ export function Hero() {
 				<div className="w-full bg-[url('/img/2025/hero.jpg')] bg-cover bg-top bg-no-repeat">
 					<div className="flex flex-col gap-6 sm:gap-0 sm:flex-row items-center sm:items-start sm:justify-between mx-10 pt-20 sm:pt-6 min-h-[500px]">
 						<div className="flex flex-col gap-20">
-							<div className="flex flex-col gap-6 bg-black/50 p-6 rounded-xl sm:rounded-none sm:bg-transparent">
+							<div className="flex flex-col gap-6 bg-black/50 pb-6 rounded-xl sm:rounded-none sm:bg-transparent">
 								<a
 									href="https://transfigurism.org"
 									className="self-center sm:self-start"
