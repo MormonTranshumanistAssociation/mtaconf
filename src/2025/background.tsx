@@ -63,6 +63,8 @@ export function Background() {
 								of technology and introspection that promises to elevate
 								cognitive and emotional well-being.
 							</p>
+						</div>
+						<div className="prose prose-indigo text-green-600 pt-4 lg:pt-0 lg:max-w-none flex flex-col gap-4 leading-7">
 							<p>
 								This fusion of scientific innovation with the quest for personal
 								transformation has broader implications, inviting us to rethink
@@ -72,34 +74,31 @@ export function Background() {
 								inspires both awe and a sense of responsibility as we confront
 								the full spectrum of human potential for transformation.
 							</p>
-						</div>
-						<div className="prose prose-indigo text-green-600 pt-4 lg:pt-0 lg:max-w-none flex flex-col gap-4 leading-7">
-							<p>
-								In this context, the biblical exhortation from Romans 12:2, “Be
-								transformed by the renewing of your mind,” resonates not only as
-								a spiritual ideal but also as a call to embrace the
-								transformative power of modern science.
-							</p>
 							<blockquote className="border-l-4 border-green-500 pl-4 text-xl text-green-600 font-semibold italic my-4">
 								“Be transformed by the renewing of your mind.” (Romans 12:2)
 							</blockquote>
 							<p>
-								Religious transhumanists, and particularly those within the
-								Mormon tradition, find a compelling synthesis between spiritual
-								principles and technological advances. In Mormon theology, the
-								transformation of body and spirit is not merely symbolic but is
-								understood as a concrete, ongoing process of eternal
-								progression—a journey in which the mind plays a crucial role.
-								Mormon doctrine teaches that humans, created in God’s image, are
-								co-creators with divine potential, an idea that aligns closely
-								with modern aspirations for cognitive and spiritual enhancement.
-								As Mormon cosmology unites the physical and spiritual realms
-								into a single, comprehensible order, we recognize that the
-								transfiguration envisioned in latter-day revelation must include
-								the diligent study of science and the human arts. This holistic
-								vision suggests that spiritual renewal and technological
-								progress are mutually reinforcing, each offering unique insights
-								into the divine potential inherent in every individual.
+								Religious transhumanists are reminded of the admonition of Paul:
+								“Be transformed through the renewal of your mind” (Romans 12:2).
+								Transformation is not merely an abstract ideal; it is a
+								foundational principle in Christianity, which emphasizes the
+								importance of individual repentance and spiritual rebirth. Given
+								dominion over creation, humans become co-creators with God, made
+								in the divine image and endowed with the potential to grow in
+								godliness. This is not a metaphorical or distant possibility; it
+								is a realistic, concrete goal. Eternal progression—both moral
+								and intellectual—is a constant journey in which the mind plays
+								an essential role.
+							</p>
+							<p>
+								Mormon cosmology unites the physical and spiritual into a single
+								order of existence in which all forms are ultimately discernible
+								and comprehensible. The transfiguration of body and spirit
+								spoken of in latter-day revelation occurs in the same universe
+								we presently inhabit and is achieved through the grace of God
+								and through a deep understanding and mastery of the relevant
+								scientific and moral laws. Diligent study of human arts and
+								sciences is an essential aspect of this process.{" "}
 							</p>
 							<blockquote className="border-l-4 border-green-500 pl-4 text-xl text-green-600 font-semibold italic my-4">
 								“If there was a point where man in his progression could not
@@ -110,16 +109,15 @@ export function Background() {
 								Woodruff, Church President)
 							</blockquote>
 							<p>
-								Mormon Transhumanism bridges the gap between traditional
-								religious thought and emerging technologies by asserting that
-								human growth—intellectual, moral, and spiritual—is limitless. We
-								wish to actively explore how mindfulness, brain–computer
-								interfaces, and novel medical therapies can work in concert to
-								further the process of divine transformation. Ultimately,
-								whether through contemplative practice or scientific innovation,
-								the quest to “renew the mind” challenges us to consider how best
-								to realize our fullest potential and embrace the promise of
-								eternal progress.{" "}
+								These theological principles thus support a holistic view of
+								transformation, where spiritual renewal and technological
+								progress are not in conflict but are complementary. By embracing
+								both timeless spiritual principles and modern scientific
+								advancements, Latter-day Saints believe they can more fully
+								realize their divine potential. The renewal of the mind, as
+								expressed in Romans 12:2, invites us not only to transform our
+								hearts but also to enhance our intellectual capacities, aligning
+								both with God’s will for human growth.
 							</p>
 						</div>
 					</div>
