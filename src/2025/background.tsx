@@ -95,9 +95,10 @@ export function Background() {
 								order of existence in which all forms are ultimately discernible
 								and comprehensible. The transfiguration of body and spirit
 								spoken of in latter-day revelation occurs in the same universe
-								we presently inhabit and is achieved by the grace of God and
-								through a deep understanding and mastery of the relevant
-								scientific and moral laws. Diligent study of human arts and
+								we presently inhabit and is achieved through a deep
+								understanding and mastery of the relevant scientific and moral
+								laws, with the help of God, whose constant grace makes this
+								ongoing progress possible. Diligent study of human arts and
 								sciences is an essential aspect of this process.{" "}
 							</p>
 							<blockquote className="border-l-4 border-green-500 pl-4 text-xl text-green-600 font-semibold italic my-4">
