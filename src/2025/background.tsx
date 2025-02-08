@@ -85,22 +85,21 @@ export function Background() {
 							</blockquote>
 							<p>
 								Religious transhumanists, and particularly those within the
-								Mormon tradition, find a compelling synthesis between timeless
-								spiritual principles and contemporary technological advances. In
-								Mormon theology, the transformation of body and spirit is not
-								merely symbolic but is understood as a concrete, ongoing process
-								of eternal progression—a journey in which the mind plays a
-								crucial role. Mormon doctrine teaches that humans, created in
-								God’s image, are co-creators with divine potential, an idea that
-								aligns closely with modern aspirations for cognitive and
-								spiritual enhancement. As Mormon cosmology unites the physical
-								and spiritual realms into a single, comprehensible order, the
-								transfiguration envisioned in latter-day revelation becomes
-								comprehensible in part through the diligent study of science and
-								the human arts. This holistic vision suggests that spiritual
-								renewal and technological progress are mutually reinforcing,
-								each offering unique insights into the divine potential inherent
-								in every individual.
+								Mormon tradition, find a compelling synthesis between spiritual
+								principles and technological advances. In Mormon theology, the
+								transformation of body and spirit is not merely symbolic but is
+								understood as a concrete, ongoing process of eternal
+								progression—a journey in which the mind plays a crucial role.
+								Mormon doctrine teaches that humans, created in God’s image, are
+								co-creators with divine potential, an idea that aligns closely
+								with modern aspirations for cognitive and spiritual enhancement.
+								As Mormon cosmology unites the physical and spiritual realms
+								into a single, comprehensible order, we recognize that the
+								transfiguration envisioned in latter-day revelation must include
+								the diligent study of science and the human arts. This holistic
+								vision suggests that spiritual renewal and technological
+								progress are mutually reinforcing, each offering unique insights
+								into the divine potential inherent in every individual.
 							</p>
 							<blockquote className="border-l-4 border-green-500 pl-4 text-xl text-green-600 font-semibold italic my-4">
 								“If there was a point where man in his progression could not
