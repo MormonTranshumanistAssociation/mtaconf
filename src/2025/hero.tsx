@@ -78,7 +78,7 @@ export function Hero() {
 												Announcing MTAConf 2025
 											</span>
 											<span className="py-4 text-2xl sm:text-4xl font-serif italic block bg-clip-text text-transparent bg-gradient-to-t sm:bg-gradient-to-r from-yellow-200 to-orange-400 sm:pb-2 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
-												Transformation through the Renewal of the Mind
+												Transformation through Renewal of the Mind
 											</span>
 										</h1>
 										<p className="py-3 text-sm text-yellow-200 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] sm:text-md">
