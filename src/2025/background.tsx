@@ -15,13 +15,6 @@ export function Background() {
 				<div className="relative md:p-6">
 					<div className="lg:grid lg:grid-cols-2 lg:gap-6">
 						<div className="prose prose-indigo text-green-600 lg:max-w-none flex flex-col gap-4 leading-7">
-							<blockquote className="border-l-4 border-green-500 pl-4 text-xl text-green-600 font-semibold italic my-4">
-								“Just as science in the 20th century was transformed by the
-								discovery of DNA, so science and medicine in the 21st century
-								will be transformed as we unlock the mysteries of the mind,
-								paving the way to greater brain health and greater understanding
-								of what it means to be human.” (Eric Kandel, Neuroscientist)
-							</blockquote>
 							<p>
 								The field of neuroscience is evolving at a breathtaking pace,
 								driven by interdisciplinary efforts that merge biology,
@@ -46,6 +39,13 @@ export function Background() {
 								neuroimaging, and precision medicine continue to broaden the
 								horizon of what is possible.
 							</p>
+							<blockquote className="border-l-4 border-green-500 pl-4 text-xl text-green-600 font-semibold italic my-4">
+								“Just as science in the 20th century was transformed by the
+								discovery of DNA, so science and medicine in the 21st century
+								will be transformed as we unlock the mysteries of the mind,
+								paving the way to greater brain health and greater understanding
+								of what it means to be human.” (Eric Kandel, Neuroscientist)
+							</blockquote>
 							<p>
 								Beyond therapeutic applications, emerging techniques are opening
 								doors to improved mental and spiritual capacities. Neurofeedback
