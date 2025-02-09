@@ -89,7 +89,7 @@ export function Hero() {
 										<div className="mt-3 text-md sm:text-xl tracking-tight font-extrabold text-yellow-200 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
 											October 18, 2025
 										</div>
-										<div className="mt-4 sm:mt-6">
+										{/* <div className="mt-4 sm:mt-6">
 											<div className="sm:flex">
 												<div className="min-w-0 flex-1">
 													<a href="https://www.ticketsource.us/mormon-transhumanist-association">
@@ -102,7 +102,7 @@ export function Hero() {
 													</a>
 												</div>
 											</div>
-										</div>
+										</div> */}
 									</div>
 								</div>
 							</div>
