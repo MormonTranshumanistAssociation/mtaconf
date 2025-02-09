@@ -14,8 +14,8 @@ export function Background() {
 				</div>
 				<div className="relative md:p-6">
 					<div className="lg:grid lg:grid-cols-2 lg:gap-6">
-						<div className="prose prose-indigo text-green-600 lg:max-w-none flex flex-col gap-4 leading-7 hyphens-none">
-							<p>
+						<div className="prose prose-indigo text-green-600 lg:max-w-none flex flex-col gap-4 leading-7 hyphens-none break-words whitespace-pre-line">
+							<p className="hyphens-none break-words">
 								The field of neuroscience is evolving at a breathtaking pace,
 								driven by interdisciplinary efforts that merge biology,
 								engineering, and computational science. Innovations such as
@@ -31,10 +31,12 @@ export function Background() {
 								disorders. Additionally, the development of brain organoids from
 								human stem cells is providing unprecedented models for studying
 								neurodevelopmental disorders and designing personalized
-								treatments. Complementary approaches—ranging from the promising
-								effects of psychedelics on brain connectivity to the analytical
-								power of computational neuroscience and AI—are deepening our
-								understanding of neural network function, dysfunction, and
+								treatments. Complementary{" "}
+								<span style={{ whiteSpace: "nowrap" }}>approaches—ranging</span>{" "}
+								from the promising effects of psychedelics on brain connectivity
+								to the analytical power of computational neuroscience and{" "}
+								<span style={{ whiteSpace: "nowrap" }}>AI—are</span> deepening
+								our understanding of neural network function, dysfunction, and
 								repair, while emerging fields like the gut–brain axis, advanced
 								neuroimaging, and precision medicine continue to broaden the
 								horizon of what is possible.
@@ -64,7 +66,7 @@ export function Background() {
 								cognitive and emotional well-being.
 							</p>
 						</div>
-						<div className="prose prose-indigo text-green-600 pt-4 lg:pt-0 lg:max-w-none flex flex-col gap-4 leading-7 hyphens-none">
+						<div className="prose prose-indigo text-green-600 pt-4 lg:pt-0 lg:max-w-none flex flex-col gap-4 leading-7 hyphens-none break-words whitespace-pre-line">
 							<p>
 								This fusion of scientific innovation with the quest for personal
 								transformation has broader implications, inviting us to rethink
