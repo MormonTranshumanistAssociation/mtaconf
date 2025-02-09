@@ -14,7 +14,7 @@ export function Background() {
 				</div>
 				<div className="relative md:p-6">
 					<div className="lg:grid lg:grid-cols-2 lg:gap-6">
-						<div className="prose prose-indigo text-green-600 lg:max-w-none flex flex-col gap-4 leading-7">
+						<div className="prose prose-indigo text-green-600 lg:max-w-none flex flex-col gap-4 leading-7 hyphens-none">
 							<p>
 								The field of neuroscience is evolving at a breathtaking pace,
 								driven by interdisciplinary efforts that merge biology,
@@ -51,7 +51,7 @@ export function Background() {
 								doors to improved mental and spiritual capacities. Neurofeedback
 								and noninvasive brain stimulation offer new methods to boost
 								attention, memory, and emotional resilience by harnessing the
-								brain’s natural plasticity. Research into meditation and other
+								brain's natural plasticity. Research into meditation and other
 								contemplative practices has already begun to map the neural
 								underpinnings of mindfulness and empathy, suggesting that
 								deliberate mental training can profoundly reshape brain
@@ -59,12 +59,12 @@ export function Background() {
 								showing potential for inducing transformative shifts in
 								consciousness and self-awareness. With wearable EEG devices and
 								virtual reality platforms now providing immediate, interactive
-								feedback on one’s inner state, we are witnessing a convergence
+								feedback on one's inner state, we are witnessing a convergence
 								of technology and introspection that promises to elevate
 								cognitive and emotional well-being.
 							</p>
 						</div>
-						<div className="prose prose-indigo text-green-600 pt-4 lg:pt-0 lg:max-w-none flex flex-col gap-4 leading-7">
+						<div className="prose prose-indigo text-green-600 pt-4 lg:pt-0 lg:max-w-none flex flex-col gap-4 leading-7 hyphens-none">
 							<p>
 								This fusion of scientific innovation with the quest for personal
 								transformation has broader implications, inviting us to rethink
@@ -118,7 +118,7 @@ export function Background() {
 								realize their divine potential. The renewal of the mind, as
 								expressed in Romans 12:2, invites us not only to transform our
 								hearts but also to enhance our intellectual capacities, aligning
-								both with God’s will for human growth.
+								both with God's will for human growth.
 							</p>
 						</div>
 					</div>
