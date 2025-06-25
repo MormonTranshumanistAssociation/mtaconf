@@ -16,15 +16,9 @@ export function Portrait(props: PortraitProps) {
 				<div className="text-yellow-100 text-shadow-sm sm:text-green-900 self-center text-xl font-bold">
 					{props.name}
 				</div>
-				{props.title1 && props.title1.length > 20 ? (
-					<div className="text-yellow-100 text-shadow-sm sm:text-green-900 self-center text-xs">
-						{props.title1}
-					</div>
-				) : (
-					<div className="text-yellow-100 text-shadow-sm sm:text-green-900 self-center">
-						{props.title1}
-					</div>
-				)}
+				<div className="text-yellow-100 text-shadow-sm sm:text-green-900 self-center">
+					{props.title1}
+				</div>
 				{props.title2 && props.title2.length > 20 ? (
 					<div className="text-yellow-100 text-shadow-sm sm:text-green-900 self-center text-xs">
 						{props.title2}

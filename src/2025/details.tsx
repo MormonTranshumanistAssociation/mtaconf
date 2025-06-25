@@ -1,6 +1,6 @@
 export function Details() {
 	return (
-		<div className="px-4 sm:px-6 lg:px-8 bg-yellow-100 overflow-hidden pb-8">
+		<div className="px-4 pt-16 sm:px-6 lg:px-8 bg-yellow-100 overflow-hidden pb-8">
 			<div className="max-w-max lg:max-w-7xl mx-auto">
 				<div className="relative z-10 mb-4 md:mb-2 md:px-6">
 					<div className="text-base max-w-prose lg:max-w-none">
@@ -58,11 +58,15 @@ export function Details() {
 								</ul>
 							</div>
 							<div className="mt-6 prose prose-indigo text-green-600 lg:mt-0 leading-7 flex flex-col gap-4">
+								<h3 className="text-2xl font-bold">Call for Papers</h3>
 								<p>
 									The conference venue is yet to be announced. We invite members
 									and interested guests to submit papers for presentation at the
-									conference. Proposals should be submitted no later than 31
-									July 2025 to{" "}
+									conference.{" "}
+									<strong>
+										Proposals should be submitted no later than 31 July 2025
+									</strong>{" "}
+									to{" "}
 									<a href="mailto:conference-papers@transfigurism.org">
 										conference-papers@transfigurism.org
 									</a>

@@ -57,16 +57,14 @@ export function Hero() {
 										title2="Mormon Keynote Speaker"
 									/>
 								</div>
-								{/*
 								<div className="self-center min-w-48">
 									<Portrait
-										image="/img/2024/irina-rish.jpg"
-										name="Irina Rish"
-										title1="Canada CIFAR AI Chair"
+										image="/img/2025/randal-koene.jpg"
+										name="Randal Koene"
+										title1="Neuroscientist"
 										title2="Transhumanist Keynote Speaker"
 									/>
 								</div>
-								*/}
 							</div>
 						</div>
 						<div className="max-w-sm">
