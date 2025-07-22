@@ -64,7 +64,7 @@ export function Details() {
 									and interested guests to submit papers for presentation at the
 									conference.{" "}
 									<strong>
-										Proposals should be submitted no later than 31 July 2025
+										Proposals should be submitted no later than 10 August 2025
 									</strong>{" "}
 									to{" "}
 									<a href="mailto:conference-papers@transfigurism.org">
