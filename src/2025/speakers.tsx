@@ -66,28 +66,31 @@ export function Speakers() {
 				<div className="mt-4">
 					<div className="grid grid-cols-1 gap-8 sm:grid-cols-3 text-center">
 						<KeynoteSpeaker
-							name="Thomas McConkie"
-							portrait="/img/2025/thomas-mcconkie.jpg"
+							name="Michael Ferguson"
+							portrait="/img/2025/michael-ferguson.jpg"
 							content={
 								<p>
-									Thomas McConkie is a meditation teacher, philosopher, and
-									author bridging contemplative traditions with modern spiritual
-									practice. The founder of{" "}
-									<a href="https://lowerlightswisdom.org/">
-										Lower Lights School of Wisdom
+									Michael Ferguson is a Harvard neuroscientist pioneering the
+									emerging field of neurospirituality. As an Instructor in
+									Neurology at{" "}
+									<a href="https://hms.harvard.edu/">Harvard Medical School</a>{" "}
+									and Founding Director of the{" "}
+									<a href="https://neurospirituality.bwh.harvard.edu/">
+										Neurospirituality Lab
 									</a>{" "}
-									and author of{" "}
-									<em>
-										Navigating Mormon Faith Crisis: A Simple Developmental Map
-									</em>
-									, Thomas brings twenty years of Buddhist meditation practice
-									together with expertise in adult developmental psychology. His
-									work explores the cross-pollination between Buddhism and
-									Mormonism, offering insights on spiritual development through
-									mindfulness practices. Thomas has developed frameworks for
-									understanding faith transitions and spiritual growth,
-									including his recent work on "At-One-Ment" and the integration
-									of contemplative practices within religious communities.
+									at{" "}
+									<a href="https://www.brighamandwomens.org/">
+										Brigham and Women's Hospital
+									</a>
+									's Center for Brain Circuit Therapeutics, Michael investigates
+									the neural correlates of spiritual experiences, prayer, and
+									meditation. His research explores how brain circuits underlie
+									religious belief and spiritual transformation, including
+									studies on the neurological effects of psychedelics on
+									consciousness. With expertise spanning bioengineering and
+									neuroscience, Michael's work examines the biological basis of
+									transcendent experiences and the intersection of neuroscience
+									with religious and spiritual phenomena.
 								</p>
 							}
 						/>
@@ -117,33 +120,29 @@ export function Speakers() {
 								</p>
 							}
 						/>
-
 						<KeynoteSpeaker
-							name="Michael Ferguson"
-							portrait="/img/2025/michael-ferguson.jpg"
+							name="Thomas McConkie"
+							portrait="/img/2025/thomas-mcconkie.jpg"
 							content={
 								<p>
-									Michael Ferguson is a Harvard neuroscientist pioneering the
-									emerging field of neurospirituality. As an Instructor in
-									Neurology at{" "}
-									<a href="https://hms.harvard.edu/">Harvard Medical School</a>{" "}
-									and Founding Director of the{" "}
-									<a href="https://neurospirituality.bwh.harvard.edu/">
-										Neurospirituality Lab
+									Thomas McConkie is a meditation teacher, philosopher, and
+									author bridging contemplative traditions with modern spiritual
+									practice. The founder of{" "}
+									<a href="https://lowerlightswisdom.org/">
+										Lower Lights School of Wisdom
 									</a>{" "}
-									at{" "}
-									<a href="https://www.brighamandwomens.org/">
-										Brigham and Women's Hospital
-									</a>
-									's Center for Brain Circuit Therapeutics, Michael investigates
-									the neural correlates of spiritual experiences, prayer, and
-									meditation. His research explores how brain circuits underlie
-									religious belief and spiritual transformation, including
-									studies on the neurological effects of psychedelics on
-									consciousness. With expertise spanning bioengineering and
-									neuroscience, Michael's work examines the biological basis of
-									transcendent experiences and the intersection of neuroscience
-									with religious and spiritual phenomena.
+									and author of{" "}
+									<em>
+										Navigating Mormon Faith Crisis: A Simple Developmental Map
+									</em>
+									, Thomas brings twenty years of Buddhist meditation practice
+									together with expertise in adult developmental psychology. His
+									work explores the cross-pollination between Buddhism and
+									Mormonism, offering insights on spiritual development through
+									mindfulness practices. Thomas has developed frameworks for
+									understanding faith transitions and spiritual growth,
+									including his recent work on "At-One-Ment" and the integration
+									of contemplative practices within religious communities.
 								</p>
 							}
 						/>

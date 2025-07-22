@@ -51,10 +51,10 @@ export function Hero() {
 							<div className="flex flex-col sm:flex-row pb-8">
 								<div className="self-center min-w-48">
 									<Portrait
-										image="/img/2025/thomas-mcconkie.jpg"
-										name="Thomas McConkie"
-										title1="Author & Meditation Teacher"
-										title2="Mormon Keynote Speaker"
+										image="/img/2025/michael-ferguson.jpg"
+										name="Michael Ferguson"
+										title1="Neuroscientist"
+										title2="Science Keynote Speaker"
 									/>
 								</div>
 								<div className="self-center min-w-48">
@@ -67,10 +67,10 @@ export function Hero() {
 								</div>
 								<div className="self-center min-w-48">
 									<Portrait
-										image="/img/2025/michael-ferguson.jpg"
-										name="Michael Ferguson"
-										title1="Neuroscientist"
-										title2="Science Keynote Speaker"
+										image="/img/2025/thomas-mcconkie.jpg"
+										name="Thomas McConkie"
+										title1="Author & Meditation Teacher"
+										title2="Mormon Keynote Speaker"
 									/>
 								</div>
 							</div>
@@ -95,7 +95,7 @@ export function Hero() {
 										<div className="mt-3 text-md sm:text-xl tracking-tight font-extrabold text-yellow-200 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
 											October 18, 2025
 										</div>
-										<div className="mt-4 sm:mt-6">
+										{/* <div className="mt-4 sm:mt-6">
 											<div className="sm:flex">
 												<div className="min-w-0 flex-1">
 													<a href="https://www.ticketsource.us/mormon-transhumanist-association">
@@ -108,7 +108,7 @@ export function Hero() {
 													</a>
 												</div>
 											</div>
-										</div>
+										</div> */}
 									</div>
 								</div>
 							</div>
