@@ -116,11 +116,8 @@ export function Background() {
 								transformation, where spiritual renewal and technological
 								progress are not in conflict but are complementary. By embracing
 								both timeless spiritual principles and modern scientific
-								advancements, Latter-day Saints believe they can more fully
-								realize their divine potential. The renewal of the mind, as
-								expressed in Romans 12:2, invites us not only to transform our
-								hearts but also to enhance our intellectual capacities, aligning
-								both with God's will for human growth.
+								advancements, humanity can more fully realize its divine
+								potential.
 							</p>
 						</div>
 					</div>
