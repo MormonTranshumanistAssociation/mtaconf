@@ -36,4 +36,15 @@
 			text-decoration: none;
 		}
 	}
+
+	#mtaconf2025 * {
+		a {
+			text-decoration: underline;
+			color: inherit;
+		}
+
+		a:hover {
+			text-decoration: none;
+		}
+	}
 }

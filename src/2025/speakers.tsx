@@ -9,19 +9,19 @@ export function KeynoteSpeaker(props: SpeakerProps) {
 	const { name, portrait, content } = props;
 	return (
 		<div className="pt-6">
-			<div className="flow-root bg-stone-800 rounded-lg px-6 pb-8">
+			<div className="flow-root bg-yellow-100 rounded-lg px-6 pb-8">
 				<div className="mt-6">
 					<div className="flex flex-row justify-center items-center">
 						<img
-							className="rounded-lg w-full lg:w-2/3 h-auto shadow-lg"
+							className="rounded-lg w-full lg:w-1/2 h-auto shadow-lg"
 							src={portrait}
 							alt={name}
 						/>
 					</div>
-					<h3 className="mt-8 text-2xl font-medium font-bold text-stone-300 tracking-tight">
+					<h3 className="mt-8 text-2xl font-medium font-bold text-green-600 tracking-tight">
 						{name}
 					</h3>
-					<div className="mt-5 text-base text-stone-300 text-left text-base max-w-prose prose prose-indigo">
+					<div className="mt-5 text-base text-green-600 text-left text-base max-w-prose prose prose-indigo">
 						{content}
 					</div>
 				</div>
@@ -57,101 +57,100 @@ export function OtherSpeaker(props: SpeakerProps) {
 
 export function Speakers() {
 	return (
-		<div className="relative bg-black pb-8 sm:pb-24 md:pb-6 lg:pb-12">
+		<div className="relative bg-gradient-to-r from-emerald-700 to-orange-400 pb-24 pt-1">
 			<div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
 				<p className="mt-20 text-3xl font-extrabold text-yellow-100 tracking-tight sm:text-4xl">
 					Keynote speakers
 				</p>
 
 				<div className="mt-4">
-					<div className="grid grid-cols-1 gap-8 sm:grid-cols-2 text-center">
+					<div className="grid grid-cols-1 gap-8 sm:grid-cols-3 text-center">
 						<KeynoteSpeaker
-							name="Benjamin Peters"
-							portrait="/img/2024/ben-peters.jpg"
+							name="Thomas McConkie"
+							portrait="/img/2025/thomas-mcconkie.jpg"
 							content={
 								<p>
-									Benjamin Peters is a media scholar. The author and editor of
-									three books and as many major prizes, he is the{" "}
-									<a href="https://utulsa.edu/departments/media-studies/ben-peters/">
-										Hazel Rogers Associate Professor and Chair of Media Studies
+									Thomas McConkie is a meditation teacher, philosopher, and
+									author bridging contemplative traditions with modern spiritual
+									practice. The founder of{" "}
+									<a href="https://lowerlightswisdom.org/">
+										Lower Lights School of Wisdom
 									</a>{" "}
-									at the <a href="https://utulsa.edu/">University of Tulsa</a>,
-									affiliated fellow at the{" "}
-									<a href="https://law.yale.edu/isp">
-										Information Society Project
-									</a>{" "}
-									at <a href="https://law.yale.edu/">Yale Law School</a>, and
-									holds a PhD from{" "}
-									<a href="https://www.columbia.edu/">Columbia University</a>.
-									The President of the{" "}
-									<a href="https://www.mormonscholars.net/">
-										Mormon Scholars in the Humanities
-									</a>
-									, he is the author of several books, including{" "}
+									and author of{" "}
 									<em>
-										How Not to Network a Nation: The Uneasy History of the
-										Soviet Internet
+										Navigating Mormon Faith Crisis: A Simple Developmental Map
 									</em>
-									, and <em>Your Computer Is on Fire</em>, from MIT Press. Dr.
-									Peters is currently writing a book on the Soviet prehistory to
-									artificial intelligence, from which his talk will draw. More
-									at{" "}
-									<a href="https://benjaminpeters.org/">benjaminpeters.org</a>.
+									, Thomas brings twenty years of Buddhist meditation practice
+									together with expertise in adult developmental psychology. His
+									work explores the cross-pollination between Buddhism and
+									Mormonism, offering insights on spiritual development through
+									mindfulness practices. Thomas has developed frameworks for
+									understanding faith transitions and spiritual growth,
+									including his recent work on "At-One-Ment" and the integration
+									of contemplative practices within religious communities.
 								</p>
 							}
 						/>
 
 						<KeynoteSpeaker
-							name="Irina Rish"
-							portrait="/img/2024/irina-rish.jpg"
+							name="Randal Koene"
+							portrait="/img/2025/randal-koene.jpg"
 							content={
 								<p>
-									Irina Rish is a full professor in the{" "}
-									<a href="https://diro.umontreal.ca/english/home/">
-										Computer Science department
-									</a>{" "}
-									at the{" "}
-									<a href="https://www.umontreal.ca/en/">
-										University de Montreal
-									</a>{" "}
-									and a core member of the{" "}
-									<a href="https://mila.quebec/en/">Mila-Quebec AI Institute</a>
-									. She holds the{" "}
-									<a href="https://mila.quebec/en/canada-cifar-ai-chairs/">
-										Canada CIFAR AI Chair
-									</a>{" "}
-									and the{" "}
-									<a href="https://www.cerc.gc.ca/chairholders-titulaires/index-eng.aspx">
-										Canadian Excellence Research Chair
-									</a>{" "}
-									in Autonomous AI. Her background includes an MSc and PhD in AI
-									from the{" "}
-									<a href="https://uci.edu/">
-										University of California, Irvine
+									Randal Koene is a neuroscientist and pioneering researcher in
+									whole brain emulation and substrate-independent minds. He
+									holds a Ph.D. in Computational Neuroscience from{" "}
+									<a href="https://www.mcgill.ca/">McGill University</a> and an
+									M.Sc. in Electrical Engineering from{" "}
+									<a href="https://www.tudelft.nl/">Delft University</a>. As
+									founder and chairman of the{" "}
+									<a href="https://carboncopies.org/">
+										Carboncopies Foundation for Substrate-Independent Minds
 									</a>
-									, and an MSc in Applied Mathematics from the{" "}
-									<a href="https://en.gubkin.ru/">Moscow Gubkin Institute</a>.
-									Dr. Rish’s current research interests include continual
-									lifelong learning, optimization algorithms for deep neural
-									networks, sparse modelling, dialog generation, biologically
-									plausible reinforcement learning, and dynamic systems
-									approaches to brain imaging analysis. She holds{" "}
-									<a href="https://patents.google.com/?inventor=Irina+Rish">
-										64 patents
+									, Randal leads research efforts to advance brain preservation
+									and emulation technologies. His multidisciplinary background
+									spans computational neuroscience, psychology, information
+									theory, and physics. Randal's work focuses on the theoretical
+									and practical challenges of achieving whole brain emulation
+									and the development of technologies that could enable
+									consciousness to operate on non-biological substrates.
+								</p>
+							}
+						/>
+
+						<KeynoteSpeaker
+							name="Michael Ferguson"
+							portrait="/img/2025/michael-ferguson.jpg"
+							content={
+								<p>
+									Michael Ferguson is a Harvard neuroscientist pioneering the
+									emerging field of neurospirituality. As an Instructor in
+									Neurology at{" "}
+									<a href="https://hms.harvard.edu/">Harvard Medical School</a>{" "}
+									and Founding Director of the{" "}
+									<a href="https://neurospirituality.bwh.harvard.edu/">
+										Neurospirituality Lab
 									</a>{" "}
-									and has published over{" "}
-									<a href="https://scholar.google.com/citations?user=Avse5gIAAAAJ">
-										80 research papers
+									at{" "}
+									<a href="https://www.brighamandwomens.org/">
+										Brigham and Women's Hospital
 									</a>
-									, several book chapters, three books as editor, and a
-									monograph on Sparse Modelling.
+									's Center for Brain Circuit Therapeutics, Michael investigates
+									the neural correlates of spiritual experiences, prayer, and
+									meditation. His research explores how brain circuits underlie
+									religious belief and spiritual transformation, including
+									studies on the neurological effects of psychedelics on
+									consciousness. With expertise spanning bioengineering and
+									neuroscience, Michael's work examines the biological basis of
+									transcendent experiences and the intersection of neuroscience
+									with religious and spiritual phenomena.
 								</p>
 							}
 						/>
 					</div>
 				</div>
 
-				<p className="mt-12 text-3xl font-extrabold text-yellow-100 tracking-tight sm:text-4xl">
+				{/* <p className="mt-12 text-3xl font-extrabold text-yellow-100 tracking-tight sm:text-4xl">
 					Other speakers
 				</p>
 				<div className="mt-12">
@@ -690,7 +689,7 @@ export function Speakers() {
 							}
 						/>
 					</div>
-				</div>
+				</div> */}
 			</div>
 		</div>
 	);

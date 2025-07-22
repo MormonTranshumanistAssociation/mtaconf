@@ -6,17 +6,17 @@ interface PortraitProps {
 }
 export function Portrait(props: PortraitProps) {
 	return (
-		<div className="flex flex-col gap-4 items-center">
+		<div className="flex flex-col gap-4 items-center p-4">
 			<img
 				src={props.image}
-				className="w-48 h-48 rounded-lg"
+				className="w-36 h-36 rounded-lg"
 				alt={props.name}
 			/>
-			<div className="flex flex-col rounded-lg bg-black/50 sm:bg-opacity-0 sm:bg-transparent p-4 sm:p-0">
-				<div className="text-yellow-100 text-shadow-sm sm:text-green-900 self-center text-xl font-bold">
+			<div className="flex flex-col rounded-lg p-0">
+				<div className="text-yellow-100 text-shadow-sm sm:text-green-900 self-center text-md font-bold">
 					{props.name}
 				</div>
-				<div className="text-yellow-100 text-shadow-sm sm:text-green-900 self-center">
+				<div className="text-yellow-100 text-shadow-sm sm:text-green-900 self-center text-sm">
 					{props.title1}
 				</div>
 				{props.title2 && props.title2.length > 20 ? (

@@ -3,8 +3,8 @@ export function Venue() {
 		<div className="mt-10 pb-16 bg-gradient-to-r from-emerald-700 to-orange-400 lg:pb-0 lg:z-10 lg:relative">
 			<div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8">
 				<div className="relative lg:-my-8">
-					<div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:p-0 lg:h-full">
-						<div className="aspect-w-10 aspect-h-6 rounded-xl shadow-xl overflow-hidden sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
+					<div className="mx-auto max-w-md p-0 sm:max-w-3xl sm:px-6 lg:p-0 lg:h-full">
+						<div className="aspect-w-10 aspect-h-6 sm:rounded-xl shadow-xl overflow-hidden sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
 							<img
 								className="object-cover lg:h-full lg:w-full"
 								src="/img/2025/compass.jpeg"

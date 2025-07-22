@@ -48,7 +48,7 @@ export function Hero() {
 									/>
 								</a>
 							</div>
-							<div className="flex flex-col sm:flex-row gap-6 pb-8">
+							<div className="flex flex-col sm:flex-row pb-8">
 								<div className="self-center min-w-48">
 									<Portrait
 										image="/img/2025/thomas-mcconkie.jpg"
@@ -63,6 +63,14 @@ export function Hero() {
 										name="Randal Koene"
 										title1="Neuroscientist"
 										title2="Transhumanist Keynote Speaker"
+									/>
+								</div>
+								<div className="self-center min-w-48">
+									<Portrait
+										image="/img/2025/michael-ferguson.jpg"
+										name="Michael Ferguson"
+										title1="Neuroscientist"
+										title2="Science Keynote Speaker"
 									/>
 								</div>
 							</div>
