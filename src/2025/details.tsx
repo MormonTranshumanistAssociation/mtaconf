@@ -38,8 +38,9 @@ export function Details() {
 									<li className="pl-2">
 										<strong>Transhumanism and the Renewal of the Mind</strong>:
 										Investigating the ways in which transhumanist ideals and
-										technologies (e.g., neural uplinks, artificial intelligence)
-										offer opportunities for cognitive and spiritual enhancement.{" "}
+										technologies (e.g., brain-computer interfaces, artificial
+										intelligence) offer opportunities for cognitive and
+										spiritual enhancement.{" "}
 									</li>
 									<li className="pl-2">
 										<strong>Neuroplasticity and Faith</strong>: The science of
