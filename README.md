@@ -4,21 +4,21 @@ This is a basic vite project with support for TailwindCSS and React.
 
 ## Set up dev environment
 
+This assumes [mise](https://github.com/jdx/mise) has been installed.
+
 ```
-nvm use 20
-npm install -g pnpm
-pnpm install
+mise exec pnpm install
 ```
 
 ## Develop
 
 ```
-pnpm dev
+mise exec pnpm dev
 ```
 
 ## Deploy
 
 ```
-pnpm build
-pnpm run deploy
+mise exec pnpm build
+mise exec pnpm run deploy
 ```
