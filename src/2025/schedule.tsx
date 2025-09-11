@@ -1,423 +1,310 @@
 export function Schedule() {
 	return (
-		<div className="relative bg-black">
+		<div className="relative bg-yellow-100 pb-16">
 			<div className="mx-auto max-w-md pb-8 px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-				<p className="text-left mt-0 text-3xl font-extrabold text-yellow-100 tracking-tight sm:text-4xl">
+				<p className="text-left mt-0 text-3xl font-extrabold text-green-600 tracking-tight sm:text-4xl">
 					Schedule
 				</p>
 				<div className="mt-4 -mb-3">
-					<div className="not-prose relative bg-stone-800 rounded-xl overflow-hidden">
+					<div className="not-prose relative bg-green-600 rounded-xl overflow-hidden">
 						<div className="relative rounded-xl overflow-auto">
 							<div className="shadow-sm overflow-hidden my-4">
 								<table className="border-collapse table-auto w-full text-sm">
 									<thead>
 										<tr>
-											<th className="border-b border-stone-600 font-medium p-4 pl-8 pt-0 pb-3 text-stone-400 text-left">
+											<th className="border-b border-green-600 font-medium p-4 pl-8 pt-0 pb-3 text-yellow-100 text-left">
 												Time
 											</th>
-											<th className="border-b border-stone-600 font-medium pl-2 pr-4 pt-0 pb-3 text-stone-400 text-left">
+											<th className="border-b border-green-600 font-medium pl-2 pr-4 pt-0 pb-3 text-yellow-100 text-left">
 												Description
 											</th>
-											<th className="border-b border-stone-600 font-medium pl-2 pr-8 pt-0 pb-3 text-stone-400 text-left">
+											<th className="border-b border-green-600 font-medium pl-2 pr-8 pt-0 pb-3 text-yellow-100 text-left">
 												Speaker
 											</th>
 										</tr>
 									</thead>
-									<tbody className="bg-stone-700 text-left">
+									<tbody className="bg-yellow-100 text-left">
 										<tr>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
-												8:30 am
-											</td>
-											<td
-												className="border-b border-stone-600 p-2 text-stone-300"
-												colSpan={2}
-											>
-												Pre-conference check-in
-											</td>
-										</tr>
-										<tr>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
 												9:00 am
 											</td>
-											<td className="border-b border-stone-600 p-2 text-stone-300">
-												Welcome
+											<td className="border-b border-green-600 p-2 text-green-600">
+												Welcome & framing
 											</td>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
-												Carl Youngblood
-											</td>
-										</tr>
-										<tr>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
-												9:05 am
-											</td>
-											<td className="border-b border-stone-600 p-2 text-stone-300">
-												Algorithmic Advent: Great Expectations on the Verge of
-												AGI
-											</td>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
-												Carl Youngblood
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+												Joseph West
 											</td>
 										</tr>
 										<tr>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
-												9:18 am
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
+												9:10 am
 											</td>
-											<td className="border-b border-stone-600 p-2 text-stone-300 italic">
-												The Morning Breaks
+											<td className="border-b border-green-600 p-2 text-green-600">
+												Keynote: “When Was I Less By Dying”: Transhumanist Possibilities Beyond Birth and Death
 											</td>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
-												<a href="https://www.facebook.com/Q.Mischief">
-													Mischief Quartet
-												</a>
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+												Thomas McConkie
 											</td>
 										</tr>
 										<tr>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
-												9:20 am
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
+												9:45 am
 											</td>
-											<td className="border-b border-stone-600 p-2 text-stone-300">
-												Fact, Fiction, and Fantasy: Demystifying AI Hype in the
-												Information Age
+											<td className="border-b border-green-600 p-2 text-green-600">
+												Q&A
 											</td>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
-												Nancy Fulda
-											</td>
-										</tr>
-										<tr>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
-												9:40 am
-											</td>
-											<td className="border-b border-stone-600 p-2 text-stone-300">
-												The Second War in Heaven
-											</td>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
-												Lincoln Cannon
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+												Thomas McConkie
 											</td>
 										</tr>
 										<tr>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
 												10:00 am
 											</td>
-											<td className="border-b border-stone-600 p-2 text-stone-300">
-												Who You Callin’ Artificial? The Collapse of the
-												Supernatural
-											</td>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
-												Chris Bradford
-											</td>
-										</tr>
-										<tr>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
-												10:10 am
-											</td>
-											<td className="border-b border-stone-600 p-2 text-stone-300">
-												Brief Remarks from MTA Officers
-											</td>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
-												Connie Packer
-												<br />
-												Dallin Bradford
-												<br />
-												Joseph West
-												<br />
-												Spencer Cannon
-												<br />
-												Teresa Pratt
-											</td>
-										</tr>
-										<tr>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
-												10:25 am
-											</td>
-											<td className="border-b border-stone-600 p-2 text-stone-300">
-												On Earth As It Is in Heaven: The Power of AI Art in
-												Reifying Our Visions
-											</td>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
-												Bryce Haymond
-											</td>
-										</tr>
-										<tr>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
-												10:35 am
-											</td>
-											<td className="border-b border-stone-600 p-2 text-stone-300">
-												What If It All Works Out? Positive Visions of AI
-											</td>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
-												Jon Ogden
-											</td>
-										</tr>
-										<tr>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
-												10:45 am
-											</td>
 											<td
-												className="border-b border-stone-600 p-2 text-stone-300"
+												className="border-b border-green-600 p-2 text-green-600"
 												colSpan={2}
 											>
 												Break
 											</td>
 										</tr>
 										<tr>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
-												10:55 am
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
+												10:15 am
 											</td>
-											<td className="border-b border-stone-600 p-2 text-stone-300 italic">
-												Somewhere
+											<td className="border-b border-green-600 p-2 text-green-600">
+												The Calculus of Superhuman Priorities
 											</td>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
-												<a href="https://www.facebook.com/Q.Mischief">
-													Mischief Quartet
-												</a>
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+												Dan K. Moore
 											</td>
 										</tr>
 										<tr>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
-												11:00 am
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
+												10:25 am
 											</td>
-											<td className="border-b border-stone-600 p-2 text-stone-300">
-												Keynote - Alt.AI: Why the Best Future of Machine
-												Learning is Modest
+											<td className="border-b border-green-600 p-2 text-green-600">
+												The Ritual of Prayer
 											</td>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
-												Benjamin Peters
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+												Lincoln Cannon
 											</td>
 										</tr>
 										<tr>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
-												11:45 am
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
+												10:45 am
 											</td>
-											<td
-												className="border-b border-stone-600 p-2 text-stone-300"
-												colSpan={2}
-											>
+											<td className="border-b border-green-600 p-2 text-green-600">
+												Panel: Psychedelics and Transformation
+											</td>
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+												Karen King, Wesley Smith, Katherine Kincaid
+											</td>
+										</tr>
+										<tr>
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
+												11:15 am
+											</td>
+											<td className="border-b border-green-600 p-2 text-green-600">
+												Understanding and Correcting Early MAPs
+											</td>
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+												DaLynn Moore
+											</td>
+										</tr>
+										<tr>
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
+												11:30 am
+											</td>
+											<td className="border-b border-green-600 p-2 text-green-600">
+												Warned and Forewarned: Word of Wisdom and Tech Ethics
+											</td>
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+												Bradley Thornock
+											</td>
+										</tr>
+										<tr>
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
+												11:40 am
+											</td>
+											<td className="border-b border-green-600 p-2 text-green-600">
+												Towards Uploading and Emulation: A Model of
+												Consciousness and Subjective Experience
+											</td>
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+												Randall Koene
+											</td>
+										</tr>
+										<tr>
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
+												12:15 pm
+											</td>
+											<td className="border-b border-green-600 p-2 text-green-600">
 												Q&A
 											</td>
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+												Randall Koene
+											</td>
 										</tr>
 										<tr>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
-												12:00 pm
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
+												12:30 pm
 											</td>
 											<td
-												className="border-b border-stone-600 p-2 text-stone-300"
+												className="border-b border-green-600 p-2 text-green-600"
 												colSpan={2}
 											>
 												Lunch
 											</td>
 										</tr>
 										<tr>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
-												1:00 pm
-											</td>
-											<td className="border-b border-stone-600 p-2 text-stone-300">
-												Making Kin with Chatbots at the End of the World
-											</td>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
-												Tamara Kneese
-											</td>
-										</tr>
-										<tr>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
-												1:15 pm
-											</td>
-											<td className="border-b border-stone-600 p-2 text-stone-300">
-												Incarnation: Some Theological-Historical Notes
-											</td>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
-												Rachael Givens Johnson
-											</td>
-										</tr>
-										<tr>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
 												1:30 pm
 											</td>
-											<td className="border-b border-stone-600 p-2 text-stone-300">
-												The Plan of Salvation as a Posthuman Solution to the
-												Intelligence Control Problem
+											<td className="border-b border-green-600 p-2 text-green-600">
+												Rewire to Rise
 											</td>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
-												McKay Moore
-											</td>
-										</tr>
-										<tr>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
-												1:40 pm
-											</td>
-											<td className="border-b border-stone-600 p-2 text-stone-300">
-												Make Yourself Human Again
-											</td>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
-												Wolf Tivy
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+												León Castillo
 											</td>
 										</tr>
 										<tr>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
-												2:00 pm
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
+												1:50 pm
+											</td>
+											<td className="border-b border-green-600 p-2 text-green-600">
+												Our Soul at Stake: Digital Brain Rot
+											</td>
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+												Dan Lathen
+											</td>
+										</tr>
+										<tr>
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
+												2:10 pm
+											</td>
+											<td className="border-b border-green-600 p-2 text-green-600">
+												Hypnosis
+											</td>
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+												Michaelann Gardner
+											</td>
+										</tr>
+										<tr>
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
+												2:30 pm
+											</td>
+											<td className="border-b border-green-600 p-2 text-green-600">
+												Mystical Phenomena, Meditation, Cognition
+											</td>
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+												Luca Del Deo
+											</td>
+										</tr>
+										<tr>
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
+												2:40 pm
 											</td>
 											<td
-												className="border-b border-stone-600 p-2 text-stone-300"
+												className="border-b border-green-600 p-2 text-green-600"
 												colSpan={2}
 											>
 												Break
 											</td>
 										</tr>
 										<tr>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
-												2:20 pm
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
+												2:50 pm
 											</td>
-											<td className="border-b border-stone-600 p-2 text-stone-300">
-												“All Spirit is Matter”: What Will Spiritual Engineering
-												and Uploading Be Like?
+											<td className="border-b border-green-600 p-2 text-green-600">
+												Embracing Radical Life Extension
 											</td>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
-												Brent Allsop
-											</td>
-										</tr>
-										<tr>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
-												2:30 pm
-											</td>
-											<td className="border-b border-stone-600 p-2 text-stone-300">
-												AI Mastery through ASK: Nurturing Religious Education
-											</td>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
 												Matt Gardner
 											</td>
 										</tr>
 										<tr>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
-												2:40 pm
-											</td>
-											<td className="border-b border-stone-600 p-2 text-stone-300">
-												Playing God: The Implications of Christian Theology for
-												AGI
-											</td>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
-												Micah Redding
-											</td>
-										</tr>
-										<tr>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
 												3:00 pm
 											</td>
-											<td className="border-b border-stone-600 p-2 text-stone-300">
-												Keynote - The AI Scaling Revolution and the Future of
-												Intelligence
+											<td className="border-b border-green-600 p-2 text-green-600">
+												A Global Dialogue on Digital Delusions
 											</td>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
-												Irina Rish
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+												Evan Hadfield
 											</td>
 										</tr>
 										<tr>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
-												3:45 pm
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
+												3:15 pm
 											</td>
-											<td
-												className="border-b border-stone-600 p-2 text-stone-300"
-												colSpan={2}
-											>
+											<td className="border-b border-green-600 p-2 text-green-600">
+												The Mission of the MTA
+											</td>
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+												Carl Youngblood
+											</td>
+										</tr>
+										<tr>
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
+												3:30 pm
+											</td>
+											<td className="border-b border-green-600 p-2 text-green-600">
+												Keynote
+											</td>
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+												Michael Ferguson
+											</td>
+										</tr>
+										<tr>
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
+												4:05 pm
+											</td>
+											<td className="border-b border-green-600 p-2 text-green-600">
 												Q&A
 											</td>
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+												Michael Ferguson
+											</td>
 										</tr>
 										<tr>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
-												4:00 pm
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
+												4:20 pm
 											</td>
 											<td
-												className="border-b border-stone-600 p-2 text-stone-300"
+												className="border-b border-green-600 p-2 text-green-600"
 												colSpan={2}
 											>
 												Break
 											</td>
 										</tr>
 										<tr>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
-												4:20 pm
-											</td>
-											<td className="border-b border-stone-600 p-2 text-stone-300">
-												Collective Intelligence vs. Artificial Intelligence
-											</td>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
-												Evan Hadfield
-											</td>
-										</tr>
-										<tr>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
 												4:30 pm
 											</td>
-											<td className="border-b border-stone-600 p-2 text-stone-300">
-												Contesting Values Alignment: A Challenge of Dynamic
-												Sociality and Teleology
+											<td className="border-b border-green-600 p-2 text-green-600">
+												Synthesis Panel: Mind, Matter, Transformation
 											</td>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
-												C. Randall Paul
-											</td>
-										</tr>
-										<tr>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
-												4:40 pm
-											</td>
-											<td className="border-b border-stone-600 p-2 text-stone-300">
-												Is Intelligence Bigger than Computation?
-											</td>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
-												Luke Hutchison
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+												McConkie, Koene, Ferguson; Moderator: Lincoln Cannon
 											</td>
 										</tr>
 										<tr>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
-												4:50 pm
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
+												5:20 pm
 											</td>
-											<td className="border-b border-stone-600 p-2 text-stone-300">
-												AI and Spirit Intelligence
+											<td className="border-b border-green-600 p-2 text-green-600">
+												Closing announcements
 											</td>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
-												Caleb Jones
-											</td>
-										</tr>
-										<tr>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
-												5:00 pm
-											</td>
-											<td className="border-b border-stone-600 p-2 text-stone-300 italic">
-												I Saw a Mighty Angel Fly
-											</td>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
-												<a href="https://www.facebook.com/Q.Mischief">
-													Mischief Quartet
-												</a>
-											</td>
-										</tr>
-										<tr>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
-												5:05 pm
-											</td>
-											<td className="border-b border-stone-600 p-2 text-stone-300">
-												Panel Discussion: Ben, Irina, Nancy, Wolf
-											</td>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pr-8 text-stone-300">
-												Lincoln Cannon
-												<br />
-												(Moderator)
-											</td>
-										</tr>
-										<tr>
-											<td className="whitespace-nowrap border-b border-stone-600 p-2 pl-8 text-stone-300">
-												6:00 pm
-											</td>
-											<td
-												className="border-b border-stone-600 p-2 text-stone-300"
-												colSpan={2}
-											>
-												Dinner with entertainment from Mischief Quartet
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+												Joseph West
 											</td>
 										</tr>
 									</tbody>
 								</table>
 							</div>
 						</div>
-						<div className="absolute inset-0 pointer-events-none border border-black/5 rounded-xl" />
+						<div className="absolute inset-0 pointer-events-none border border-green-600 rounded-xl" />
 					</div>
 				</div>
 			</div>

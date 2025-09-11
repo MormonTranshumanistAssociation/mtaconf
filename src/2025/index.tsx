@@ -3,7 +3,7 @@ import { Background } from "./background.tsx";
 import { Venue } from "./venue.tsx";
 import { Details } from "./details.tsx";
 import { Speakers } from "./speakers.tsx";
-// import { Schedule } from "./schedule.tsx";
+import { Schedule } from "./schedule.tsx";
 
 export default function MTAConf2025() {
 	return (
@@ -15,7 +15,7 @@ export default function MTAConf2025() {
 						<Background />
 						<Venue />
 						<Details />
-						{/* <Schedule /> */}
+						<Schedule />
 						<Speakers />
 					</section>
 				</div>
