@@ -40,7 +40,8 @@ export function Schedule() {
 												9:10 am
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
-												Keynote: “When Was I Less By Dying”: Transhumanist Possibilities Beyond Birth and Death
+												Keynote: <em>When Was I Less By Dying?</em>:
+												Transhumanist Possibilities Beyond Birth and Death
 											</td>
 											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
 												Thomas McConkie

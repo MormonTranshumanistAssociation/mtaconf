@@ -30,7 +30,7 @@ export function Hero() {
 			<header className="">
 				<div className="w-full bg-[url('/img/2025/hero.jpg')] bg-cover bg-top bg-no-repeat">
 					<div className="flex flex-col gap-6 sm:gap-0 sm:flex-row items-center sm:items-start sm:justify-between mx-10 pt-20 sm:pt-6 min-h-[500px] px-10">
-						<div className="flex flex-col gap-20">
+						<div className="flex flex-col gap-8">
 							<div className="flex flex-col gap-6 bg-black/50 pb-6 rounded-xl sm:rounded-none sm:bg-transparent">
 								<a
 									href="https://transfigurism.org"
@@ -41,38 +41,27 @@ export function Hero() {
 										src="/img/2025/mta-logo.svg"
 										alt="Mormon Transhumanist Association"
 									/>
-									<img
-										className="h-36 w-auto block sm:hidden"
-										src="/img/2025/mta-logo-yellow.svg"
-										alt="Mormon Transhumanist Association"
-									/>
 								</a>
 							</div>
-							<div className="flex flex-col sm:flex-row pb-8">
-								<div className="">
-									<Portrait
-										image="/img/2025/michael-ferguson.jpg"
-										name="Michael Ferguson"
-										title1="Neuroscientist"
-										title2="Science Keynote"
-									/>
-								</div>
-								<div className="min-w-48">
-									<Portrait
-										image="/img/2025/randal-koene.jpg"
-										name="Randal Koene"
-										title1="Neuroscientist"
-										title2="Transhumanist Keynote"
-									/>
-								</div>
-								<div className="min-w-48">
-									<Portrait
-										image="/img/2025/thomas-mcconkie.jpg"
-										name="Thomas McConkie"
-										title1="Author & Meditation Teacher"
-										title2="Mormon Keynote"
-									/>
-								</div>
+							<div className="grid grid-cols-3 justify-items-stretch gap-0 -mx-4">
+								<Portrait
+									image="/img/2025/michael-ferguson.jpg"
+									name="Michael Ferguson"
+									title1="Neuroscientist"
+									title2="Science Keynote"
+								/>
+								<Portrait
+									image="/img/2025/randal-koene.jpg"
+									name="Randal Koene"
+									title1="Neuroscientist"
+									title2="Transhumanist Keynote"
+								/>
+								<Portrait
+									image="/img/2025/thomas-mcconkie.jpg"
+									name="Thomas McConkie"
+									title1="Author & Meditation Teacher"
+									title2="Mormon Keynote"
+								/>
 							</div>
 						</div>
 						<div className="max-w-sm">
