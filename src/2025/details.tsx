@@ -1,6 +1,6 @@
 export function Details() {
 	return (
-		<div className="px-4 pt-16 sm:px-6 lg:px-8 bg-yellow-100 overflow-hidden pb-8">
+		<div className="px-4 pb-8 pt-4 sm:px-6 lg:px-8 lg:pt-8 xl:pb-16  bg-yellow-100 overflow-hidden">
 			<div className="max-w-max lg:max-w-7xl mx-auto">
 				<div className="relative z-10 mb-4 md:mb-2 md:px-6">
 					<div className="text-base max-w-prose lg:max-w-none">

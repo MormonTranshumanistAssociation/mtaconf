@@ -1,7 +1,7 @@
 export function Schedule() {
 	return (
-		<div className="relative bg-yellow-100 pb-16">
-			<div className="mx-auto max-w-md pb-8 px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
+		<div className="relative bg-yellow-100 pb-16 px-4 sm:px-6 md:px-12 lg:px-16">
+			<div className="mx-auto pb-8 text-center max-w-7xl">
 				<p className="text-left mt-0 text-3xl font-extrabold text-green-600 tracking-tight sm:text-4xl">
 					Schedule
 				</p>
@@ -18,7 +18,7 @@ export function Schedule() {
 											<th className="border-b border-green-600 font-medium pl-2 pr-4 pt-0 pb-3 text-yellow-100 text-left">
 												Description
 											</th>
-											<th className="border-b border-green-600 font-medium pl-2 pr-8 pt-0 pb-3 text-yellow-100 text-left">
+											<th className="border-b border-green-600 font-medium pl-2 pr-2 sm:pr-8 pt-0 pb-3 text-yellow-100 text-left min-w-0">
 												Speaker
 											</th>
 										</tr>
@@ -31,7 +31,7 @@ export function Schedule() {
 											<td className="border-b border-green-600 p-2 text-green-600">
 												Welcome & framing
 											</td>
-											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Joseph West
 											</td>
 										</tr>
@@ -43,7 +43,7 @@ export function Schedule() {
 												Keynote: <em>When Was I Less By Dying?</em>:
 												Transhumanist Possibilities Beyond Birth and Death
 											</td>
-											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Thomas McConkie
 											</td>
 										</tr>
@@ -54,7 +54,7 @@ export function Schedule() {
 											<td className="border-b border-green-600 p-2 text-green-600">
 												Q&A
 											</td>
-											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Thomas McConkie
 											</td>
 										</tr>
@@ -76,7 +76,7 @@ export function Schedule() {
 											<td className="border-b border-green-600 p-2 text-green-600">
 												The Calculus of Superhuman Priorities
 											</td>
-											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Dan K. Moore
 											</td>
 										</tr>
@@ -87,7 +87,7 @@ export function Schedule() {
 											<td className="border-b border-green-600 p-2 text-green-600">
 												The Ritual of Prayer
 											</td>
-											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Lincoln Cannon
 											</td>
 										</tr>
@@ -98,7 +98,7 @@ export function Schedule() {
 											<td className="border-b border-green-600 p-2 text-green-600">
 												Panel: Psychedelics and Transformation
 											</td>
-											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Karen King, Wesley Smith, Katherine Kincaid
 											</td>
 										</tr>
@@ -109,7 +109,7 @@ export function Schedule() {
 											<td className="border-b border-green-600 p-2 text-green-600">
 												Understanding and Correcting Early MAPs
 											</td>
-											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												DaLynn Moore
 											</td>
 										</tr>
@@ -120,7 +120,7 @@ export function Schedule() {
 											<td className="border-b border-green-600 p-2 text-green-600">
 												Warned and Forewarned: Word of Wisdom and Tech Ethics
 											</td>
-											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Bradley Thornock
 											</td>
 										</tr>
@@ -132,7 +132,7 @@ export function Schedule() {
 												Towards Uploading and Emulation: A Model of
 												Consciousness and Subjective Experience
 											</td>
-											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Randall Koene
 											</td>
 										</tr>
@@ -143,7 +143,7 @@ export function Schedule() {
 											<td className="border-b border-green-600 p-2 text-green-600">
 												Q&A
 											</td>
-											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Randall Koene
 											</td>
 										</tr>
@@ -165,7 +165,7 @@ export function Schedule() {
 											<td className="border-b border-green-600 p-2 text-green-600">
 												Rewire to Rise
 											</td>
-											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												León Castillo
 											</td>
 										</tr>
@@ -176,7 +176,7 @@ export function Schedule() {
 											<td className="border-b border-green-600 p-2 text-green-600">
 												Our Soul at Stake: Digital Brain Rot
 											</td>
-											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Dan Lathen
 											</td>
 										</tr>
@@ -187,7 +187,7 @@ export function Schedule() {
 											<td className="border-b border-green-600 p-2 text-green-600">
 												Hypnosis
 											</td>
-											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Michaelann Gardner
 											</td>
 										</tr>
@@ -198,7 +198,7 @@ export function Schedule() {
 											<td className="border-b border-green-600 p-2 text-green-600">
 												Mystical Phenomena, Meditation, Cognition
 											</td>
-											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Luca Del Deo
 											</td>
 										</tr>
@@ -220,7 +220,7 @@ export function Schedule() {
 											<td className="border-b border-green-600 p-2 text-green-600">
 												Embracing Radical Life Extension
 											</td>
-											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Matt Gardner
 											</td>
 										</tr>
@@ -231,7 +231,7 @@ export function Schedule() {
 											<td className="border-b border-green-600 p-2 text-green-600">
 												A Global Dialogue on Digital Delusions
 											</td>
-											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Evan Hadfield
 											</td>
 										</tr>
@@ -242,7 +242,7 @@ export function Schedule() {
 											<td className="border-b border-green-600 p-2 text-green-600">
 												The Mission of the MTA
 											</td>
-											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Carl Youngblood
 											</td>
 										</tr>
@@ -253,7 +253,7 @@ export function Schedule() {
 											<td className="border-b border-green-600 p-2 text-green-600">
 												Keynote
 											</td>
-											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Michael Ferguson
 											</td>
 										</tr>
@@ -264,7 +264,7 @@ export function Schedule() {
 											<td className="border-b border-green-600 p-2 text-green-600">
 												Q&A
 											</td>
-											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Michael Ferguson
 											</td>
 										</tr>
@@ -286,7 +286,7 @@ export function Schedule() {
 											<td className="border-b border-green-600 p-2 text-green-600">
 												Synthesis Panel: Mind, Matter, Transformation
 											</td>
-											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												McConkie, Koene, Ferguson; Moderator: Lincoln Cannon
 											</td>
 										</tr>
@@ -297,7 +297,7 @@ export function Schedule() {
 											<td className="border-b border-green-600 p-2 text-green-600">
 												Closing announcements
 											</td>
-											<td className="whitespace-nowrap border-b border-green-600 p-2 pr-8 text-green-600">
+											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Joseph West
 											</td>
 										</tr>
