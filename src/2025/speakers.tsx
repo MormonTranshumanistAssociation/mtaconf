@@ -232,7 +232,7 @@ export function Speakers() {
 							portrait="/img/2025/katherine-kincaid.jpg"
 							content={
 								<p>
-									Katherine Kincaid is a queer mother, a small business owner,
+									Katherine Kincaid is a mother, a small business owner,
 									and a mental health therapist. With her partner Joseph, she
 									owns and operates private psychotherapy practices in Tucson,
 									Arizona and Salt Lake City, Utah. These practices specialize
