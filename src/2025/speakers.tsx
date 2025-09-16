@@ -249,6 +249,16 @@ export function Speakers() {
 						/>
 
 						<OtherSpeaker
+							name="León Castillo"
+							portrait="/img/2025/leon-castillo.jpg"
+							content={
+								<p>
+									Horacio León Fernández del Castillo (“León Castillo”) is the founder and CEO of <a href="https://www.selfmastered.com/">Selfmastered</a>, Professor at <a href="https://www.ie.edu/university/about/">IE University</a>, and a VC investor. Based in Miami, he has lived and worked in Brazil, China, and India, shaping a global perspective he now applies to peak performance. At Selfmastered, he pioneered Neuroexecution: a neuroscience-driven, systems-based protocol that rewires attention, behavior, and identity through measurable protocol that deliver lasting transformation and business growth. Since 2020, his framework has helped more than 350 entrepreneurs replace burnout and distraction with clarity, focus, and consistent execution, engineering the mind as the ultimate driver of transformation.
+								</p>
+							}
+						/>
+
+						<OtherSpeaker
 							name="Lincoln Cannon"
 							portrait="/img/2025/lincoln-cannon.jpg"
 							content={
