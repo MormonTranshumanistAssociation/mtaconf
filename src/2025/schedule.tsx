@@ -193,7 +193,18 @@ export function Schedule() {
 										</tr>
 										<tr>
 											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
-												2:30 pm
+												2:25 pm
+											</td>
+											<td className="border-b border-green-600 p-2 text-green-600">
+												Neuroscience and Artificial Intelligence
+											</td>
+											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
+												Jordan Yorgason
+											</td>
+										</tr>
+										<tr>
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
+												2:45 pm
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
 												Mystical Phenomena, Meditation, Cognition
@@ -204,7 +215,7 @@ export function Schedule() {
 										</tr>
 										<tr>
 											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
-												2:40 pm
+												3:00 pm
 											</td>
 											<td
 												className="border-b border-green-600 p-2 text-green-600"
@@ -215,7 +226,7 @@ export function Schedule() {
 										</tr>
 										<tr>
 											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
-												2:50 pm
+												3:10 pm
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
 												Embracing Radical Life Extension
@@ -226,7 +237,7 @@ export function Schedule() {
 										</tr>
 										<tr>
 											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
-												3:00 pm
+												3:20 pm
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
 												A Global Dialogue on Digital Delusions
@@ -237,7 +248,7 @@ export function Schedule() {
 										</tr>
 										<tr>
 											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
-												3:15 pm
+												3:35 pm
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
 												The Mission of the MTA
@@ -248,7 +259,7 @@ export function Schedule() {
 										</tr>
 										<tr>
 											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
-												3:30 pm
+												3:45 pm
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
 												Keynote
@@ -259,7 +270,7 @@ export function Schedule() {
 										</tr>
 										<tr>
 											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
-												4:05 pm
+												4:25 pm
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
 												Q&A
@@ -270,7 +281,7 @@ export function Schedule() {
 										</tr>
 										<tr>
 											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
-												4:20 pm
+												4:40 pm
 											</td>
 											<td
 												className="border-b border-green-600 p-2 text-green-600"
@@ -281,7 +292,7 @@ export function Schedule() {
 										</tr>
 										<tr>
 											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
-												4:30 pm
+												4:50 pm
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
 												Synthesis Panel: Mind, Matter, Transformation
@@ -292,7 +303,7 @@ export function Schedule() {
 										</tr>
 										<tr>
 											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
-												5:20 pm
+												5:55 pm
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
 												Closing announcements
