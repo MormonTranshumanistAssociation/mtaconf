@@ -185,7 +185,7 @@ export function Schedule() {
 												2:10 pm
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
-												Hypnosis
+												The Unconscious Mind: Processes and Mystery from a Hypnotist
 											</td>
 											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Michaelann Gardner
