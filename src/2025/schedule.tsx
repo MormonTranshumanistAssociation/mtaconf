@@ -40,6 +40,17 @@ export function Schedule() {
 												9:10 am
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
+												The Mission of the MTA
+											</td>
+											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
+												Carl Youngblood
+											</td>
+										</tr>
+										<tr>
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
+												9:20 am
+											</td>
+											<td className="border-b border-green-600 p-2 text-green-600">
 												Keynote: <em>When Was I Less By Dying?</em>:
 												Transhumanist Possibilities Beyond Birth and Death
 											</td>
@@ -49,18 +60,7 @@ export function Schedule() {
 										</tr>
 										<tr>
 											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
-												9:45 am
-											</td>
-											<td className="border-b border-green-600 p-2 text-green-600">
-												Q&A
-											</td>
-											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
-												Thomas McConkie
-											</td>
-										</tr>
-										<tr>
-											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
-												10:00 am
+												10:10 am
 											</td>
 											<td
 												className="border-b border-green-600 p-2 text-green-600"
@@ -71,7 +71,7 @@ export function Schedule() {
 										</tr>
 										<tr>
 											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
-												10:15 am
+												10:25 am
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
 												The Calculus of Superhuman Priorities
@@ -82,7 +82,7 @@ export function Schedule() {
 										</tr>
 										<tr>
 											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
-												10:25 am
+												10:35 am
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
 												Prompting God
@@ -93,18 +93,18 @@ export function Schedule() {
 										</tr>
 										<tr>
 											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
-												10:45 am
+												10:55 am
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
-												Panel: Psychedelics and Transformation
+												Psychedelics & Transformation
 											</td>
 											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
-												Karen King, Wesley Smith, Katherine Kincaid
+												Katherine Kincaid
 											</td>
 										</tr>
 										<tr>
 											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
-												11:15 am
+												11:05 am
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
 												Understanding and Correcting Early MAPs
@@ -115,10 +115,10 @@ export function Schedule() {
 										</tr>
 										<tr>
 											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
-												11:30 am
+												11:20 am
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
-												Warned and Forewarned: Word of Wisdom and Tech Ethics
+												Warned and Forewarned: Word of Wisdom & Tech Ethics
 											</td>
 											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Bradley Thornock
@@ -126,11 +126,10 @@ export function Schedule() {
 										</tr>
 										<tr>
 											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
-												11:40 am
+												11:30 am
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
-												Towards Uploading and Emulation: A Model of
-												Consciousness and Subjective Experience
+												Toward Uploading and Emulation: A Model of Consciousness and Subjective Experience
 											</td>
 											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Randall Koene
@@ -138,18 +137,7 @@ export function Schedule() {
 										</tr>
 										<tr>
 											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
-												12:15 pm
-											</td>
-											<td className="border-b border-green-600 p-2 text-green-600">
-												Q&A
-											</td>
-											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
-												Randall Koene
-											</td>
-										</tr>
-										<tr>
-											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
-												12:30 pm
+												12:20 pm
 											</td>
 											<td
 												className="border-b border-green-600 p-2 text-green-600"
@@ -160,7 +148,7 @@ export function Schedule() {
 										</tr>
 										<tr>
 											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
-												1:30 pm
+												1:20 pm
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
 												Rewire to Rise
@@ -171,40 +159,18 @@ export function Schedule() {
 										</tr>
 										<tr>
 											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
-												1:50 pm
+												1:40 pm
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
-												Our Soul at Stake: Digital Brain Rot
+												Psychedelics
 											</td>
 											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
-												Dan Lathen
+												Wesley Smith
 											</td>
 										</tr>
 										<tr>
 											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
-												2:10 pm
-											</td>
-											<td className="border-b border-green-600 p-2 text-green-600">
-												The Unconscious Mind: Processes and Mystery from a Hypnotist
-											</td>
-											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
-												Michaelann Gardner
-											</td>
-										</tr>
-										<tr>
-											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
-												2:25 pm
-											</td>
-											<td className="border-b border-green-600 p-2 text-green-600">
-												Neuroscience and Artificial Intelligence
-											</td>
-											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
-												Jordan Yorgason
-											</td>
-										</tr>
-										<tr>
-											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
-												2:45 pm
+												2:00 pm
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
 												Mystical Phenomena, Meditation, Cognition
@@ -215,7 +181,29 @@ export function Schedule() {
 										</tr>
 										<tr>
 											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
-												3:00 pm
+												2:15 pm
+											</td>
+											<td className="border-b border-green-600 p-2 text-green-600">
+												Our Soul at Stake: Digital Brain Rot
+											</td>
+											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
+												Dan Lathen
+											</td>
+										</tr>
+										<tr>
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
+												2:30 pm
+											</td>
+											<td className="border-b border-green-600 p-2 text-green-600">
+												Neuroscience and AI (title TBD)
+											</td>
+											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
+												Jordan Yorgason
+											</td>
+										</tr>
+										<tr>
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
+												2:50 pm
 											</td>
 											<td
 												className="border-b border-green-600 p-2 text-green-600"
@@ -226,7 +214,18 @@ export function Schedule() {
 										</tr>
 										<tr>
 											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
-												3:10 pm
+												3:00 pm
+											</td>
+											<td className="border-b border-green-600 p-2 text-green-600">
+												Heart and Mind: Transhumanism and Post-secular Religion
+											</td>
+											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
+												Caleb Jones
+											</td>
+										</tr>
+										<tr>
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
+												3:20 pm
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
 												Embracing Radical Life Extension
@@ -237,7 +236,7 @@ export function Schedule() {
 										</tr>
 										<tr>
 											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
-												3:20 pm
+												3:30 pm
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
 												A Global Dialogue on Digital Delusions
@@ -248,18 +247,18 @@ export function Schedule() {
 										</tr>
 										<tr>
 											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
-												3:35 pm
+												3:45 pm
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
-												The Mission of the MTA
+												The Unconscious Mind: Processes and Mystery from a Hypnotist
 											</td>
 											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
-												Carl Youngblood
+												Michaelann Gardner
 											</td>
 										</tr>
 										<tr>
 											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
-												3:45 pm
+												4:00 pm
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
 												Keynote
@@ -270,18 +269,7 @@ export function Schedule() {
 										</tr>
 										<tr>
 											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
-												4:25 pm
-											</td>
-											<td className="border-b border-green-600 p-2 text-green-600">
-												Q&A
-											</td>
-											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
-												Michael Ferguson
-											</td>
-										</tr>
-										<tr>
-											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
-												4:40 pm
+												4:50 pm
 											</td>
 											<td
 												className="border-b border-green-600 p-2 text-green-600"
@@ -292,10 +280,10 @@ export function Schedule() {
 										</tr>
 										<tr>
 											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
-												4:50 pm
+												5:00 pm
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
-												Synthesis Panel: Mind, Matter, Transformation
+												Closing Synthesis Panel: Mind, Matter, Transformation
 											</td>
 											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												McConkie, Koene, Ferguson; Moderator: Lincoln Cannon
