@@ -180,6 +180,29 @@ export function Speakers() {
 						/>
 
 						<OtherSpeaker
+							name="Evan Hadfield"
+							portrait="/img/2024/evan-hadfield.jpg"
+							content={
+								<p>
+									Evan leads operations at{" "}
+									<a href="https://cip.org/">
+										The Collective Intelligence Project
+									</a>
+									, incubating new governance models for generative AI. A
+									seasoned activist, he has championed direct action, mutual aid,
+									and collective organizing. At{" "}
+									<a href="https://twitter.com/">Twitter</a>, he organized a
+									walkout for the 2019 Climate Strikes, pressured execs to make
+									environmental commitments, and played an instrumental role
+									resisting detrimental changes during Elon's takeover. Evan has
+									even helped physically block old-growth logging in British
+									Columbia. He currently enjoys long walks with his wife in
+									beautiful Mount Shasta,	California.
+								</p>
+							}
+						/>
+
+						<OtherSpeaker
 							name="Joseph West"
 							portrait="/img/2025/joseph-west.jpg"
 							content={
