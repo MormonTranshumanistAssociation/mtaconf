@@ -189,15 +189,13 @@ export function Speakers() {
 										The Collective Intelligence Project
 									</a>
 									, incubating new governance models for generative AI. A
-									seasoned activist, he has championed direct action, mutual aid,
-									and collective organizing. At{" "}
-									<a href="https://twitter.com/">Twitter</a>, he organized a
-									walkout for the 2019 Climate Strikes, pressured execs to make
-									environmental commitments, and played an instrumental role
-									resisting detrimental changes during Elon's takeover. Evan has
-									even helped physically block old-growth logging in British
-									Columbia. He currently enjoys long walks with his wife in
-									beautiful Mount Shasta,	California.
+									seasoned activist, he has championed direct action, mutual
+									aid, and collective organizing. At{" "}
+									<a href="https://twitter.com/">Twitter</a>, Evan worked as a
+									data scientist specializing in human computation for trust and
+									safety at Twitter. Evan helped physically block old-growth
+									logging in British Columbia. He currently enjoys long walks
+									with his wife in beautiful Mount Shasta, California.
 								</p>
 							}
 						/>
@@ -255,11 +253,11 @@ export function Speakers() {
 							portrait="/img/2025/katherine-kincaid.jpg"
 							content={
 								<p>
-									Katherine Kincaid is a mother, a small business owner,
-									and a mental health therapist. With her partner Joseph, she
-									owns and operates private psychotherapy practices in Tucson,
-									Arizona and Salt Lake City, Utah. These practices specialize
-									in anti-oppressive, trauma-informed mental health therapy for
+									Katherine Kincaid is a mother, a small business owner, and a
+									mental health therapist. With her partner Joseph, she owns and
+									operates private psychotherapy practices in Tucson, Arizona
+									and Salt Lake City, Utah. These practices specialize in
+									anti-oppressive, trauma-informed mental health therapy for
 									individuals and families. One of their specialties is
 									psychedelic integration, services and Ketamine Assisted
 									Psychotherapy (KAP). She is passionate about perinatal mental
@@ -276,7 +274,23 @@ export function Speakers() {
 							portrait="/img/2025/leon-castillo.jpg"
 							content={
 								<p>
-									Horacio León Fernández del Castillo (“León Castillo”) is the founder and CEO of <a href="https://www.selfmastered.com/">Selfmastered</a>, Professor at <a href="https://www.ie.edu/university/about/">IE University</a>, and a VC investor. Based in Miami, he has lived and worked in Brazil, China, and India, shaping a global perspective he now applies to peak performance. At Selfmastered, he pioneered Neuroexecution: a neuroscience-driven, systems-based protocol that rewires attention, behavior, and identity through measurable protocol that deliver lasting transformation and business growth. Since 2020, his framework has helped more than 350 entrepreneurs replace burnout and distraction with clarity, focus, and consistent execution, engineering the mind as the ultimate driver of transformation.
+									Horacio León Fernández del Castillo (“León Castillo”) is the
+									founder and CEO of{" "}
+									<a href="https://www.selfmastered.com/">Selfmastered</a>,
+									Professor at{" "}
+									<a href="https://www.ie.edu/university/about/">
+										IE University
+									</a>
+									, and a VC investor. Based in Miami, he has lived and worked
+									in Brazil, China, and India, shaping a global perspective he
+									now applies to peak performance. At Selfmastered, he pioneered
+									Neuroexecution: a neuroscience-driven, systems-based protocol
+									that rewires attention, behavior, and identity through
+									measurable protocol that deliver lasting transformation and
+									business growth. Since 2020, his framework has helped more
+									than 350 entrepreneurs replace burnout and distraction with
+									clarity, focus, and consistent execution, engineering the mind
+									as the ultimate driver of transformation.
 								</p>
 							}
 						/>
