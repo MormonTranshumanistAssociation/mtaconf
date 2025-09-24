@@ -129,7 +129,8 @@ export function Schedule() {
 												11:30 am
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
-												Toward Uploading and Emulation: A Model of Consciousness and Subjective Experience
+												Toward Uploading and Emulation: A Model of Consciousness
+												and Subjective Experience
 											</td>
 											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Randall Koene
@@ -250,7 +251,8 @@ export function Schedule() {
 												3:45 pm
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
-												The Unconscious Mind: Processes and Mystery from a Hypnotist
+												The Unconscious Mind: Processes and Mystery from a
+												Hypnotist
 											</td>
 											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Michaelann Gardner
@@ -298,6 +300,17 @@ export function Schedule() {
 											</td>
 											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Joseph West
+											</td>
+										</tr>
+										<tr>
+											<td className="whitespace-nowrap border-b border-green-600 p-2 pl-8 text-green-600">
+												6:00 pm
+											</td>
+											<td
+												className="border-b border-green-600 p-2 text-green-600"
+												colSpan={2}
+											>
+												Dinner
 											</td>
 										</tr>
 									</tbody>
