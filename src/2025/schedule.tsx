@@ -133,7 +133,7 @@ export function Schedule() {
 												and Subjective Experience
 											</td>
 											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
-												Randall Koene
+												Randal Koene
 											</td>
 										</tr>
 										<tr>
