@@ -180,7 +180,7 @@ export function Speakers() {
 						/>
 
 						<OtherSpeaker
-							name="Dalynn Moore"
+							name="DaLynn Moore"
 							portrait="/img/2025/dalynn-moore.jpg"
 							content={
 								<p>
