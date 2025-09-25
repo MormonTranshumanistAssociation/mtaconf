@@ -180,8 +180,8 @@ export function Speakers() {
 						/>
 
 						<OtherSpeaker
-							name="Dalynne Moore"
-							portrait="/img/2025/dalynne-moore.jpg"
+							name="Dalynn Moore"
+							portrait="/img/2025/dalynn-moore.jpg"
 							content={
 								<p>
 									DaLynn Moore is a mindset and transformation expert and is
