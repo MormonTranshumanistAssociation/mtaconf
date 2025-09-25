@@ -388,13 +388,14 @@ export function Speakers() {
 									Communication Disorders from{" "}
 									<a href="https://www.byu.edu">Brigham Young University</a>.
 									She now attends both the Episcopal Church and a Buddhist
-									sangha. Certified as a hypnotist through{" "}
-									<a href="https://www.melissatiers.com/">Melissa Tiers's</a>
-									School of Integrative Changework, she blends unconscious
-									exploration and the science of neuroplasticity into her
-									practice. Chronic pain has shaped her journey, serving as both
-									a challenge and a teacher, deeply informing her approach to
-									creativity and connection.{" "}
+									sangha. Certified as a hypnotist through Melissa Tiers's{" "}
+									<a href="https://www.melissatiers.com/">
+										School of Integrative Changework
+									</a>
+									, she blends unconscious exploration and the science of
+									neuroplasticity into her practice. Chronic pain has shaped her
+									journey, serving as both a challenge and a teacher, deeply
+									informing her approach to creativity and connection.{" "}
 								</p>
 							}
 						/>
