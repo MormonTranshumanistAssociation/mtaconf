@@ -180,6 +180,39 @@ export function Speakers() {
 						/>
 
 						<OtherSpeaker
+							name="Dalynne Moore"
+							portrait="/img/2025/dalynne-moore.jpg"
+							content={
+								<p>
+									DaLynn Moore is a mindset and transformation expert and is
+									dedicated to guiding individuals through overcoming trauma and
+									dismantling limiting beliefs. With profound insights into
+									personal growth, DaLynn empowers others to embrace change and
+									pursue their fullest potential as they journey towards
+									eternity. She has a masters' degree in counseling and is the
+									mother of seven children.
+								</p>
+							}
+						/>
+
+						<OtherSpeaker
+							name="Dan Moore"
+							portrait="/img/2025/dan-moore.jpg"
+							content={
+								<p>
+									Dan Moore is a geoscientist with interests in high-temperature
+									geochemistry, deep time, the philosophy of science, and the
+									relationship between science and religion. He has served as an
+									academic leader in his department, university, and
+									professional organizations. Dr. Moore has lived in California,
+									Canada, Idaho, Argentina, Utah, New York, Maryland, and
+									Virginia. He and his wife DaLynn have seven children and six
+									grandchildren.
+								</p>
+							}
+						/>
+
+						<OtherSpeaker
 							name="Evan Hadfield"
 							portrait="/img/2024/evan-hadfield.jpg"
 							content={
