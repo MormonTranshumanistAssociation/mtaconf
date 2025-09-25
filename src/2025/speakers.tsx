@@ -359,15 +359,18 @@ export function Speakers() {
 									Matt Gardner is from Colorado Springs, Colorado, and currently
 									lives in Provo, Utah with his wife and three kids. Matt is a
 									Latter-day Saint Seminary teacher at Lehi, Utah, and holds a
-									Master’s degree in Biblical Studies from Regent University.
-									Matt is currently enrolled in a PhD program for Biblical
-									Studies at Amridge University with plans to complete his
-									degree in 2027. He is a huge BYU football and basketball fan,
-									but also enjoys studying, writing, and teaching on LDS
-									Transhumanism topics. When he’s not teaching, reading,
-									writing, or watching sports, Matt is usually found playing and
-									wrestling with his kids. Matt currently serves as the Vice
-									President of the{" "}
+									Master’s degree in Biblical Studies from{" "}
+									<a href="https://www.regent.edu/">Regent University</a>. Matt
+									is currently enrolled in a PhD program for Biblical Studies at{" "}
+									<a href="https://www.amridgeuniversity.edu/">
+										Amridge University
+									</a>{" "}
+									with plans to complete his degree in 2027. He is a huge BYU
+									football and basketball fan, but also enjoys studying,
+									writing, and teaching on LDS Transhumanism topics. When he’s
+									not teaching, reading, writing, or watching sports, Matt is
+									usually found playing and wrestling with his kids. Matt
+									currently serves as the Vice President of the{" "}
 									<a href="https://transfigurism.org">
 										Mormon Transhumanist Association
 									</a>
@@ -377,7 +380,7 @@ export function Speakers() {
 						/>
 						<OtherSpeaker
 							name="Michaelann Gardner"
-							portrait="/img/2025/michaelann-gardner.jpg"
+							portrait="/img/2025/michaelann-gardner-cropped.jpg"
 							content={
 								<p>
 									Michaelann Gardner is a writer and hypnotist living in Provo,
