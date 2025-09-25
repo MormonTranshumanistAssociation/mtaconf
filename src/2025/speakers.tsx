@@ -218,6 +218,27 @@ export function Speakers() {
 								</p>
 							}
 						/>
+						<OtherSpeaker
+							name="Dan Lathan"
+							portrait="/img/2025/dan-lathan.jpg"
+							content={
+								<p>
+									Dr. Dan Lathen is a cognitive performance specialist with a
+									Ph.D. in neuroscience and a background in addiction research
+									and recovery. He has spoken at professional conferences on
+									brain health and digital overuse, co-authored{" "}
+									<a href="https://www.amazon.com/Superhuman-Playbook-Strategies-Unleash-Unstoppable/dp/B08GDK9QQ3">
+										The Superhuman Playbook
+									</a>
+									, and trained more than 600 individuals to rewire their brains
+									for stronger memory, motivation, and mental control. He
+									designs interactive programs that help people rebuild
+									cognitive skills in today’s screen-saturated world, drawing
+									from research on neuroplasticity, habit change, and emotional
+									resilience while protecting what makes us human.
+								</p>
+							}
+						/>
 
 						<OtherSpeaker
 							name="Dan Moore"
