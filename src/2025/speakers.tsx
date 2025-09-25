@@ -224,9 +224,9 @@ export function Speakers() {
 							content={
 								<p>
 									Dr. Dan Lathen is a cognitive performance specialist with a
-									Ph.D. in neuroscience and a background in addiction research
-									and recovery. He has spoken at professional conferences on
-									brain health and digital overuse, co-authored{" "}
+									PhD in neuroscience and a background in addiction research and
+									recovery. He has spoken at professional conferences on brain
+									health and digital overuse, co-authored{" "}
 									<a href="https://www.amazon.com/Superhuman-Playbook-Strategies-Unleash-Unstoppable/dp/B08GDK9QQ3">
 										The Superhuman Playbook
 									</a>
