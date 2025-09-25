@@ -178,6 +178,30 @@ export function Speakers() {
 								</p>
 							}
 						/>
+						<OtherSpeaker
+							name="Carl Youngblood"
+							portrait="/img/2024/carl-youngblood.jpg"
+							content={
+								<p>
+									Carl Youngblood is President and co-founder of the{" "}
+									<a href="https://transfigurism.org/">
+										Mormon Transhumanist Association
+									</a>
+									. He regularly engages in thoughtwork surrounding future
+									technological advances, and has published essays on topics
+									such as artificial intelligence, digital identity, blockchain
+									technology, and quantum archaeology. Carl has made a career in
+									software engineering, and has worked at and co-founded several
+									successful startups. He received a BA in Portuguese from{" "}
+									<a href="https://www.byu.edu">Brigham Young University</a> and
+									an MS in Computer Science from the{" "}
+									<a href="https://www.washington.edu">
+										University of Washington
+									</a>
+									.
+								</p>
+							}
+						/>
 
 						<OtherSpeaker
 							name="DaLynn Moore"
@@ -252,31 +276,6 @@ export function Speakers() {
 									Scientific Study of Religion. Joseph is a co-founding member
 									of the MTA and currently serves in the Association as
 									Treasurer.
-								</p>
-							}
-						/>
-
-						<OtherSpeaker
-							name="Carl Youngblood"
-							portrait="/img/2024/carl-youngblood.jpg"
-							content={
-								<p>
-									Carl Youngblood is President and co-founder of the{" "}
-									<a href="https://transfigurism.org/">
-										Mormon Transhumanist Association
-									</a>
-									. He regularly engages in thoughtwork surrounding future
-									technological advances, and has published essays on topics
-									such as artificial intelligence, digital identity, blockchain
-									technology, and quantum archaeology. Carl has made a career in
-									software engineering, and has worked at and co-founded several
-									successful startups. He received a BA in Portuguese from{" "}
-									<a href="https://www.byu.edu">Brigham Young University</a> and
-									an MS in Computer Science from the{" "}
-									<a href="https://www.washington.edu">
-										University of Washington
-									</a>
-									.
 								</p>
 							}
 						/>
@@ -373,6 +372,29 @@ export function Speakers() {
 										Mormon Transhumanist Association
 									</a>
 									.
+								</p>
+							}
+						/>
+						<OtherSpeaker
+							name="Michaelann Gardner"
+							portrait="/img/2025/michaelann-gardner.jpg"
+							content={
+								<p>
+									Michaelann Gardner is a writer and hypnotist living in Provo,
+									Utah. Her work explores themes that matter most to her:
+									bodies, relationships, sex, God, and the search for meaning. A
+									devout Mormon for most of her life, Michaelann served a
+									mission in Zurich, Switzerland and received a degree in
+									Communication Disorders from{" "}
+									<a href="https://www.byu.edu">Brigham Young University</a>.
+									She now attends both the Episcopal Church and a Buddhist
+									sangha. Certified as a hypnotist through{" "}
+									<a href="https://www.melissatiers.com/">Melissa Tiers's</a>
+									School of Integrative Changework, she blends unconscious
+									exploration and the science of neuroplasticity into her
+									practice. Chronic pain has shaped her journey, serving as both
+									a challenge and a teacher, deeply informing her approach to
+									creativity and connection.{" "}
 								</p>
 							}
 						/>
