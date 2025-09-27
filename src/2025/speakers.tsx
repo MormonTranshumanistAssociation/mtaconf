@@ -373,6 +373,16 @@ export function Speakers() {
 						/>
 
 						<OtherSpeaker
+							name="Luca Del Deo"
+							portrait="/img/2025/luca-del-deo.jpg"
+							content={
+								<p>
+									Luca Del Deo is the founder of <a href="https://www.meditationartifacts.org/">Meditation Artifacts</a>, a nonprofit organization promoting nonsectarian research and education about meditation practices. He has presented on topics including the cognitive science of religion, contemplative studies, and contemporary paganism at the <a href="https://aarweb.org/">American Academy of Religion</a>, the <a href="https://sssreligion.org/">Society for the Scientific Study of Religion</a>, and multiple private venues. His most recent degree is a Master of Theological Studies from <a href="https://www.harvard.edu/">Harvard University</a>.
+								</p>
+							}
+						/>
+
+						<OtherSpeaker
 							name="Matt Gardner"
 							portrait="/img/2024/matt-gardner.jpg"
 							content={
