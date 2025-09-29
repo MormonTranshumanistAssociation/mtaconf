@@ -196,7 +196,7 @@ export function Schedule() {
 												2:30 pm
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
-												Neuroscience and AI (title TBD)
+												Do machines think like animals?
 											</td>
 											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Jordan Yorgason

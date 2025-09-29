@@ -433,6 +433,16 @@ export function Speakers() {
 								</p>
 							}
 						/>
+
+						<OtherSpeaker
+							name="Wesley Smith"
+							portrait="/img/2025/wesley-smith.jpg"
+							content={
+								<p>
+									As someone who is more conservative by nature, Wesley Smith's path to psychedelics was perhaps an unexpected one. He is a writer focused on bringing the psychedelic renaissance out of the counterculture and into the living rooms of average Americans. After a head injury led him to explore nontraditional paths for healing, he discovered that, in the right setting, psychedelics can deepen the very values conservatives hold dear: faith, family, duty, and personal responsibility, while expanding our awareness of our collective consciousness. He’s the co-author, along with therapist Karen King, of the forthcoming book Psychedelics Aren’t Just for Hippies: Why Conservatives, Liberals, and other Free-Thinking Americans Need to Take Charge of the Psychedelic Movement. The book chronicles veterans, parents, entrepreneurs, and churchgoers who’ve used these tools to reconnect with purpose and the people they love, and lays out conservative principles that support the use of psychedelics. His work sits at the intersection of science and ethos—bridging evidence-based research with a culturally grounded case for humility, gratitude, and moral clarity when approaching altered states that don’t fit nicely into scientific categories. He has engaged with clinicians, veterans’ advocates, pastors, and policy voices, and he speaks candidly about guardrails: legality, preparation, integration, and community accountability. Whether addressing the orthodox-heterodox rift inside the psychedelic movement or the broader Left-Right rift in our culture, Wes argues that freedom and order aren’t rivals—they are the necessary elements of any society that wishes to promote human flourishing.
+								</p>
+							}
+						/>
 					</div>
 				</div>
 			</div>
