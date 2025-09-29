@@ -279,6 +279,16 @@ export function Speakers() {
 						/>
 
 						<OtherSpeaker
+							name="Jordan Yorgason"
+							portrait="/img/2025/jordan-yorgason.jpg"
+							content={
+								<p>
+									Dr. Jordan Yorgason is a neuropharmacologist whose research focuses on brain circuits that drive motivation—both for natural rewards like food and social interaction, and for drugs such as alcohol and psychostimulants. He earned his Ph.D. in Neuroscience from <a href="https://www.wfu.edu/">Wake Forest School of Medicine</a> and completed postdoctoral training in neurophysiology and pharmacology at the Vollum Institute at Oregon Health & Science University. As an Associate Professor of Cellular Biology and Neuroscience at <a href="https://www.byu.edu/">Brigham Young University</a>, he worked with computer scientists to integrate physiological circuits into machine learning models. His faculty position is currently at Wake Forest in the Department of Translational Neuroscience, where his research explores how activity outside the brain, particularly in the immune system, can influence mesolimbic circuits involved in addiction and reward.
+								</p>
+							}
+						/>
+
+						<OtherSpeaker
 							name="Joseph West"
 							portrait="/img/2025/joseph-west.jpg"
 							content={
