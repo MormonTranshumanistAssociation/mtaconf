@@ -247,7 +247,7 @@ export function Speakers() {
 								<p>
 									Dan Moore is a geoscientist with interests in high-temperature
 									geochemistry, deep time, the philosophy of science, and the
-									relationship between science and religion. He currently works at <a href="https://www.uvu.edu/">Utah Valley University</a>. He has served as an
+									relationship between science and religion. He currently works as a professor at <a href="https://www.uvu.edu/">Utah Valley University</a>. He has served as an
 									academic leader in his department, university, and
 									professional organizations. Dr. Moore has lived in California,
 									Canada, Idaho, Argentina, Utah, New York, Maryland, and
