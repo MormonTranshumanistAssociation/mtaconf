@@ -163,7 +163,7 @@ export function Schedule() {
 												1:40 pm
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
-												Psychedelics
+												Psychedelics: Decentralizing transcendence in a world of tribalism
 											</td>
 											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Wesley Smith
