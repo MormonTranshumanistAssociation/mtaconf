@@ -178,6 +178,26 @@ export function Speakers() {
 								</p>
 							}
 						/>
+
+						<OtherSpeaker
+							name="Caleb Jones"
+							portrait="/img/2024/caleb-jones.jpg"
+							content={
+								<p>
+									Caleb is a husband, father of 4 children, lives in the Pacific
+									Northwest, and has been an active participant in the{" "}
+									<a href="https://www.transfigurism.org">
+										Mormon Transhumanist Association
+									</a>{" "}
+									for nearly a decade. Professionally, he leads data
+									architecture teams at{" "}
+									<a href="https://www.disney.com/">Disney</a> supporting
+									complex data analysis. Mormonism holds a fond place in his
+									heart and he personally finds Mormon Transhumanism to be the
+									most radiant form of Mormon thought today.
+								</p>
+							}
+						/>
 						<OtherSpeaker
 							name="Carl Youngblood"
 							portrait="/img/2024/carl-youngblood.jpg"
