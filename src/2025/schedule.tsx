@@ -29,7 +29,7 @@ export function Schedule() {
 												9:00 am
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
-												Welcome & framing
+												Welcome and framing
 											</td>
 											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Joseph West
@@ -96,7 +96,7 @@ export function Schedule() {
 												10:55 am
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
-												Psychedelics & Transformation
+												Psychedelics and Transformation
 											</td>
 											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Katherine Kincaid
@@ -118,7 +118,7 @@ export function Schedule() {
 												11:20 am
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
-												Warned and Forewarned: Word of Wisdom & Tech Ethics
+												Warned and Forewarned: Word of Wisdom and Tech Ethics
 											</td>
 											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Bradley Thornock
@@ -163,7 +163,7 @@ export function Schedule() {
 												1:40 pm
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
-												Psychedelics: Decentralizing transcendence in a world of tribalism
+												Psychedelics: Decentralizing Transcendence in a World of Tribalism
 											</td>
 											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Wesley Smith
@@ -196,7 +196,7 @@ export function Schedule() {
 												2:30 pm
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
-												Do machines think like animals?
+												Do Machines Think Like Animals?
 											</td>
 											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Jordan Yorgason
@@ -218,7 +218,7 @@ export function Schedule() {
 												3:00 pm
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
-												Heart and Mind: Transhumanism and Post-secular Religion
+												Heart and Mind: Transhumanism and Post-Secular Religion
 											</td>
 											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Caleb Jones
