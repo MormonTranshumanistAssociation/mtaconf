@@ -18,10 +18,10 @@ export function KeynoteSpeaker(props: SpeakerProps) {
 							alt={name}
 						/>
 					</div>
-					<h3 className="mt-8 text-2xl font-medium font-bold text-green-600 tracking-tight">
+					<h3 className="mt-8 text-2xl font-bold text-green-600 tracking-tight">
 						{name}
 					</h3>
-					<div className="mt-5 text-base text-green-600 text-left text-base max-w-prose prose prose-indigo">
+					<div className="mt-5 text-base text-green-600 text-left max-w-prose prose prose-indigo">
 						{content}
 					</div>
 				</div>
@@ -43,10 +43,10 @@ export function OtherSpeaker(props: SpeakerProps) {
 							alt={name}
 						/>
 					</div>
-					<h3 className="mt-8 text-2xl font-medium font-bold text-green-600 tracking-tight">
+					<h3 className="mt-8 text-2xl font-bold text-green-600 tracking-tight">
 						{name}
 					</h3>
-					<div className="mt-5 text-base text-green-600 text-left text-base max-w-prose prose prose-indigo">
+					<div className="mt-5 text-base text-green-600 text-left max-w-prose prose prose-indigo">
 						{content}
 					</div>
 				</div>
@@ -267,12 +267,14 @@ export function Speakers() {
 								<p>
 									Dan Moore is a geoscientist with interests in high-temperature
 									geochemistry, deep time, the philosophy of science, and the
-									relationship between science and religion. He currently works as a professor at <a href="https://www.uvu.edu/">Utah Valley University</a>. He has served as an
-									academic leader in his department, university, and
-									professional organizations. Dr. Moore has lived in California,
-									Canada, Idaho, Argentina, Utah, New York, Maryland, and
-									Virginia. He and his wife DaLynn have seven children and six
-									grandchildren.
+									relationship between science and religion. He currently works
+									as a professor at{" "}
+									<a href="https://www.uvu.edu/">Utah Valley University</a>. He
+									has served as an academic leader in his department,
+									university, and professional organizations. Dr. Moore has
+									lived in California, Canada, Idaho, Argentina, Utah, New York,
+									Maryland, and Virginia. He and his wife DaLynn have seven
+									children and six grandchildren.
 								</p>
 							}
 						/>
@@ -303,7 +305,25 @@ export function Speakers() {
 							portrait="/img/2025/jordan-yorgason.jpg"
 							content={
 								<p>
-									Dr. Jordan Yorgason is a neuropharmacologist whose research focuses on brain circuits that drive motivation—both for natural rewards like food and social interaction, and for drugs such as alcohol and psychostimulants. He earned his Ph.D. in Neuroscience from <a href="https://www.wfu.edu/">Wake Forest School of Medicine</a> and completed postdoctoral training in neurophysiology and pharmacology at the Vollum Institute at Oregon Health & Science University. As an Associate Professor of Cellular Biology and Neuroscience at <a href="https://www.byu.edu/">Brigham Young University</a>, he worked with computer scientists to integrate physiological circuits into machine learning models. His faculty position is currently at Wake Forest in the Department of Translational Neuroscience, where his research explores how activity outside the brain, particularly in the immune system, can influence mesolimbic circuits involved in addiction and reward.
+									Dr. Jordan Yorgason is a neuropharmacologist whose research
+									focuses on brain circuits that drive motivation—both for
+									natural rewards like food and social interaction, and for
+									drugs such as alcohol and psychostimulants. He earned his
+									Ph.D. in Neuroscience from{" "}
+									<a href="https://www.wfu.edu/">
+										Wake Forest School of Medicine
+									</a>{" "}
+									and completed postdoctoral training in neurophysiology and
+									pharmacology at the Vollum Institute at Oregon Health &
+									Science University. As an Associate Professor of Cellular
+									Biology and Neuroscience at{" "}
+									<a href="https://www.byu.edu/">Brigham Young University</a>,
+									he worked with computer scientists to integrate physiological
+									circuits into machine learning models. His faculty position is
+									currently at Wake Forest in the Department of Translational
+									Neuroscience, where his research explores how activity outside
+									the brain, particularly in the immune system, can influence
+									mesolimbic circuits involved in addiction and reward.
 								</p>
 							}
 						/>
@@ -407,7 +427,22 @@ export function Speakers() {
 							portrait="/img/2025/luca-del-deo.jpg"
 							content={
 								<p>
-									Luca Del Deo is the founder of <a href="https://www.meditationartifacts.org/">Meditation Artifacts</a>, a nonprofit organization promoting nonsectarian research and education about meditation practices. He has presented on topics including the cognitive science of religion, contemplative studies, and contemporary paganism at the <a href="https://aarweb.org/">American Academy of Religion</a>, the <a href="https://sssreligion.org/">Society for the Scientific Study of Religion</a>, and multiple private venues. His most recent degree is a Master of Theological Studies from <a href="https://www.harvard.edu/">Harvard University</a>.
+									Luca Del Deo is the founder of{" "}
+									<a href="https://www.meditationartifacts.org/">
+										Meditation Artifacts
+									</a>
+									, a nonprofit organization promoting nonsectarian research and
+									education about meditation practices. He has presented on
+									topics including the cognitive science of religion,
+									contemplative studies, and contemporary paganism at the{" "}
+									<a href="https://aarweb.org/">American Academy of Religion</a>
+									, the{" "}
+									<a href="https://sssreligion.org/">
+										Society for the Scientific Study of Religion
+									</a>
+									, and multiple private venues. His most recent degree is a
+									Master of Theological Studies from{" "}
+									<a href="https://www.harvard.edu/">Harvard University</a>.
 								</p>
 							}
 						/>
@@ -469,7 +504,24 @@ export function Speakers() {
 							portrait="/img/2025/wesley-smith.jpg"
 							content={
 								<p>
-									As someone who is more conservative by nature, Wesley Smith's path to psychedelics was perhaps an unexpected one. After a head injury led him to explore nontraditional paths for healing, he discovered that, in the right setting, psychedelics can deepen the very values conservatives hold dear: faith, family, duty, and personal responsibility, while expanding our awareness of our collective consciousness. He’s the co-author, along with therapist Karen King, of the forthcoming book <em>Psychedelics Aren’t Just for Hippies: Why Conservatives, Liberals, and Other Free-Thinking Americans Need to Take Charge of the Psychedelic Movement</em>. The book chronicles veterans, parents, entrepreneurs, and churchgoers who’ve used these tools to reconnect with purpose and the people they love, and lays out conservative principles that support the use of psychedelics.
+									As someone who is more conservative by nature, Wesley Smith's
+									path to psychedelics was perhaps an unexpected one. After a
+									head injury led him to explore nontraditional paths for
+									healing, he discovered that, in the right setting,
+									psychedelics can deepen the very values conservatives hold
+									dear: faith, family, duty, and personal responsibility, while
+									expanding our awareness of our collective consciousness. He’s
+									the co-author, along with therapist Karen King, of the
+									forthcoming book{" "}
+									<em>
+										Psychedelics Aren’t Just for Hippies: Why Conservatives,
+										Liberals, and Other Free-Thinking Americans Need to Take
+										Charge of the Psychedelic Movement
+									</em>
+									. The book chronicles veterans, parents, entrepreneurs, and
+									churchgoers who’ve used these tools to reconnect with purpose
+									and the people they love, and lays out conservative principles
+									that support the use of psychedelics.
 								</p>
 							}
 						/>

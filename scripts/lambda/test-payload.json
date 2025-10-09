@@ -1,0 +1,7 @@
+{
+	"httpMethod": "POST",
+	"body": "{\"password\": \"test_password\"}",
+	"headers": {
+		"Content-Type": "application/json"
+	}
+}
