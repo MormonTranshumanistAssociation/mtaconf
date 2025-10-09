@@ -1,6 +1,9 @@
 export function Background() {
 	return (
-		<div className="py-8 xl:py-16 px-4 sm:px-6 lg:px-8 bg-yellow-100 overflow-hidden">
+		<div
+			id="background"
+			className="py-8 xl:py-16 px-4 sm:px-6 lg:px-8 bg-yellow-100 overflow-hidden"
+		>
 			<div className="max-w-max lg:max-w-7xl mx-auto">
 				<div className="relative z-10 mb-4 md:mb-2 md:px-6">
 					<div className="text-base max-w-prose lg:max-w-none">

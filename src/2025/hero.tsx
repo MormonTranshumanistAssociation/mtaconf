@@ -4,7 +4,7 @@ import { pastConferences } from "../past-conferences.ts";
 
 export function Hero() {
 	return (
-		<section>
+		<section id="hero">
 			<div className="m-4 h-20 grid grid-cols-8 items-center justify-center text-stone-600 text-xs gap-2 sm:h-0 sm:flex sm:flex-row">
 				<div className="col-span-8">Previous years:</div>
 				{pastConferences.map((conf) =>

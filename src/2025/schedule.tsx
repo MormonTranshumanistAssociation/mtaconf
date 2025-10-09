@@ -1,6 +1,9 @@
 export function Schedule() {
 	return (
-		<div className="relative bg-yellow-100 pb-16 px-4 sm:px-6 md:px-12 lg:px-16">
+		<div
+			id="schedule"
+			className="relative bg-yellow-100 pb-16 px-4 sm:px-6 md:px-12 lg:px-16"
+		>
 			<div className="mx-auto pb-8 text-center max-w-7xl">
 				<p className="text-left mt-0 text-3xl font-extrabold text-green-600 tracking-tight sm:text-4xl">
 					Schedule

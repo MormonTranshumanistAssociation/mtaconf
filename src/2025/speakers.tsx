@@ -57,7 +57,10 @@ export function OtherSpeaker(props: SpeakerProps) {
 
 export function Speakers() {
 	return (
-		<div className="relative bg-gradient-to-r from-emerald-700 to-orange-400 pb-24 pt-1 px-4 sm:px-6 lg:px-16">
+		<div
+			id="speakers"
+			className="relative bg-gradient-to-r from-emerald-700 to-orange-400 pb-24 pt-1 px-4 sm:px-6 lg:px-16"
+		>
 			<div className="mx-auto max-w-md sm:max-w-3xl lg:max-w-7xl">
 				<p className="mt-20 text-3xl font-extrabold text-yellow-100 tracking-tight sm:text-4xl">
 					Keynote speakers

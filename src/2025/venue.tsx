@@ -1,6 +1,9 @@
 export function Venue() {
 	return (
-		<div className="mt-10 pb-16 bg-gradient-to-r from-emerald-700 to-orange-400 lg:pb-0 lg:z-10 lg:relative">
+		<div
+			id="venue"
+			className="mt-10 pb-16 bg-gradient-to-r from-emerald-700 to-orange-400 lg:pb-0 lg:z-10 lg:relative"
+		>
 			<div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8">
 				<div className="relative lg:-my-8">
 					<div className="mx-auto max-w-md p-0 sm:max-w-3xl sm:px-6 lg:p-0 lg:h-full">
