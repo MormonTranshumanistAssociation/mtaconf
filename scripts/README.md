@@ -7,13 +7,18 @@ This directory contains deployment and management scripts for the MTA Conference
 ```
 scripts/
 ├── lambda/                    # Lambda function deployment scripts
-│   ├── lambda-password-verify.js    # Main password verification function
-│   ├── setup-dynamodb.js            # DynamoDB table setup and password management
+│   ├── lambda-password-verify.ts    # Main password verification function
+│   ├── setup-dynamodb.ts            # DynamoDB table setup and password management
 │   ├── package.json                 # Lambda function dependencies
-│   ├── deploy.sh                    # Automated deployment script
-│   ├── TROUBLESHOOTING.md           # Comprehensive troubleshooting guide
-│   ├── DEPLOYMENT_CHECKLIST.md      # Step-by-step deployment checklist
-│   └── README.md                    # This file
+│   └── deploy.sh                    # Automated deployment script
+├── streaming/                 # Streaming server management scripts
+│   ├── streaming-config.json        # Server configuration
+│   ├── get-streaming-info.sh        # Get server status and URLs
+│   ├── stop-streaming-server.sh     # Stop the streaming server
+│   ├── setup-ssl-domain.sh          # SSL certificate setup
+│   ├── update-livestream-url.sh     # Update frontend with stream URLs
+│   ├── validate-signed-url.sh       # Validate signed stream URLs
+│   └── README.md                    # Streaming server documentation
 └── README.md                        # This file
 ```
 
@@ -157,22 +162,19 @@ curl -X POST <FUNCTION_URL> -H "Content-Type: application/json" -d '{"password":
 
 ## File Descriptions
 
-- **lambda-password-verify.js**: Main authentication logic with device limits
-- **setup-dynamodb.js**: DynamoDB table management and password operations
+- **lambda-password-verify.ts**: Main authentication logic with device limits and signed URL generation
+- **setup-dynamodb.ts**: DynamoDB table management and password operations
 - **deploy.sh**: Automated deployment script with IAM setup and all fixes
 - **package.json**: Lambda function dependencies and npm scripts
-- **TROUBLESHOOTING.md**: Comprehensive guide for common deployment issues
 
 ## Additional Resources
 
-- **DEPLOYMENT_CHECKLIST.md**: Step-by-step checklist for smooth deployment
-- **TROUBLESHOOTING.md**: Detailed troubleshooting guide with solutions for all common issues
 - **AWS Lambda Function URLs**: [Official Documentation](https://docs.aws.amazon.com/lambda/latest/dg/lambda-urls.html)
 - **DynamoDB**: [Official Documentation](https://docs.aws.amazon.com/dynamodb/)
 
 ## Quick Reference
 
-For a smooth deployment from scratch, follow these files in order:
-1. **DEPLOYMENT_CHECKLIST.md** - Complete step-by-step guide
-2. **deploy.sh** - Automated deployment script
-3. **TROUBLESHOOTING.md** - If you encounter any issues
+For a smooth deployment from scratch:
+1. Run `./deploy.sh` - Automated deployment script
+2. Run `mise exec -- pnpm run setup` - Set up DynamoDB table
+3. Add passwords with `mise exec -- pnpm run add-password "password" "description"`

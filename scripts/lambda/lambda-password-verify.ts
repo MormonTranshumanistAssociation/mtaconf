@@ -51,11 +51,12 @@ const dynamodb = DynamoDBDocumentClient.from(client);
 const TABLE_NAME =
 	process.env.PASSWORD_DEVICES_TABLE || "livestream-password-devices";
 
-// DynamoDB table name for storing streaming server info
-const SERVER_INFO_TABLE = "livestream-server-info";
-
 // Maximum devices per password
 const MAX_DEVICES_PER_PASSWORD = 2;
+
+// Streaming server configuration - using stable domain name
+const STREAMING_DOMAIN = "stream.mtaconf.org";
+const HLS_URL = `https://${STREAMING_DOMAIN}/stream.m3u8`;
 
 // Generate a unique device ID
 function generateDeviceId(): string {
@@ -69,36 +70,19 @@ function getDeviceId(event: LambdaEvent): string | null {
 	return deviceIdMatch ? deviceIdMatch[1] || null : null;
 }
 
-// Get current streaming server info from DynamoDB
-async function getCurrentStreamingServerInfo(): Promise<string> {
-	try {
-		const getCommand = new GetCommand({
-			TableName: SERVER_INFO_TABLE,
-			Key: {
-				serverId: "current",
-			},
-		});
-
-		const result = await dynamodb.send(getCommand);
-		if (result.Item?.hlsUrl) {
-			return result.Item.hlsUrl;
-		}
-	} catch (error) {
-		console.error("Error getting streaming server info:", error);
-	}
-
-	// No fallback URL - if no server info is found, this is an error condition
-	// The launch script should always update DynamoDB when starting a new server
-	throw new Error(
-		"No streaming server information found in DynamoDB. Please ensure a server is running and the DynamoDB table is updated.",
-	);
+// Get current streaming server info - using stable domain name
+function getCurrentStreamingServerInfo(): string {
+	return HLS_URL;
 }
 
 // Generate a signed URL for the HLS stream
-async function generateSignedStreamUrl(deviceId: string) {
-	const baseUrl = await getCurrentStreamingServerInfo();
+function generateSignedStreamUrl(deviceId: string): string {
+	const baseUrl = getCurrentStreamingServerInfo();
 	const expires = Math.floor(Date.now() / 1000) + 24 * 60 * 60; // 24 hours from now
-	const secret = process.env.SIGNING_SECRET || "mtaconf-streaming-secret-key"; // In production, use a proper secret
+	const secret = process.env.SIGNING_SECRET;
+	if (!secret) {
+		throw new Error("SIGNING_SECRET environment variable is required");
+	}
 
 	// Create the signature payload
 	const payload = `deviceId=${deviceId}&expires=${expires}`;
@@ -112,7 +96,7 @@ async function generateSignedStreamUrl(deviceId: string) {
 }
 
 export const handler = async (event: LambdaEvent): Promise<LambdaResponse> => {
-	// CORS is now handled by Lambda URL configuration
+	// CORS is handled by Lambda URL configuration
 	const headers = {
 		"Content-Type": "application/json",
 	};
@@ -142,7 +126,7 @@ export const handler = async (event: LambdaEvent): Promise<LambdaResponse> => {
 		}
 
 		// Generate and return a new signed stream URL
-		const signedStreamUrl = await generateSignedStreamUrl(deviceId);
+		const signedStreamUrl = generateSignedStreamUrl(deviceId);
 		return {
 			statusCode: 200,
 			headers,
@@ -226,7 +210,7 @@ export const handler = async (event: LambdaEvent): Promise<LambdaResponse> => {
 
 		if (isExistingDevice) {
 			// Device already registered, allow access
-			const signedStreamUrl = await generateSignedStreamUrl(deviceId);
+			const signedStreamUrl = generateSignedStreamUrl(deviceId);
 			return {
 				statusCode: 200,
 				headers: {
@@ -272,7 +256,7 @@ export const handler = async (event: LambdaEvent): Promise<LambdaResponse> => {
 		await dynamodb.send(updateCommand);
 
 		// Return success with device cookie and signed stream URL
-		const signedStreamUrl = await generateSignedStreamUrl(deviceId);
+		const signedStreamUrl = generateSignedStreamUrl(deviceId);
 		return {
 			statusCode: 200,
 			headers: {

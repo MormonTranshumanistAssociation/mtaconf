@@ -23,27 +23,15 @@ if ! aws sts get-caller-identity --profile mta > /dev/null 2>&1; then
     exit 1
 fi
 
-# Check if streaming-config.json exists
-if [ ! -f "streaming-config.json" ]; then
-    echo -e "${RED}Error: streaming-config.json not found.${NC}"
-    echo -e "${YELLOW}Please run start-streaming-server.sh first or manually specify the instance ID.${NC}"
-    echo ""
-    echo "Usage: $0 [INSTANCE_ID]"
-    echo "Or run from the directory where streaming-config.json exists."
-    exit 1
-fi
-
-# Get instance ID from config file or command line argument
+# Get instance ID from command line argument
 if [ $# -eq 1 ]; then
     INSTANCE_ID="$1"
     echo -e "${YELLOW}Using instance ID from command line: $INSTANCE_ID${NC}"
 else
-    INSTANCE_ID=$(grep -o '"instanceId": "[^"]*"' streaming-config.json | cut -d'"' -f4)
-    echo -e "${YELLOW}Using instance ID from config: $INSTANCE_ID${NC}"
-fi
-
-if [ -z "$INSTANCE_ID" ]; then
-    echo -e "${RED}Error: Could not determine instance ID.${NC}"
+    echo -e "${RED}Error: Instance ID required.${NC}"
+    echo ""
+    echo "Usage: $0 <INSTANCE_ID>"
+    echo "Example: $0 i-1234567890abcdef0"
     exit 1
 fi
 
@@ -110,24 +98,15 @@ aws ec2 wait instance-terminated --instance-ids "$INSTANCE_ID" --region "$REGION
 
 echo -e "${GREEN}Instance terminated successfully.${NC}"
 
-# Calculate runtime if we have the config
-if [ -f "streaming-config.json" ]; then
-    STARTED_AT=$(grep -o '"startedAt": "[^"]*"' streaming-config.json | cut -d'"' -f4)
-    if [ -n "$STARTED_AT" ]; then
-        START_TIMESTAMP=$(date -j -f "%Y-%m-%dT%H:%M:%SZ" "$STARTED_AT" "+%s" 2>/dev/null || date -d "$STARTED_AT" "+%s" 2>/dev/null)
-        END_TIMESTAMP=$(date "+%s")
-        RUNTIME_SECONDS=$((END_TIMESTAMP - START_TIMESTAMP))
-        RUNTIME_HOURS=$((RUNTIME_SECONDS / 3600))
-        RUNTIME_MINUTES=$(((RUNTIME_SECONDS % 3600) / 60))
-        
-        echo -e "${GREEN}Total runtime: ${RUNTIME_HOURS}h ${RUNTIME_MINUTES}m${NC}"
-    fi
-fi
-
-# Clean up config file
-if [ -f "streaming-config.json" ]; then
-    mv streaming-config.json streaming-config.json.backup
-    echo -e "${GREEN}Configuration backed up to streaming-config.json.backup${NC}"
+# Calculate runtime from launch time
+if [ -n "$LAUNCH_TIME" ]; then
+    START_TIMESTAMP=$(date -j -f "%Y-%m-%dT%H:%M:%S" "${LAUNCH_TIME%.*}" "+%s" 2>/dev/null || date -d "$LAUNCH_TIME" "+%s" 2>/dev/null)
+    END_TIMESTAMP=$(date "+%s")
+    RUNTIME_SECONDS=$((END_TIMESTAMP - START_TIMESTAMP))
+    RUNTIME_HOURS=$((RUNTIME_SECONDS / 3600))
+    RUNTIME_MINUTES=$(((RUNTIME_SECONDS % 3600) / 60))
+    
+    echo -e "${GREEN}Total runtime: ${RUNTIME_HOURS}h ${RUNTIME_MINUTES}m${NC}"
 fi
 
 echo -e "${GREEN}Streaming server stopped successfully!${NC}"

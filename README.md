@@ -40,7 +40,4 @@ cd scripts/lambda
 # Set up passwords
 mise exec -- pnpm run setup
 mise exec -- pnpm run add-password "your_password" "Description"
-
-# Test the system
-mise exec -- pnpm run test <function-url> <password>
 ```

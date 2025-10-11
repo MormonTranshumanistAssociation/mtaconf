@@ -1,9 +1,7 @@
 {
-	"instanceId": "i-0531b3c950f06ba1c",
-	"publicIp": "44.244.90.152",
-	"rtmpUrl": "rtmp://44.244.90.152/live",
-	"streamKey": "stream",
-	"hlsUrl": "http://44.244.90.152/index.m3u8",
+	"domain": "stream.mtaconf.org",
+	"rtmpUrl": "rtmp://stream.mtaconf.org/live",
+	"hlsUrl": "https://stream.mtaconf.org/stream.m3u8",
 	"region": "us-west-2",
-	"startedAt": "2025-10-09T06:17:02Z"
+	"sslEnabled": true
 }

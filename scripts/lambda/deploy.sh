@@ -122,7 +122,7 @@ fi
 	# Create deployment package
 	print_status "Creating deployment package..."
 	# Include compiled JavaScript and node_modules, exclude source files and test files
-	zip -r lambda-functions.zip dist/ node_modules/ -x "*.ts" "setup-dynamodb.js" "test-auth.js" "generate-password-hash.js" "test-payload.json" "minimal-test.js" "simple-test.js" > /dev/null
+	zip -r lambda-functions.zip dist/ node_modules/ -x "*.ts" "setup-dynamodb.js" > /dev/null
 
 # Deploy or update Lambda function
 if aws lambda get-function --function-name $FUNCTION_NAME --profile mta > /dev/null 2>&1; then
@@ -156,8 +156,8 @@ if [ -z "$FUNCTION_URL" ]; then
         --cors '{
             "AllowCredentials": true,
             "AllowHeaders": ["content-type", "cookie"],
-            "AllowMethods": ["*"],
-            "AllowOrigins": ["*"]
+            "AllowMethods": ["GET", "POST", "OPTIONS"],
+            "AllowOrigins": ["https://mtaconf.org", "http://localhost:3000", "http://localhost:5173", "http://127.0.0.1:3000", "http://127.0.0.1:5173"]
         }' \
         --query FunctionUrl --output text \
         --profile mta)

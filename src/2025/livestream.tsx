@@ -3,7 +3,7 @@ import videojs from "video.js";
 import "video.js/dist/video-js.css";
 import "@videojs/themes/dist/sea/index.css";
 
-// Replace with your actual Lambda function URL
+// Lambda function URL for password verification and signed URL generation
 const PASSWORD_VERIFY_URL =
 	"https://duwawuyutcuguk7q76mlnbfasi0ylcsc.lambda-url.us-west-2.on.aws/";
 
@@ -23,6 +23,7 @@ export function Livestream({
 		"loading" | "live" | "offline"
 	>("loading");
 	const [signedStreamUrl, setSignedStreamUrl] = useState<string | null>(null);
+	const [dvrEnabled, setDvrEnabled] = useState(false);
 	const videoRef = useRef<HTMLDivElement>(null);
 	const playerRef = useRef<ReturnType<typeof videojs> | null>(null);
 
@@ -83,6 +84,13 @@ export function Livestream({
 						enableLowInitialPlaylist: true,
 						smoothQualityChange: true,
 						overrideNative: true,
+						// Enable client-side caching and DVR functionality
+						enableSoftwareAES: true,
+						handlePartialData: true,
+						// Client-side caching settings
+						maxBufferLength: 300, // Keep 5 minutes of content in buffer
+						maxMaxBufferLength: 600, // Allow up to 10 minutes of buffering
+						liveBackBufferLength: 30, // Keep 30 seconds behind live edge
 					},
 				},
 				sources: [
@@ -92,12 +100,33 @@ export function Livestream({
 					},
 				],
 				poster: "", // No poster for live stream
-				liveui: true,
-				liveTolerance: 20,
+				// Disable live UI to enable seeking controls
+				liveui: false,
+				// Enable DVR controls for pause/rewind functionality
+				liveDisplay: true,
+				liveTolerance: 30, // Allow 30 seconds of buffering for rewind
+				// Force enable seeking controls
+				seekButtons: true,
+				progressControl: true,
 			});
 
 			player.ready(() => {
 				setStreamStatus("live");
+
+				// Enable seeking controls for DVR functionality
+				player.controls(true);
+				player.tech().ready(() => {
+					// Force enable seeking
+					const tech = player.tech();
+					if (tech && "hls" in tech) {
+						const hlsTech = tech as {
+							hls?: { mediaSource?: { duration: number } };
+						};
+						if (hlsTech.hls?.mediaSource) {
+							hlsTech.hls.mediaSource.duration = Number.POSITIVE_INFINITY;
+						}
+					}
+				});
 			});
 
 			player.on("error", (e: Event) => {
@@ -111,6 +140,72 @@ export function Livestream({
 
 			player.on("canplay", () => {
 				setStreamStatus("live");
+
+				// Enable seeking once we have enough buffered content
+				const buffered = player.buffered();
+				const currentTime = player.currentTime();
+				if (buffered.length > 0 && currentTime !== undefined) {
+					const bufferedEnd = buffered.end(buffered.length - 1);
+					if (bufferedEnd - currentTime > 10) {
+						// If we have more than 10 seconds buffered
+						// Enable seeking by setting duration to infinity
+						const tech = player.tech();
+						if (tech && "hls" in tech) {
+							const hlsTech = tech as {
+								hls?: { mediaSource?: { duration: number } };
+							};
+							if (hlsTech.hls?.mediaSource) {
+								hlsTech.hls.mediaSource.duration = Number.POSITIVE_INFINITY;
+								setDvrEnabled(true);
+							}
+						}
+					}
+				}
+			});
+
+			// DVR functionality events for client-side caching
+			player.on("loadedmetadata", () => {
+				// Enable seeking when metadata is loaded
+				const tech = player.tech();
+				if (tech && "hls" in tech) {
+					const hlsTech = tech as {
+						hls?: { mediaSource?: { duration: number } };
+					};
+					if (hlsTech.hls?.mediaSource) {
+						hlsTech.hls.mediaSource.duration = Number.POSITIVE_INFINITY;
+					}
+				}
+			});
+
+			player.on("seeking", () => {
+				// Handle seeking/rewinding within cached content
+				const currentTime = player.currentTime();
+				const duration = player.duration();
+				console.log(
+					`User seeking to ${currentTime}s (cached content: ${duration}s)`,
+				);
+			});
+
+			player.on("pause", () => {
+				// Handle pause - content remains cached on client
+				console.log("Stream paused - cached content available for rewind");
+			});
+
+			player.on("play", () => {
+				// Handle play/resume
+				console.log("Stream resumed from cached content");
+			});
+
+			player.on("bufferupdate", () => {
+				// Monitor buffer status
+				const buffered = player.buffered();
+				const currentTime = player.currentTime();
+				if (buffered.length > 0 && currentTime !== undefined) {
+					const bufferedEnd = buffered.end(buffered.length - 1);
+					console.log(
+						`Buffer: ${bufferedEnd - currentTime}s ahead, ${currentTime}s behind`,
+					);
+				}
 			});
 
 			playerRef.current = player;
@@ -188,6 +283,7 @@ export function Livestream({
 		sessionStorage.removeItem("livestream_authenticated");
 		setPassword("");
 		setSignedStreamUrl(null);
+		setDvrEnabled(false);
 	};
 
 	if (isAuthenticated) {
@@ -260,6 +356,12 @@ export function Livestream({
 								<p className="text-sm text-gray-600">
 									🎥 Live streaming from MTAConf 2025
 								</p>
+								{dvrEnabled && (
+									<p className="text-xs text-blue-600 mt-1">
+										⏪ Rewind available - You can pause and rewind within your
+										cached content
+									</p>
+								)}
 							</div>
 						)}
 					</div>

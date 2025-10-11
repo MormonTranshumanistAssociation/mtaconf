@@ -16,7 +16,7 @@ echo -e "${GREEN}Updating livestream component with streaming URL...${NC}"
 # Check if streaming-config.json exists
 if [ ! -f "streaming-config.json" ]; then
     echo -e "${RED}Error: streaming-config.json not found.${NC}"
-    echo -e "${YELLOW}Please run start-streaming-server.sh first.${NC}"
+    echo -e "${YELLOW}Please ensure the streaming server is configured and running.${NC}"
     exit 1
 fi
 
@@ -50,17 +50,15 @@ echo -e "${GREEN}Livestream component updated successfully!${NC}"
 echo -e "${YELLOW}The component now uses: $HLS_URL${NC}"
 
 # Also create a simple config file for the main app to use
+RTMP_URL=$(grep -o '"rtmpUrl": "[^"]*"' streaming-config.json | cut -d'"' -f4)
 cat > "/Users/carl/Source/mtaconf/streaming-config.js" << EOF
 // Auto-generated streaming configuration
 // This file is updated by the streaming scripts
 
 export const STREAMING_CONFIG = {
   hlsUrl: "$HLS_URL",
-  rtmpUrl: "$(grep -o '"rtmpUrl": "[^"]*"' streaming-config.json | cut -d'"' -f4)",
-  streamKey: "$(grep -o '"streamKey": "[^"]*"' streaming-config.json | cut -d'"' -f4)",
-  publicIp: "$(grep -o '"publicIp": "[^"]*"' streaming-config.json | cut -d'"' -f4)",
-  instanceId: "$(grep -o '"instanceId": "[^"]*"' streaming-config.json | cut -d'"' -f4)",
-  startedAt: "$(grep -o '"startedAt": "[^"]*"' streaming-config.json | cut -d'"' -f4)"
+  rtmpUrl: "$RTMP_URL",
+  domain: "$(grep -o '"domain": "[^"]*"' streaming-config.json | cut -d'"' -f4)"
 };
 
 export default STREAMING_CONFIG;
@@ -72,5 +70,5 @@ echo ""
 echo -e "${GREEN}=== NEXT STEPS ===${NC}"
 echo -e "${YELLOW}1. The livestream component has been updated with the HLS URL${NC}"
 echo -e "${YELLOW}2. You can now test the livestream with a valid password${NC}"
-echo -e "${YELLOW}3. Use the RTMP URL in OBS: $(grep -o '"rtmpUrl": "[^"]*"' streaming-config.json | cut -d'"' -f4)/stream${NC}"
+echo -e "${YELLOW}3. Use the RTMP URL in OBS: $RTMP_URL${NC}"
 echo -e "${YELLOW}4. The stream will appear automatically when OBS starts streaming${NC}"

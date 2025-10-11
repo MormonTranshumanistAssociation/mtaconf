@@ -30,7 +30,15 @@ if [ "$CURRENT_TIME" -gt "$EXPIRES" ]; then
 fi
 
 # Validate the signature
-SECRET="mtaconf-streaming-secret-key"  # Should match Lambda function
+SECRET="${SIGNING_SECRET:-}"  # Should be set as environment variable
+if [ -z "$SECRET" ]; then
+    echo "HTTP/1.1 500 Internal Server Error"
+    echo "Content-Type: text/plain"
+    echo "Content-Length: 25"
+    echo ""
+    echo "Signing secret not configured"
+    exit 0
+fi
 PAYLOAD="deviceId=${DEVICE_ID}&expires=${EXPIRES}"
 EXPECTED_SIGNATURE=$(echo -n "$PAYLOAD" | openssl dgst -sha256 -hmac "$SECRET" -binary | xxd -p -c 256)
 

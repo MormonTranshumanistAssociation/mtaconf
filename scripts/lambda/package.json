@@ -7,20 +7,17 @@
 		"build": "tsc",
 		"clean": "rm -rf dist",
 		"prebuild": "pnpm run clean",
-		"deploy": "pnpm run build && zip -r lambda-functions.zip dist/ node_modules/ -x \"setup-dynamodb.js\" \"test-auth.js\" \"generate-password-hash.js\" \"test-payload.json\" \"minimal-test.js\" \"simple-test.js\" && aws lambda update-function-code --function-name livestream-password-verify --zip-file fileb://lambda-functions.zip --profile mta",
+		"deploy": "pnpm run build && zip -r lambda-functions.zip dist/ node_modules/ -x \"setup-dynamodb.js\" && aws lambda update-function-code --function-name livestream-password-verify --zip-file fileb://lambda-functions.zip --profile mta",
 		"setup": "pnpm run build && AWS_PROFILE=mta node dist/setup-dynamodb.js setup",
 		"add-password": "pnpm run build && AWS_PROFILE=mta node dist/setup-dynamodb.js add-password",
 		"list-passwords": "pnpm run build && AWS_PROFILE=mta node dist/setup-dynamodb.js list",
 		"remove-password": "pnpm run build && AWS_PROFILE=mta node dist/setup-dynamodb.js remove-password",
-		"setup-streaming-table": "pnpm run build && AWS_PROFILE=mta node dist/setup-streaming-table.js setup",
-		"update-streaming-info": "pnpm run build && AWS_PROFILE=mta node dist/setup-streaming-table.js update",
-		"get-streaming-info": "pnpm run build && AWS_PROFILE=mta node dist/setup-streaming-table.js get",
-		"test": "pnpm run build && node dist/test-auth.js",
 		"install-deps": "pnpm install",
 		"lint": "pnpm biome lint . --write",
 		"format": "pnpm biome format . --write"
 	},
 	"devDependencies": {
+		"@types/aws-lambda": "^8.10.155",
 		"@types/node": "^20.19.19",
 		"typescript": "^5.7.3"
 	},

@@ -179,19 +179,16 @@ async function main(): Promise<void> {
 			}
 
 			case "setup":
-				console.log(
-					"🚀 Setting up DynamoDB table and adding sample passwords...",
-				);
+				console.log("🚀 Setting up DynamoDB table...");
 				await createTable();
 
-				// Add some sample passwords (replace with your actual passwords)
-				await addPassword("sample_password_1", "Sample Password 1");
-				await addPassword("sample_password_2", "Sample Password 2");
+				// Add your actual passwords here
+				// await addPassword("your_password_here", "Description");
 
 				console.log("\n✅ Setup complete!");
 				console.log("📝 Next steps:");
 				console.log(
-					"1. Replace the sample passwords with your actual passwords",
+					"1. Add your actual passwords using: mise exec -- pnpm run add-password <password> [description]",
 				);
 				console.log("2. Deploy the Lambda function");
 				console.log("3. Update the frontend with your Lambda URL");

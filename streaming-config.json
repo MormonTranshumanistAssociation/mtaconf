@@ -1,9 +1,0 @@
-{
-	"instanceId": "i-0887544ab20c6b50a",
-	"publicIp": "54.245.8.143",
-	"rtmpUrl": "rtmp://54.245.8.143/live",
-	"streamKey": "stream",
-	"hlsUrl": "http://54.245.8.143/stream.m3u8",
-	"region": "us-west-2",
-	"startedAt": "2025-10-09T06:49:02Z"
-}
