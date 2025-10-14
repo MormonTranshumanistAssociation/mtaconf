@@ -43,7 +43,7 @@ export function Schedule() {
 												9:10 am
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
-												The Mission of the MTA
+												Reviving the Strenuous Mood
 											</td>
 											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Carl Youngblood
