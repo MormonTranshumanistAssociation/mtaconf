@@ -222,7 +222,7 @@ export function Schedule() {
 												3:00 pm
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
-												Heart and Mind: Transhumanism and Post-Secular Religion
+												Post-Secular Mormonism
 											</td>
 											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Caleb Jones
@@ -267,7 +267,7 @@ export function Schedule() {
 												4:00 pm
 											</td>
 											<td className="border-b border-green-600 p-2 text-green-600">
-												Keynote
+												Circuits and Soul: Brain Maps of Spirituality
 											</td>
 											<td className="border-b border-green-600 p-2 pr-2 sm:pr-8 text-green-600 min-w-0">
 												Michael Ferguson

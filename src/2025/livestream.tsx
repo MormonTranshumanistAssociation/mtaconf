@@ -332,23 +332,51 @@ export function Livestream({
 					</div>
 
 					<div className="bg-white rounded-lg shadow-lg p-6">
-						<div className="aspect-video bg-gray-900 rounded-lg overflow-hidden">
-							{streamStatus === "offline" ? (
-								<div className="flex items-center justify-center h-full text-center text-white">
-									<div>
-										<div className="text-6xl mb-4">📺</div>
-										<div className="text-2xl font-bold mb-4">
-											Stream Offline
-										</div>
-										<p className="text-gray-300 mb-4">{fallbackMessage}</p>
-										<p className="text-sm text-gray-400">
-											The stream will automatically appear when it goes live.
-										</p>
+						{/* Responsive grid: stacked on mobile/tablet, side-by-side on lg+ */}
+						<div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+							{/* Video Stream */}
+							<div className="lg:col-span-1">
+								<div className="bg-gray-50 rounded-lg p-4 h-full">
+									<h3 className="text-lg font-semibold text-gray-800 mb-3 text-center">
+										Live Stream
+									</h3>
+									<div className="aspect-video bg-gray-900 rounded-lg overflow-hidden">
+										{streamStatus === "offline" ? (
+											<div className="flex items-center justify-center h-full text-center text-white">
+												<div>
+													<div className="text-6xl mb-4">📺</div>
+													<div className="text-2xl font-bold mb-4">
+														Stream Offline
+													</div>
+													<p className="text-gray-300 mb-4">{fallbackMessage}</p>
+													<p className="text-sm text-gray-400">
+														The stream will automatically appear when it goes live.
+													</p>
+												</div>
+											</div>
+										) : (
+											<div ref={videoRef} className="w-full h-full" />
+										)}
 									</div>
 								</div>
-							) : (
-								<div ref={videoRef} className="w-full h-full" />
-							)}
+							</div>
+
+							{/* Event Timer */}
+							<div className="lg:col-span-1">
+								<div className="bg-gray-50 rounded-lg p-4 h-full">
+									<h3 className="text-lg font-semibold text-gray-800 mb-3 text-center">
+										Event Timer
+									</h3>
+									<div className="aspect-video bg-white rounded-lg overflow-hidden shadow-sm">
+										<iframe
+											src="https://stagetimer.io/r/NHHT1WZG/"
+											title="Event Timer"
+											className="w-full h-full border-0"
+											allowFullScreen
+										/>
+									</div>
+								</div>
+							</div>
 						</div>
 
 						{streamStatus === "live" && (
