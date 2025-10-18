@@ -332,11 +332,12 @@ export function Livestream({
 					</div>
 
 					<div className="bg-white rounded-lg shadow-lg p-6">
-						{/* Responsive grid: stacked on mobile/tablet, side-by-side on lg+ */}
+						{/* Responsive grid: stacked on mobile/tablet, custom layout on lg+ */}
 						<div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-							{/* Video Stream */}
-							<div className="lg:col-span-1">
-								<div className="bg-gray-50 rounded-lg p-4 h-full">
+							{/* Left Column: Live Stream + Timer (stacked) */}
+							<div className="lg:col-span-1 space-y-6">
+								{/* Video Stream */}
+								<div className="bg-gray-50 rounded-lg p-4">
 									<h3 className="text-lg font-semibold text-gray-800 mb-3 text-center">
 										Live Stream
 									</h3>
@@ -348,9 +349,12 @@ export function Livestream({
 													<div className="text-2xl font-bold mb-4">
 														Stream Offline
 													</div>
-													<p className="text-gray-300 mb-4">{fallbackMessage}</p>
+													<p className="text-gray-300 mb-4">
+														{fallbackMessage}
+													</p>
 													<p className="text-sm text-gray-400">
-														The stream will automatically appear when it goes live.
+														The stream will automatically appear when it goes
+														live.
 													</p>
 												</div>
 											</div>
@@ -359,18 +363,33 @@ export function Livestream({
 										)}
 									</div>
 								</div>
-							</div>
 
-							{/* Event Timer */}
-							<div className="lg:col-span-1">
-								<div className="bg-gray-50 rounded-lg p-4 h-full">
+								{/* Speaker Timer */}
+								<div className="bg-gray-50 rounded-lg p-4">
 									<h3 className="text-lg font-semibold text-gray-800 mb-3 text-center">
-										Event Timer
+										Speaker Timer
 									</h3>
 									<div className="aspect-video bg-white rounded-lg overflow-hidden shadow-sm">
 										<iframe
-											src="https://stagetimer.io/r/NHHT1WZG/"
-											title="Event Timer"
+											src="https://stagetimer.io/r/NHHT1WZG"
+											title="Speaker Timer"
+											className="w-full h-full border-0"
+											allowFullScreen
+										/>
+									</div>
+								</div>
+							</div>
+
+							{/* Right Column: Agenda (full height) */}
+							<div className="lg:col-span-1">
+								<div className="bg-gray-50 rounded-lg p-4 h-full">
+									<h3 className="text-lg font-semibold text-gray-800 mb-3 text-center">
+										Event Agenda
+									</h3>
+									<div className="bg-white rounded-lg overflow-hidden shadow-sm h-[calc(100%-3rem)]">
+										<iframe
+											src="https://stagetimer.io/r/NHHT1WZG/agenda"
+											title="Event Agenda"
 											className="w-full h-full border-0"
 											allowFullScreen
 										/>
