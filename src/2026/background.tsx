@@ -21,23 +21,24 @@ export function Background() {
 							<p className="hyphens-none break-words">
 								Twenty years ago, when the Mormon Transhumanist Association was
 								founded in 2006, the ideas that animated our movement were
-								largely unknown to the general public. Accelerating technological
-								change, longevity escape velocity, simulation theory, artificial
-								general intelligence—these were the preoccupations of a small
-								countercultural fringe, dismissed by most as the fever dreams of
-								science fiction enthusiasts. We gathered in small numbers,
-								speaking of futures that seemed impossibly distant.
+								largely unknown to the general public. Accelerating
+								technological change, longevity escape velocity, simulation
+								theory, artificial general intelligence—these were the
+								preoccupations of a small countercultural fringe, dismissed by
+								most as the fever dreams of science fiction enthusiasts. We
+								gathered in small numbers, speaking of futures that seemed
+								impossibly distant.
 							</p>
 							<p>
-								The world has caught up with us. What was once obscure speculation
-								now dominates headlines and boardroom discussions. AI systems
-								compose poetry, generate art, and threaten to displace entire
-								professions. Biotechnology promises to rewrite the source code of
-								life itself. The question of whether we inhabit a simulation is
-								debated by serious philosophers. Longevity researchers speak
-								openly of defeating death. The miracles we anticipated have begun
-								to materialize, and with them, a dawning unease that ripples
-								through civilization.
+								The world has caught up with us. What was once obscure
+								speculation now dominates headlines and boardroom discussions.
+								AI systems compose poetry, generate art, and threaten to
+								displace entire professions. Biotechnology promises to rewrite
+								the source code of life itself. The question of whether we
+								inhabit a simulation is debated by serious philosophers.
+								Longevity researchers speak openly of defeating death. The
+								miracles we anticipated have begun to materialize, and with
+								them, a dawning unease that ripples through civilization.
 							</p>
 							<blockquote className="border-l-4 border-indigo-500 pl-4 text-xl text-rose-100 font-semibold italic my-4">
 								“And I will show wonders in the heavens and in the earth, blood,
@@ -46,11 +47,11 @@ export function Background() {
 								day of the Lord come.” (Joel 2:30–31)
 							</blockquote>
 							<p>
-								The scriptures speak of signs and wonders with a double
-								edge; manifestations of divine power, yes, but also harbingers
-								of upheaval. The last days are not merely a time of glory but of
-								trial, a refiner’s fire through which all must pass. We stand now
-								at an inflection point where the miraculous and the menacing
+								The scriptures speak of signs and wonders with a double edge;
+								manifestations of divine power, yes, but also harbingers of
+								upheaval. The last days are not merely a time of glory but of
+								trial, a refiner’s fire through which all must pass. We stand
+								now at an inflection point where the miraculous and the menacing
 								intertwine, where every breakthrough carries the shadow of its
 								misuse, and where the acceleration of change threatens to
 								outpace our wisdom.
@@ -67,7 +68,10 @@ export function Background() {
 								wonders of our age demand a response from every soul.
 							</p>
 							<blockquote className="border-l-4 border-indigo-500 pl-4 text-xl text-rose-100 font-semibold italic my-4">
-								“The whole story of humanity’s progress is the conversion of ‘miracles’ into controlled and understood events. The airplane and radio would have been miracles, yesterday.” (John A. Widtsoe)
+								“The whole story of humanity’s progress is the conversion of
+								‘miracles’ into controlled and understood events. The airplane
+								and radio would have been miracles, yesterday.” (John A.
+								Widtsoe)
 							</blockquote>
 							<p>
 								Mormon transhumanism offers a framework for navigating this
