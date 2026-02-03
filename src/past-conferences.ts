@@ -1,4 +1,5 @@
 export const pastConferences = [
+	{ year: 2025, link: "/2025" },
 	{ year: 2024, link: "/2024" },
 	{ year: 2022, link: "/2022" },
 	{

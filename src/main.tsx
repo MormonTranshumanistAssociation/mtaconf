@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MTAConf2022 from "./2022";
 import MTAConf2024 from "./2024";
 import MTAConf2025 from "./2025";
+import MTAConf2026 from "./2026";
 import { Livestream } from "./2025/livestream";
 import "./index.css";
 
@@ -17,8 +18,12 @@ const router = createBrowserRouter([
 		element: <MTAConf2024 />,
 	},
 	{
-		path: "/",
+		path: "/2025",
 		element: <MTAConf2025 />,
+	},
+	{
+		path: "/",
+		element: <MTAConf2026 />,
 	},
 	{
 		path: "/livestream",
