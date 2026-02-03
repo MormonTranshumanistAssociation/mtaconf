@@ -9,14 +9,6 @@ export function Hero() {
 				<div className="col-span-8">Previous years:</div>
 				{pastConferences.map((conf) =>
 					conf.link.match(/^http/) ? (
-						<Link
-							key={conf.year}
-							className="underline hover:no-underline text-stone-500"
-							to={conf.link}
-						>
-							{conf.year}
-						</Link>
-					) : (
 						<a
 							key={conf.year}
 							href={conf.link}
@@ -24,6 +16,14 @@ export function Hero() {
 						>
 							{conf.year}
 						</a>
+					) : (
+						<Link
+							key={conf.year}
+							className="underline hover:no-underline text-stone-500"
+							to={conf.link}
+						>
+							{conf.year}
+						</Link>
 					),
 				)}
 			</div>
@@ -75,7 +75,7 @@ export function Hero() {
 									<div className="">
 										<h1 className="text-md sm:text-xl tracking-tight">
 											<span className="block font-extrabold text-yellow-200">
-												Announcing MTAConf 2025
+												MTAConf 2025
 											</span>
 											<span className="py-4 text-2xl sm:text-4xl font-serif italic block bg-clip-text text-transparent bg-gradient-to-t sm:bg-gradient-to-r from-yellow-200 to-orange-400 sm:pb-2 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
 												Transformation through Renewal of the Mind
@@ -92,24 +92,14 @@ export function Hero() {
 										<div className="mt-4 sm:mt-6">
 											<div className="sm:flex gap-3">
 												<div className="min-w-0 flex-1">
-													<a href="https://www.ticketsource.us/mormon-transhumanist-association">
-														<button
-															type="submit"
-															className="py-3 w-full rounded-md shadow bg-gradient-to-r from-amber-200 to-orange-400 text-orange-800 font-medium hover:from-amber-100 hover:to-orange-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-amber-400 focus:ring-offset-amber-900"
-														>
-															Register Now
-														</button>
-													</a>
-												</div>
-												<div className="min-w-0 flex-1">
-													<Link to="/livestream">
+													<a href="https://www.youtube.com/playlist?list=PLbIPMPVrfXYCNMEGX0CqJ9N17jB97IarB">
 														<button
 															type="button"
-															className="py-3 w-full rounded-md shadow bg-gradient-to-r from-yellow-200 to-yellow-400 text-green-800 font-medium hover:from-yellow-100 hover:to-yellow-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-400 focus:ring-offset-yellow-900"
+															className="py-3 w-full rounded-md shadow bg-gradient-to-r from-amber-200 to-orange-400 text-orange-800 font-medium hover:from-amber-100 hover:to-orange-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-amber-400 focus:ring-offset-amber-900"
 														>
-															🎥 Livestream
+															Watch Archives
 														</button>
-													</Link>
+													</a>
 												</div>
 											</div>
 										</div>
