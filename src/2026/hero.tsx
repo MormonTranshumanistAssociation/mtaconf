@@ -70,14 +70,14 @@ export function Hero() {
 										<div className="mt-4 sm:mt-6">
 											<div className="sm:flex gap-3">
 												<div className="min-w-0 flex-1">
-													<a href="https://www.ticketsource.us/mormon-transhumanist-association">
+													{/* <a href="https://www.ticketsource.us/mormon-transhumanist-association">
 														<button
 															type="button"
 															className="py-3 w-full rounded-md shadow bg-indigo-400/60 text-white font-medium hover:bg-indigo-300/70 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-400 focus:ring-offset-slate-900 transition-colors"
 														>
 															Register Now
 														</button>
-													</a>
+													</a> */}
 												</div>
 											</div>
 										</div>
