@@ -27,7 +27,7 @@ export function Background() {
 								preoccupations of a small countercultural fringe, dismissed by
 								most as the fever dreams of science fiction enthusiasts. We
 								gathered in small numbers, speaking of futures that seemed
-								impossibly distant.
+								impossibly distant to most people.
 							</p>
 							<p>
 								The world has caught up with us. What was once obscure
