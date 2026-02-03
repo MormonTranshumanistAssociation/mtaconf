@@ -11,7 +11,7 @@ export function Background() {
 							Background
 						</h2>
 						<p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-rose-50 sm:text-4xl">
-							Signs and Wonders in an Age of Technology
+							Astonishing Marvels in the Fulness of Times
 						</p>
 					</div>
 				</div>
@@ -23,7 +23,7 @@ export function Background() {
 								founded in 2006, the ideas that animated our movement were
 								largely unknown to the general public. Accelerating
 								technological change, longevity escape velocity, simulation
-								theory, artificial general intelligence—these were the
+								theory, artificial general intelligence; these were the
 								preoccupations of a small countercultural fringe, dismissed by
 								most as the fever dreams of science fiction enthusiasts. We
 								gathered in small numbers, speaking of futures that seemed
@@ -59,12 +59,12 @@ export function Background() {
 						</div>
 						<div className="prose prose-invert text-slate-300 pt-4 lg:pt-0 lg:max-w-none flex flex-col gap-4 leading-7 hyphens-none break-words whitespace-pre-line">
 							<p>
-								This is the dispensation of the fulness of times—a period
+								This is the dispensation of the fulness of times; a period
 								prophesied to gather all things together in one, both heavenly
 								and earthly. Such a convergence is not comfortable. It upends
 								assumptions, dissolves familiar categories, and throws everyone
 								for a loop. The farmer and the philosopher, the believer and the
-								skeptic—none will be untouched by what is coming. The signs and
+								skeptic; none will be untouched by what is coming. The signs and
 								wonders of our age demand a response from every soul.
 							</p>
 							<blockquote className="border-l-4 border-indigo-500 pl-4 text-xl text-rose-100 font-semibold italic my-4">
@@ -89,7 +89,7 @@ export function Background() {
 								shall he do.” (John 14:12)
 							</blockquote>
 							<p>
-								At MTAConf 2026—our twentieth anniversary—we gather not in
+								At MTAConf 2026, our twentieth anniversary, we gather not in
 								triumph but in solemn wonder. We come to reckon with what we
 								have long anticipated, to examine both the promise and the peril
 								of this unprecedented moment, and to seek together the wisdom
