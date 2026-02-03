@@ -2,7 +2,7 @@ export function Details() {
 	return (
 		<div
 			id="details"
-			className="py-12 xl:py-16 px-4 sm:px-6 lg:px-8 bg-slate-900 overflow-hidden"
+			className="py-12 lg:pt-24 xl:pt-28 xl:pb-16 px-4 sm:px-6 lg:px-8 bg-slate-900 overflow-hidden"
 		>
 			<div className="max-w-max lg:max-w-7xl mx-auto">
 				<div className="relative z-10 mb-4 md:mb-2 md:px-6">

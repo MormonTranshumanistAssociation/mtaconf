@@ -2,7 +2,7 @@ export function Venue() {
 	return (
 		<div
 			id="venue"
-			className="pb-16 bg-gradient-to-r from-slate-800 to-indigo-900 lg:pb-0 lg:z-10 lg:relative"
+			className="pt-16 pb-16 bg-gradient-to-r from-slate-800 to-indigo-900 lg:pt-0 lg:pb-0 lg:z-10 lg:relative"
 		>
 			<div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8">
 				<div className="relative lg:-my-8">
