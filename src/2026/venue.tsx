@@ -35,7 +35,7 @@ export function Venue() {
 							</div>
 							<div className="flex flex-col gap-0">
 								<div className="text-base font-medium text-rose-100/80">
-									Heber, UT
+									Morgan, UT
 								</div>
 								<div className="text-sm text-rose-100/60 mt-2">
 									Exact address will be provided to registered attendees

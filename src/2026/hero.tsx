@@ -65,7 +65,7 @@ export function Hero() {
 											April 10-12, 2026
 										</div>
 										<div className="mt-1 text-sm text-rose-100/80 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
-											Mountain Retreat • Heber, UT
+											Mountain Retreat • Morgan, UT
 										</div>
 										<div className="mt-4 sm:mt-6">
 											<div className="sm:flex gap-3">
