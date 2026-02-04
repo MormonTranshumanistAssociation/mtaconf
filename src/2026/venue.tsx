@@ -41,6 +41,23 @@ export function Venue() {
 									Exact address will be provided to registered attendees
 								</div>
 							</div>
+							<div className="mt-8">
+								<p className="text-lg font-medium text-rose-100">
+									Overflow Lodging
+								</p>
+								<p className="text-sm text-rose-100/80 mt-1">
+									<a
+										href="https://www.choicehotels.com/utah/morgan/comfort-inn-hotels/ut327"
+										className="underline hover:no-underline text-rose-100/80"
+									>
+										Comfort Inn & Suites Morgan – South Ogden
+									</a>
+								</p>
+								<p className="text-sm text-rose-100/80 mt-1">
+									Guests staying in overflow lodging should still register for a
+									day pass to cover the cost of food and other expenses.
+								</p>
+							</div>
 						</blockquote>
 					</div>
 				</div>
