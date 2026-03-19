@@ -25,9 +25,8 @@ export function Packing() {
 						<li>Ear plugs (if you are sensitive to noise)</li>
 						<li>Your own pillow (optional, for comfort)</li>
 						<li>Yoga mat (if you have one)</li>
-						<li>
-							Swimming suit and towel (optional, for the hot tub)
-						</li>
+						<li>Swimming suit (optional, for the hot tub)</li>
+						<li>Towel</li>
 						<li>Warm clothes</li>
 						<li>Hiking clothes</li>
 						<li>Personal hygiene products</li>
