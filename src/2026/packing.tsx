@@ -31,7 +31,6 @@ export function Packing() {
 						<li>Warm clothes</li>
 						<li>Hiking clothes</li>
 						<li>Personal hygiene products</li>
-						<li>Towel</li>
 					</ul>
 				</div>
 			</div>
