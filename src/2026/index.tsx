@@ -2,6 +2,8 @@ import { Hero } from "./hero.tsx";
 import { Background } from "./background.tsx";
 import { Venue } from "./venue.tsx";
 import { Details } from "./details.tsx";
+import { Schedule } from "./schedule.tsx";
+import { Packing } from "./packing.tsx";
 
 export default function MTAConf2026() {
 	return (
@@ -12,6 +14,8 @@ export default function MTAConf2026() {
 					<Background />
 					<Venue />
 					<Details />
+					<Schedule />
+					<Packing />
 				</section>
 			</div>
 		</div>

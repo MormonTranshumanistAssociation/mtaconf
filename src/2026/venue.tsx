@@ -35,11 +35,34 @@ export function Venue() {
 							</div>
 							<div className="flex flex-col gap-0">
 								<div className="text-base font-medium text-rose-100/80">
-									Morgan, UT
+									4148 Summer Ridge Rd, Morgan, UT 84050
 								</div>
-								<div className="text-sm text-rose-100/60 mt-2">
-									Exact address will be provided to registered attendees
-								</div>
+							</div>
+							<div className="mt-8 relative max-w-2xl">
+								<img
+									src="/img/2026/map.webp"
+									alt="Map showing venue location and extra parking area"
+									className="rounded-xl shadow-xl w-full"
+								/>
+								<div className="absolute inset-0 rounded-xl bg-rose-800/40 mix-blend-multiply" />
+							</div>
+							<div className="mt-6 text-sm text-rose-100/80 max-w-2xl flex flex-col gap-2">
+								<p>
+									Parking at the venue is limited — please carpool when
+									possible. Upon arrival, drive to the venue to drop off
+									your luggage, then we'll guide you to the nearby overflow
+									parking area (~3 min drive).
+								</p>
+								<p>
+									If you park at the overflow area first, call{" "}
+									<a
+										href="tel:385-444-8614"
+										className="underline hover:no-underline text-rose-100/80"
+									>
+										385-444-8614
+									</a>{" "}
+									and we'll pick you up.
+								</p>
 							</div>
 							<div className="mt-8">
 								<p className="text-lg font-medium text-rose-100">
