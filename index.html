@@ -36,5 +36,15 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if (location.hash) {
+        var id = location.hash.slice(1);
+        var obs = new MutationObserver(function () {
+          var el = document.getElementById(id);
+          if (el) { el.scrollIntoView({ behavior: "smooth" }); obs.disconnect(); }
+        });
+        obs.observe(document.getElementById("root"), { childList: true, subtree: true });
+      }
+    </script>
   </body>
 </html>
